@@ -1,0 +1,284 @@
+﻿package{
+	import flash.display.MovieClip;
+	import flash.events.MouseEvent;
+	import flash.events.Event;
+	import flash.printing.*;
+	import flash.geom.Rectangle;
+	import flash.geom.Matrix;
+	import flash.geom.ColorTransform;
+	import flash.display.BitmapData;
+	import flash.display.Bitmap;
+	import flash.utils.ByteArray;
+	import flash.net.FileReference;
+	import adobe.PNGEncoder;
+	
+	import flash.net.URLRequest;
+	import flash.net.URLLoader;
+	import flash.net.URLLoaderDataFormat;
+	import flash.net.URLVariables;
+	import flash.net.URLRequestHeader;
+	
+	import prepared.Wall;
+	import fl.motion.Color;
+	
+	public class OutputSubmenu extends MovieClip{
+		public var bgd:MovieClip;
+		public var butt_prn:MovieClip;
+		public var butt_exp:MovieClip;
+		public var butt_save:MovieClip;
+		public var butt_autofill:MovieClip;
+		public var printSprite:PrintTemplate;
+		public var printJob:PrintJob;
+
+		private const SHORT_HEIGHT:Number = 72;
+		private const NORMAL_HEIGHT:Number = 99;
+		private const EXTENDED_HEIGHT:Number = 126;
+		private const COLOR_TRANS_NORMAL = new ColorTransform();
+		private const COLOR_TRANS_DISABLED = new ColorTransform(0,0,0,1,90,90,90,1);
+		private const COLOR_TRANS_OVER = new ColorTransform(0,0,0,0,0,153,255,255);
+		
+		public function OutputSubmenu(){
+			butt_prn.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("printSubButton");
+			butt_exp.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("exportSubButton");
+			butt_save.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("saveSubButton");
+			butt_autofill.dt_text.text = "autofill";
+			this.setTypeProportions();
+			this.addEventListeners();
+		}
+		
+		public function setTypeProportions(){
+			if(Studio.VERSION != "extended"){
+				butt_autofill.visible = false;
+				
+				if(Studio.rootStg.projectP.type == "prepared"){
+					butt_save.visible = false;
+					bgd.height = SHORT_HEIGHT;
+				}
+			}else{
+				if(Studio.rootStg.projectP.type == "prepared"){
+					butt_save.visible = false;
+					butt_autofill.y = butt_save.y;
+				}else{
+					bgd.height = EXTENDED_HEIGHT;
+				}
+			}
+		}
+		
+		public function addEventListeners(){
+			this.addEventListener("rollOut", rollOutHandler);
+
+			butt_prn.buttonMode = true;
+			butt_prn.mouseChildren = false;
+			butt_prn.addEventListener("mouseOver", overHandlerSub);
+			butt_prn.addEventListener("mouseOut", outHandlerSub);
+			butt_prn.addEventListener("click", printHandler);
+			
+			butt_exp.buttonMode = true;
+			butt_exp.mouseChildren = false;
+			butt_exp.addEventListener("mouseOver", overHandlerSub);
+			butt_exp.addEventListener("mouseOut", outHandlerSub);
+			butt_exp.addEventListener("click", exportHandler);
+			
+			if(Studio.rootStg.projectP.type != "prepared"){
+				butt_save.buttonMode = true;
+				butt_save.mouseChildren = false;
+				butt_save.addEventListener("mouseOver", overHandlerSub);
+				butt_save.addEventListener("mouseOut", outHandlerSub);
+				butt_save.addEventListener("click", saveHandler);
+			}
+			
+			if(Studio.VERSION == "extended"){
+				butt_autofill.buttonMode = true;
+				butt_autofill.mouseChildren = false;
+				butt_autofill.addEventListener("mouseOver", overHandlerSub);
+				butt_autofill.addEventListener("mouseOut", outHandlerSub);
+				butt_autofill.addEventListener("click", autofillHandler);
+			}
+		}
+		
+		public function removeEventListeners(){
+			this.removeEventListener("rollOut", rollOutHandler);
+
+			butt_prn.removeEventListener("mouseOver", overHandlerSub);
+			butt_prn.removeEventListener("mouseOut", outHandlerSub);
+			butt_prn.removeEventListener("click", printHandler);
+
+			butt_exp.removeEventListener("mouseOver", overHandlerSub);
+			butt_exp.removeEventListener("mouseOut", outHandlerSub);
+			butt_exp.removeEventListener("click", exportHandler);
+			
+			butt_save.removeEventListener("mouseOver", overHandlerSub);
+			butt_save.removeEventListener("mouseOut", outHandlerSub);
+			butt_save.removeEventListener("click", saveHandler);
+			
+			butt_autofill.removeEventListener("mouseOver", overHandlerSub);
+			butt_autofill.removeEventListener("mouseOut", outHandlerSub);
+			butt_autofill.removeEventListener("click", autofillHandler);
+		}
+		
+		public function overHandlerSub(e:MouseEvent){
+			e.target.gotoAndStop(2);
+			e.target.dt_text.transform.colorTransform = COLOR_TRANS_OVER;
+		}
+		public function outHandlerSub(e:MouseEvent){
+			e.target.gotoAndStop(1);
+			e.target.dt_text.transform.colorTransform = COLOR_TRANS_NORMAL;
+		}
+		
+		private function rollOutHandler(e:MouseEvent){
+			if(!Studio.rootStg.panelMain.butt_output.hitTestPoint(e.stageX, e.stageY, true)){
+				Studio.rootStg.panelMain.butt_output.gotoAndStop(1);
+				Studio.rootStg.panelMain.closeSubmenu();
+			}
+		}
+		
+		public function autofillHandler(e:MouseEvent){
+			trace("AUTOFILL");
+			var url:String = Studio.rootStg.xmlConfig.getAutofillUrl();
+			var autofillWidthConfig = Studio.rootStg.xmlConfig.getAutofillWidth();
+			var imgName = String(Studio.rootStg.projectP.prData.thumb).replace(/projects\//, "");
+			
+			var wc = Studio.rootStg.panelWalls.wallsControl.wallsCont;
+			var wall:WallsControlItem;
+			var paintedWalls:Array = new Array();
+			for(var i:int=0; i<wc.numChildren; i++){
+				wall = wc.getChildAt(i);
+				if(wall.colorData.label != undefined){
+					paintedWalls.push(i);					
+				}
+			}
+			
+			var sampler = Studio.rootStg.panelColors.sampler;
+			var xml:XML = sampler.colorSets[sampler.activeSet].xml;
+			var colorName:String;
+			var colorInstance:Color;
+			var artWall:prepared.Wall;
+			
+			var artwork = Studio.rootStg.artBoard.projectMc;
+			var autofillWidth = artwork.width;
+			var autofillHeight = artwork.height;
+			var scale = 1;
+			if(autofillWidthConfig != 0){
+				scale = autofillWidthConfig / artwork.width;
+				autofillWidth = artwork.width * scale;				
+				autofillHeight = artwork.height * scale;
+			}
+			var bmd:BitmapData = new BitmapData(autofillWidth, autofillHeight);
+			var matrix:Matrix = new Matrix();
+			matrix.scale(artwork.scaleX*scale, artwork.scaleX*scale);
+			
+			var byteArray:ByteArray;
+			var req:URLRequest;
+			var urlLoader:URLLoader;
+			var dir,fname:String;
+			for each(var node:XML in xml.maintype.type.color){
+				if(node.@type == "empty") continue;
+
+				colorName = node.name;
+				colorInstance = new Color(0, 0, 0, 0, node.definitions.@r, node.definitions.@g, node.definitions.@b, 1);
+
+				for each(i in paintedWalls){
+					artWall = artwork.getChildAt(i+1);// as prepared.Wall;
+					artWall.setColor(colorInstance.color, false);
+				}
+				trace(colorName);
+				dir = imgName;//.replace(/\.jpg/g, "");
+				fname = node.definitions.@r +"_"+ node.definitions.@g +"_"+ node.definitions.@b;
+				bmd.draw(artwork, matrix);
+			
+        		byteArray = PNGEncoder.encode(bmd);
+        		req = new URLRequest(url + "?dir=" + dir + "&name=" + fname);
+				req.requestHeaders.push(new URLRequestHeader('Cache-Control', 'no-cache'));
+        		req.contentType = "application/octet-stream";
+        		req.method = "post";
+        		req.data = byteArray;
+			
+        		urlLoader = new URLLoader();			
+				urlLoader.dataFormat = "binary";
+				//urlLoader.addEventListener(Event.COMPLETE, uploadBitmapComplete);
+        		urlLoader.load(req);
+			}
+			trace("AUTOFILL FINISHED");
+		}
+		
+		public function exportHandler(e:MouseEvent){
+			trace("EXPORT");
+			var file:FileReference = new FileReference();
+			var exportSprite = new ExportTemplate();
+			var bmd:BitmapData = new BitmapData(exportSprite.width, exportSprite.height, true, 0x0);
+			/*
+			var matrix:Matrix = new Matrix();
+			matrix.scale(2, 2);
+			bmd.draw(exportSprite, matrix);
+			*/
+			bmd.draw(exportSprite);
+			var byteArray:ByteArray = PNGEncoder.encode(bmd);
+			file.save(byteArray, "Studio_export.png");
+		}
+		
+		public function printHandler(e:MouseEvent){
+			printJob = new PrintJob();
+			
+ 			if(printJob.start()){
+				printSprite = new PrintTemplate(true, printJob.pageHeight);
+				//this.printerInformation(printJob);
+				var footerAdded:Boolean = printSprite.footerAdded;
+				var itemNum:int = printSprite.finishedOnItem;
+				var minWidth:Number = Math.min(printJob.pageWidth, printJob.paperWidth);
+				if(minWidth < printSprite.width){
+					/* scale content to fit page width */
+					trace("print: scaling");
+					printSprite.scaleX = minWidth / printSprite.width;
+					printSprite.scaleY = printSprite.scaleX;
+				}
+
+				var rec:Rectangle = new Rectangle(0, 1, printSprite.width/printSprite.scaleX, printJob.pageHeight);
+				if(footerAdded){
+					trace("print: footer ok");
+					printJob.addPage(printSprite, rec);
+				}else{
+					trace("print: footer next page");
+					printJob.addPage(printSprite, rec);
+					
+					var page2 = new PrintTemplate(false, printJob.pageHeight, itemNum+1);
+					page2.scaleX = page2.scaleY = printSprite.scaleX;
+					printJob.addPage(page2, rec);
+				}
+				/*
+				try{
+					printJob.addPage(printSprite, new Rectangle(0,0,printJob.pageWidth,printJob.pageHeight));
+				}catch(e:Error) {
+
+    			}*/
+    			printJob.send();
+ 			}
+		}
+		
+		public function saveHandler(e:MouseEvent){
+			trace("SAVE PERMANENTLY");
+			Studio.rootStg.panelMain.closeSubmenu();
+			Studio.rootStg.createPanelInfoSave();
+
+			if(Studio.rootStg.sessionIdSaved){
+				Studio.rootStg.panelInfo.addQuestion();
+			}else{
+				Studio.rootStg.panelInfo.addEmailQuestion();
+			}
+			//Studio.rootStg.projectP.export();
+		}
+		
+		public function printerInformation(pj:PrintJob){
+			trace(pj.orientation); //PrintJobOrientation.LANDSCAPE) {    
+			trace(pj.pageWidth);
+			trace(pj.pageHeight);
+			trace(pj.paperWidth);
+			trace(pj.paperHeight);
+			trace("sprite w: "+printSprite.width);
+		}
+		
+		public function removeAll(){
+			this.removeEventListeners();
+		}
+	}
+	
+}

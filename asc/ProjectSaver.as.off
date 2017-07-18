@@ -1,0 +1,192 @@
+﻿package{
+	import flash.display.Shape;
+	import flash.display.Sprite;
+	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.text.TextField;
+	//import fl.controls.TextInput;
+	import flash.filters.DropShadowFilter;
+	import flash.events.MouseEvent;
+
+	
+	public class ProjectSaver extends Sprite{
+		public var bgd:Shape;
+		public var idTitle:TextField;
+		public var idLabel:TextField;
+		
+		public var category:ProjectThumbnailCategoryTemp;
+
+		public var buttSaveTemp:ButtonIconArrow;
+		public var buttSave:ButtonIconEnve;
+		
+		public var lock:Boolean = false;
+		
+		public var pWidth:Number;
+		public var pHeight:Number;
+		
+		public const imgW:Number = 158;
+		public const imgH:Number = 100;
+		
+		public function ProjectSaver(w:Number, h:Number){
+			//trace("ProjectSaver: init...");
+			pWidth = w;
+			pHeight = h;
+			this.createBackground(pWidth,pHeight);
+			this.addEventListener("rollOut", mouseOutHandler);
+			
+			if(ColorStudio.rootStg.projectP)
+				this.addButtons();
+				
+			this.createThumbnails();
+		}
+		
+		private function createThumbnails(){
+			var preparedLabel:TextField = new TextField();
+			preparedLabel.x = 20;
+			preparedLabel.y = 120;
+			preparedLabel.autoSize = "left";
+			preparedLabel.text = ColorStudio.rootStg.xmlDictionary.getTranslate("labelTemporaryProjects");
+			this.addChild(preparedLabel);
+			ColorStudio.rootStg.addTextFormatBold(preparedLabel, 14, 0x000000);
+			
+			this.createCategoryVertical();
+		}
+		
+		private function createCategoryVertical(){
+			category = new ProjectThumbnailCategoryTemp(ColorStudio.rootStg.temp, pWidth-40);
+			category.x = 20;
+			category.y = 170;
+			this.addChild(category);
+		}
+		
+		private function addButtons(){
+			idTitle = new TextField();
+			idTitle.x = 20;
+			idTitle.y = 30;
+			idTitle.autoSize = "left";
+			idTitle.text = ColorStudio.rootStg.xmlDictionary.getTranslate("titleProjectID");
+			this.addChild(idTitle);
+			ColorStudio.rootStg.addTextFormatBold(idTitle, 14, 0x000000);
+
+			idLabel = new TextField();
+			idLabel.autoSize = "left";
+			idLabel.multiline = false;
+			idLabel.embedFonts = true;
+			idLabel.antiAliasType = "advanced";
+			idLabel.defaultTextFormat = ColorStudio.rootStg.getTextFormat_C(12, 0x000000);
+			idLabel.text = ColorStudio.rootStg.projectP.prId;
+			idLabel.x = idTitle.width + 25;
+			idLabel.y = 32;
+			this.addChild(idLabel);
+
+			buttSaveTemp = new ButtonIconArrow();
+			var buttlabel:String = ColorStudio.rootStg.xmlDictionary.getTranslate("buttonSaveTemporarily");
+			buttSaveTemp.buttonMode = true;
+			buttSaveTemp.mouseChildren = false;
+			buttSaveTemp.x = 20;
+			buttSaveTemp.y = 60;
+			buttSaveTemp.dt_label.text = buttlabel.toUpperCase();
+			buttSaveTemp.dt_label.autoSize = "left";
+			buttSaveTemp.bgd.width = buttSaveTemp.dt_label.textWidth + 31;
+			addChild(buttSaveTemp);
+			buttSaveTemp.addEventListener("click", buttonSaveTempClickHandler);
+			
+			buttSave = new ButtonIconEnve();
+			buttlabel = ColorStudio.rootStg.xmlDictionary.getTranslate("buttonSavePermanently");
+			buttSave.buttonMode = true;
+			buttSave.mouseChildren = false;
+			buttSave.x = 400;
+			buttSave.y = 60;
+			buttSave.dt_label.text = buttlabel.toUpperCase();
+			buttSave.dt_label.autoSize = "left";
+			buttSave.bgd.width = Math.round(buttSave.dt_label.textWidth) + 36;
+			addChild(buttSave);
+			buttSave.addEventListener("click", buttonSaveClickHandler);
+		}
+		
+		private function buttonSaveTempClickHandler(e:MouseEvent){
+			var prData =  ColorStudio.rootStg.projectP.getTempData();
+			trace("saver: push id:", prData.prId);
+			ColorStudio.rootStg.temp.push(prData);
+			
+			ColorStudio.rootStg.projectP.getNewId();
+			idLabel.text = ColorStudio.rootStg.projectP.prId;
+			
+			category.removeAll();
+			this.removeChild(category);
+			this.createCategoryVertical();
+		}
+		
+		private function buttonSaveClickHandler(e:MouseEvent){
+			ColorStudio.rootStg.panelMain.closeProjectSaver();
+			ColorStudio.rootStg.createPanelInfoSave();
+			ColorStudio.rootStg.projectP.export();
+		}
+		
+		public function removeTempProject(prId:String){
+			for(var i:int=0; i<ColorStudio.rootStg.temp.length; i++){
+				trace("Saver: ", prId, " <> ", ColorStudio.rootStg.temp[i].prId);
+				if(ColorStudio.rootStg.temp[i].prId == prId){
+					
+					ColorStudio.rootStg.temp.splice(i, 1);
+					break;
+				}
+			}
+			
+			category.removeAll();
+			this.removeChild(category);
+			this.createCategoryVertical();
+		}
+		
+		private function mouseOutHandler(e:MouseEvent){
+			if(this.lock || ColorStudio.rootStg.panelMain.butt_save.hitTestPoint(e.stageX, e.stageY, true)){
+				//trace("stay open");
+			}else{
+				//trace("closing");
+				ColorStudio.rootStg.panelMain.butt_save.gotoAndStop(1);
+				ColorStudio.rootStg.panelMain.closeProjectSaver();
+			}
+		}
+		
+		public function createBackground(w:Number, h:Number){
+			bgd = new Shape();
+			this.addChild(bgd);
+
+			bgd.graphics.beginFill(0xDDDDDD, 1);
+			bgd.graphics.drawRoundRect(0, 0, w, h, 8, 8);
+			bgd.graphics.endFill();
+			bgd.graphics.beginFill(0x0066CC, 1);
+			bgd.graphics.drawRoundRect(0, 0, w, 15, 8, 8);
+			bgd.graphics.endFill();
+			bgd.graphics.beginFill(0xDDDDDD, 1);
+			bgd.graphics.drawRect(0, 10, w, 5);
+			bgd.graphics.endFill();
+			/*
+			bgd.graphics.lineStyle(1, 0x999999, 1);
+			bgd.graphics.beginFill(0xFFFFFF, 1);
+			bgd.graphics.drawRect(10,20,w-20,h-30);
+			bgd.graphics.endFill();
+			*/
+			var sh_filters:Array = new Array(new DropShadowFilter(3, 75, 0x000000, 0.5, 4, 4, 1, 1));
+			bgd.filters = sh_filters;
+		}
+		
+		public function removeAll(){
+			this.removeEventListener("rollOut", mouseOutHandler);
+			if(buttSaveTemp) buttSaveTemp.removeEventListener("click", buttonSaveTempClickHandler);
+			if(buttSave) buttSave.removeEventListener("click", buttonSaveClickHandler);
+			//if(inputSprite) inputSprite.removeEventListener("click", inputFieldClickHandler);
+			
+			var child;
+			for(var i:int=this.numChildren-1; i>=0; i--){
+				child = this.getChildAt(i);
+				if(child is ProjectThumbnailCategoryTemp){
+					child.removeAll();
+				}
+			}
+			bgd.graphics.clear();
+		}
+
+	}
+	
+}

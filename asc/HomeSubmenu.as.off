@@ -1,0 +1,117 @@
+﻿package{
+	import flash.display.MovieClip;
+	import flash.events.MouseEvent;
+	import flash.geom.ColorTransform;
+	
+	public class HomeSubmenu extends MovieClip{
+		public var bgd:MovieClip;
+		public var butt_home:MovieClip;
+		public var butt_pre:MovieClip;
+		public var butt_own:MovieClip;
+
+		private const SHORT_HEIGHT:Number = 72;
+		private const COLOR_TRANS_NORMAL = new ColorTransform();
+		private const COLOR_TRANS_DISABLED = new ColorTransform(0,0,0,1,90,90,90,1);
+		private const COLOR_TRANS_OVER = new ColorTransform(0,0,0,0,0,153,255,255);
+		
+		public function HomeSubmenu(){
+			butt_home.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("homeSubButton");
+			butt_pre.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("preSubButton");
+			butt_own.dt_text.text = Studio.rootStg.xmlDictionary.getTranslate("ownSubButton");
+			this.addEventListeners();
+		}
+		
+		public function addEventListeners(){
+			this.addEventListener("rollOut", rollOutHandler);
+
+			butt_home.buttonMode = true;
+			butt_home.mouseChildren = false;
+			butt_home.addEventListener("mouseOver", overHandlerSub);
+			butt_home.addEventListener("mouseOut", outHandlerSub);
+			butt_home.addEventListener("click", homeHandler);
+			
+			butt_pre.buttonMode = true;
+			butt_pre.mouseChildren = false;
+			butt_pre.addEventListener("mouseOver", overHandlerSub);
+			butt_pre.addEventListener("mouseOut", outHandlerSub);
+			butt_pre.addEventListener("click", preHandler);
+			
+			butt_own.buttonMode = true;
+			butt_own.mouseChildren = false;
+			butt_own.addEventListener("mouseOver", overHandlerSub);
+			butt_own.addEventListener("mouseOut", outHandlerSub);
+			butt_own.addEventListener("click", ownHandler);
+		}
+		
+		public function removeEventListeners(){
+			this.removeEventListener("rollOut", rollOutHandler);
+
+			butt_home.removeEventListener("mouseOver", overHandlerSub);
+			butt_home.removeEventListener("mouseOut", outHandlerSub);
+			butt_home.removeEventListener("click", homeHandler);
+
+			butt_pre.removeEventListener("mouseOver", overHandlerSub);
+			butt_pre.removeEventListener("mouseOut", outHandlerSub);
+			butt_pre.removeEventListener("click", preHandler);
+			
+			butt_own.removeEventListener("mouseOver", overHandlerSub);
+			butt_own.removeEventListener("mouseOut", outHandlerSub);
+			butt_own.removeEventListener("click", ownHandler);
+		}
+		
+		public function overHandlerSub(e:MouseEvent){
+			e.target.gotoAndStop(2);
+			e.target.dt_text.transform.colorTransform = COLOR_TRANS_OVER;
+		}
+		public function outHandlerSub(e:MouseEvent){
+			e.target.gotoAndStop(1);
+			e.target.dt_text.transform.colorTransform = COLOR_TRANS_NORMAL;
+		}
+		
+		private function rollOutHandler(e:MouseEvent){
+			if(!Studio.rootStg.panelMain.butt_home.hitTestPoint(e.stageX, e.stageY, true)){
+				Studio.rootStg.panelMain.butt_home.gotoAndStop(1);
+				Studio.rootStg.panelMain.closeSubmenu();
+			}
+		}
+		
+		private function homeHandler(e:MouseEvent){
+			if(Studio.rootStg.projectP){
+				if(Studio.rootStg.projectP.type == "prepared"){
+					Studio.rootStg.closeProject();
+					Studio.rootStg.addHomepage();
+				}else{
+					Studio.rootStg.createPanelInfoClose(true);
+				}
+			}else{
+				Studio.rootStg.addHomepage();
+			}
+			Studio.rootStg.panelMain.closeSubmenu();
+		}
+		
+		private function preHandler(e:MouseEvent){
+			if(Studio.rootStg.projectP && Studio.rootStg.projectP.type != "prepared"){
+				Studio.rootStg.createPanelInfoClose(false, "pre");
+			}else{
+				Studio.rootStg.createProjectPreparedOpener();
+			}
+			
+			Studio.rootStg.panelMain.closeSubmenu();
+		}
+		
+		private function ownHandler(e:MouseEvent){
+			if(Studio.rootStg.projectP && Studio.rootStg.projectP.type != "prepared"){
+				Studio.rootStg.createPanelInfoClose(false, "own");
+			}else{
+				 Studio.rootStg.openFileDialog();
+			}
+		}
+		
+		
+		public function removeAll(){
+			trace("remove all homesubenu");
+			this.removeEventListeners();
+		}
+	}
+	
+}

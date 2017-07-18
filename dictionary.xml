@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+	<item key="homepageButtonPreparedLabel">
+		<translate lang="en"><![CDATA[open]]></translate>
+		<translate lang="cz"><![CDATA[připravené simulace]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="ButtonNewProject">
+		<translate lang="en"><![CDATA[nahrát vlastní fotografii]]></translate>
+		<translate lang="cz"><![CDATA[nahrát vlastní fotografii]]></translate>
+		<translate lang="sk"><![CDATA[nahrať vlastnú fotografiu]]></translate>
+	</item>
+	<item key="homepageButtonLoadLabel">
+		<translate lang="en"><![CDATA[zadat číslo projektu]]></translate>
+		<translate lang="cz"><![CDATA[zadat číslo projektu]]></translate>
+		<translate lang="sk"><![CDATA[zadať číslo projektu]]></translate>
+	</item>
+	<item key="homepageButtonVideoLabel">
+		<translate lang="en"><![CDATA[play video]]></translate>
+		<translate lang="cz"><![CDATA[spustit video]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="homepageButtonPreparedText">
+		<translate lang="en"><![CDATA[Vyzkoušet připravené simulace]]></translate>
+		<translate lang="cz"><![CDATA[Vyzkoušet připravené simulace]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="homepageButtonPhotoText">
+		<translate lang="en"><![CDATA[Vytvořit simulaci z vlastní fotografie]]></translate>
+		<translate lang="cz"><![CDATA[Vytvořit simulaci z vlastní fotografie]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="homepageButtonLoadText">
+		<translate lang="en"><![CDATA[Otevřít již uloženou simulaci]]></translate>
+		<translate lang="cz"><![CDATA[Otevřít již uloženou simulaci]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="homepageButtonVideoText">
+		<translate lang="en"><![CDATA[Spustit videonávod]]></translate>
+		<translate lang="cz"><![CDATA[Spustit videonávod]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<!-- <panelColor> -->
+	<item key="panelColor">
+		<translate lang="en"><![CDATA[Select color]]></translate>
+		<translate lang="cz"><![CDATA[Volba barvy]]></translate>
+		<translate lang="sk"><![CDATA[voľba farieb]]></translate>
+	</item>
+	<item key="ButtonColorset">
+		<translate lang="en"><![CDATA[colorset]]></translate>
+		<translate lang="cz"><![CDATA[vzornik]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="colorFilterLabel">
+		<translate lang="en"><![CDATA[filter label]]></translate>
+		<translate lang="cz"><![CDATA[Odstínová skupina]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="colorSamplerLabel">
+		<translate lang="en"><![CDATA[sampler label]]></translate>
+		<translate lang="cz"><![CDATA[Odstín]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="Interior">
+		<translate lang="en"><![CDATA[Interior]]></translate>
+		<translate lang="cz"><![CDATA[Interiér]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="Exterior">
+		<translate lang="en"><![CDATA[Exterior]]></translate>
+		<translate lang="cz"><![CDATA[Fasáda]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<!-- <tools> -->
+	<item key="toolsLabel">
+		<translate lang="en"><![CDATA[Tools]]></translate>
+		<translate lang="cz"><![CDATA[Nástroje]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="curvePlus">
+		<translate lang="en"><![CDATA[Positive curve]]></translate>
+		<translate lang="cz"><![CDATA[Kreslit čáry]]></translate>
+		<translate lang="sk"><![CDATA[Kresliť čiary]]></translate>
+	</item>
+	<item key="curveMinus">
+		<translate lang="en"><![CDATA[Negative curve]]></translate>
+		<translate lang="cz"><![CDATA[Kreslit výřezy]]></translate>
+		<translate lang="sk"><![CDATA[Kresliť výrezy]]></translate>
+	</item>
+	<item key="magicPlus">
+		<translate lang="en"><![CDATA[Magic wand]]></translate>
+		<translate lang="cz"><![CDATA[Automaticky vyznačit]]></translate>
+		<translate lang="sk"><![CDATA[Automaticky vyznačiť]]></translate>
+	</item>
+	<item key="magicMinus">
+		<translate lang="en"><![CDATA[Negative magic wand]]></translate>
+		<translate lang="cz"><![CDATA[Automaticky vyznačit výřez]]></translate>
+		<translate lang="sk"><![CDATA[Automaticky označiť výrez]]></translate>
+	</item>
+	<item key="brush">
+		<translate lang="en"><![CDATA[Brush]]></translate>
+		<translate lang="cz"><![CDATA[Kreslit štetcem]]></translate>
+		<translate lang="sk"><![CDATA[Kresliť štetcom]]></translate>
+	</item>
+	<item key="gum">
+		<translate lang="en"><![CDATA[Eraser]]></translate>
+		<translate lang="cz"><![CDATA[Gumovat]]></translate>
+		<translate lang="sk"><![CDATA[Gumovať]]></translate>
+	</item>
+	<item key="paint">
+		<translate lang="en"><![CDATA[Bucket]]></translate>
+		<translate lang="cz"><![CDATA[Nalít bavu na plochu]]></translate>
+		<translate lang="sk"><![CDATA[Naliať farbu na plochu]]></translate>
+	</item>
+	<item key="brushSettings">
+		<translate lang="en"><![CDATA[Brush thickness]]></translate>
+		<translate lang="cz"><![CDATA[Tloušťka štětce]]></translate>
+		<translate lang="sk"><![CDATA[Hrúbka štetca]]></translate>
+	</item>
+	<item key="gumSettings">
+		<translate lang="en"><![CDATA[Gum thickness]]></translate>
+		<translate lang="cz"><![CDATA[Tloušťka gumy]]></translate>
+		<translate lang="sk"><![CDATA[Hrúbka gumy]]></translate>
+	</item>
+	<item key="magicPlusSettings">
+		<translate lang="en"><![CDATA[Magic tolerance]]></translate>
+		<translate lang="cz"><![CDATA[Nastavení citlivosti]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="magicMinusSettings">
+		<translate lang="en"><![CDATA[Magic tolerance]]></translate>
+		<translate lang="cz"><![CDATA[Nastavení citlivosti]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<!-- <list of walls> -->
+	<item key="wallsControlLabel">
+		<translate lang="en"><![CDATA[Walls]]></translate>
+		<translate lang="cz"><![CDATA[Stěny]]></translate>
+		<translate lang="sk"><![CDATA[Steny]]></translate>
+	</item>
+	<item key="defaultWall">
+		<translate lang="en"><![CDATA[wall]]></translate>
+		<translate lang="cz"><![CDATA[Stěna]]></translate>
+		<translate lang="sk"><![CDATA[Stena]]></translate>
+	</item>
+	<item key="ButtonNewWall">
+		<translate lang="en"><![CDATA[+ Add new Wall]]></translate>
+		<translate lang="cz"><![CDATA[+ Nová barevná plocha]]></translate>
+		<translate lang="sk"><![CDATA[+ Nová farebná plocha]]></translate>
+	</item>
+	<item key="colorLabel">
+		<translate lang="en"><![CDATA[select color]]></translate>
+		<translate lang="cz"><![CDATA[vyberte barvu]]></translate>
+		<translate lang="sk"><![CDATA[vyberte farbu]]></translate>
+	</item>
+	<!-- <project & info> -->
+	<item key="infoProjectSending">
+		<translate lang="en"><![CDATA[Sending project to server...]]></translate>
+		<translate lang="cz"><![CDATA[Projekt je odesílán na server...]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectSendingBmp">
+		<translate lang="en"><![CDATA[Saving bitmaps...]]></translate>
+		<translate lang="cz"><![CDATA[Ukládám váš projekt]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoYourProjectId">
+		<translate lang="en"><![CDATA[Your project was saved with number %%%projNumber%%%. Keep this number somewhere. Maybe we wil send you an email, it depends...]]></translate>
+		<translate lang="cz"><![CDATA[Váš projekt byl uložen pod číslem %%%projNumber%%%. Toto si číslo projektu si dobře uložte, umožní vám vrátit se k projektu později.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectReplace">
+		<translate lang="en"><![CDATA[replace current project?]]></translate>
+		<translate lang="cz"><![CDATA[Přepsat stávající projekt?]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectAnswerYes">
+		<translate lang="en"><![CDATA[YES]]></translate>
+		<translate lang="cz"><![CDATA[ANO]]></translate>
+		<translate lang="sk"><![CDATA[ÁNO]]></translate>
+	</item>
+	<item key="infoProjectAnswerNo">
+		<translate lang="en"><![CDATA[NO]]></translate>
+		<translate lang="cz"><![CDATA[NE]]></translate>
+		<translate lang="sk"><![CDATA[NIE]]></translate>
+	</item>
+	<item key="infoProjectAnswerYes-rewrite">
+		<translate lang="en"><![CDATA[rewrite previous]]></translate>
+		<translate lang="cz"><![CDATA[Přepsat předchozí uložení]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectAnswerNo-new">
+		<translate lang="en"><![CDATA[Save as new project]]></translate>
+		<translate lang="cz"><![CDATA[Uložit jako nový projekt]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectEmail">
+		<translate lang="en"><![CDATA[provide email to send you the ID]]></translate>
+		<translate lang="cz"><![CDATA[Vyplňte email a ID projektu Vám automaticky bude odesláno. Pokud nechcete vyplňovat email, nezapomeňte si po uložení ID zapsat.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectEmailContinue">
+		<translate lang="en"><![CDATA[continue]]></translate>
+		<translate lang="cz"><![CDATA[pokračovat]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectSearching">
+		<translate lang="en"><![CDATA[Searching project...]]></translate>
+		<translate lang="cz"><![CDATA[Hledám uložený projekt...]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoSaveError-0">
+		<translate lang="en"><![CDATA[An Error occured during the saving.]]></translate>
+		<translate lang="cz"><![CDATA[Během ukládání nastala chyba.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoSaveError-1">
+		<translate lang="en"><![CDATA[An Error 1 occured during the saving.]]></translate>
+		<translate lang="cz"><![CDATA[Behem ukladani nastala chyba 1.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectNotFound">
+		<translate lang="en"><![CDATA[Project with number %%%projNumber%%% was not found]]></translate>
+		<translate lang="cz"><![CDATA[Projekt s číslem %%%projNumber%%% nebyl nalezen]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectLoading">
+		<translate lang="en"><![CDATA[Loading project...]]></translate>
+		<translate lang="cz"><![CDATA[Otvírám projekt...]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectLoadError">
+		<translate lang="en"><![CDATA[Sorry, error during loading]]></translate>
+		<translate lang="cz"><![CDATA[Vyskytla se chyba, omlouvám se ...]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectLoaded">
+		<translate lang="en"><![CDATA[Project was loaded]]></translate>
+		<translate lang="cz"><![CDATA[Projekt byl úspěšně otevřen]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="infoProjectClose">
+		<translate lang="en"><![CDATA[You'r gonna close your project. By click on YES will you loose unsaved work.]]></translate>
+		<translate lang="cz"><![CDATA[Chystáte se zavřít projekt. Kliknutím na ANO ztratíte neuloženou práci.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="labelPreparedProjects">
+		<translate lang="en"><![CDATA[Prepared examples]]></translate>
+		<translate lang="cz"><![CDATA[Připravené simulace]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="labelNewProjects">
+		<translate lang="en"><![CDATA[Start your own project]]></translate>
+		<translate lang="cz"><![CDATA[Vytvořit vlastní simulaci]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="labelChooseNewProject">
+		<translate lang="en"><![CDATA[Choose your own photo]]></translate>
+		<translate lang="cz"><![CDATA[Nahrát vlastní fotografii]]></translate>
+		<translate lang="sk"><![CDATA[Nahrať vlastnú fotografiu]]></translate>
+	</item>
+	<item key="buttonChooseNewProject">
+		<translate lang="en"><![CDATA[browse file]]></translate>
+		<translate lang="cz"><![CDATA[vybrat soubor]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="labelOpenSavedProject">
+		<translate lang="en"><![CDATA[open saved project]]></translate>
+		<translate lang="cz"><![CDATA[otevřít uložený projekt]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="buttonOpenSavedProject">
+		<translate lang="en"><![CDATA[open]]></translate>
+		<translate lang="cz"><![CDATA[otevřít]]></translate>
+		<translate lang="sk"><![CDATA[otvoriť]]></translate>
+	</item>
+	<item key="titleProjectID">
+		<translate lang="en"><![CDATA[Project ID:]]></translate>
+		<translate lang="cz"><![CDATA[Projekt ID:]]></translate>
+		<translate lang="sk"><![CDATA[Projekt ID:]]></translate>
+	</item>
+	<item key="titleTemporaryProjects">
+		<translate lang="en"><![CDATA[Temporary saved projects]]></translate>
+		<translate lang="cz"><![CDATA[Dočasně uložené projekty]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="subtitleTemporaryProjects">
+		<translate lang="en"><![CDATA[ENG..(Kliknutím na obrázek můžete pokračovat v úpravě vybrané verze.)]]></translate>
+		<translate lang="cz"><![CDATA[Kliknutím na obrázek můžete pokračovat v úpravě vybrané verze.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="buttonSaveTemporarily">
+		<translate lang="en"><![CDATA[SAVE TEMPORARILY]]></translate>
+		<translate lang="cz"><![CDATA[ULOŽIT VERZI]]></translate>
+		<translate lang="sk"><![CDATA[ULOŽIŤ VERZIU]></translate>
+	</item>
+	<item key="buttonSavePermanently">
+		<translate lang="en"><![CDATA[SAVE permanently]]></translate>
+		<translate lang="cz"><![CDATA[trvale ULOŽIT]]></translate>
+		<translate lang="sk"><![CDATA[ULOŽIŤ PROJEKT]]></translate>
+	</item>
+	
+	<!-- output -->
+	<item key="printSubButton">
+		<translate lang="en"><![CDATA[print]]></translate>
+		<translate lang="cz"><![CDATA[tisknout]]></translate>
+		<translate lang="sk"><![CDATA[tlačiť]]></translate>
+	</item>
+	<item key="exportSubButton">
+		<translate lang="en"><![CDATA[export]]></translate>
+		<translate lang="cz"><![CDATA[exportovat]]></translate>
+		<translate lang="sk"><![CDATA[exportovať]]></translate>
+	</item>
+	<item key="saveSubButton">
+		<translate lang="en"><![CDATA[save permanently]]></translate>
+		<translate lang="cz"><![CDATA[trvale uložit aktuální verzi]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="printTitle">
+		<translate lang="en"><![CDATA[print of simulation from website HET.cz]]></translate>
+		<translate lang="cz"><![CDATA[tisk simulace z webu HET.cz]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="printSubtitle">
+		<translate lang="en"><![CDATA[project number:]]></translate>
+		<translate lang="cz"><![CDATA[číslo projektu:]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="printFooterText">
+		<!-- odradkovani v textu provedte vlozenim html znacky <br> ... -->
+		<translate lang="en"><![CDATA[A baryon is a composite subatomic particle made up of three quarks (as distinct from mesons, which comprise one quark and one antiquark). Baryons and mesons belong to the hadron family, which are the quark-based particles.]]></translate>
+		<translate lang="cz"><![CDATA[Upozorňujeme, že simulace barev je orientační, vzhledem k odchylkám daných zkreslením vašeho monitoru a tiskárny.<br>Přesné odstíny vždy vybírejte z reálných vzorkovníků na prodejních a tónovacích místech.]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+
+	<!-- titles of buttons -->
+	<item key="ButtonFoto">
+		<translate lang="en"><![CDATA[choose]]></translate>
+		<translate lang="cz"><![CDATA[vybrat]]></translate>
+		<translate lang="sk"><![CDATA[vybrať]]></translate>
+	</item>
+	<item key="ButtonSave">
+		<translate lang="en"><![CDATA[save permanently]]></translate>
+		<translate lang="cz"><![CDATA[trvale uložit]]></translate>
+		<translate lang="sk"><![CDATA[trvale uložiť]]></translate>
+	</item>
+	<item key="ButtonSaveTemp">
+		<translate lang="en"><![CDATA[save temporarily]]></translate>
+		<translate lang="cz"><![CDATA[uložit verzi]]></translate>
+		<translate lang="sk"><![CDATA[uložiť verziu]]></translate>
+	</item>
+	<item key="ButtonPrint">
+		<translate lang="en"><![CDATA[print]]></translate>
+		<translate lang="cz"><![CDATA[tisk]]></translate>
+		<translate lang="sk"><![CDATA[tlač]]></translate>
+	</item>
+	<item key="ButtonOutput">
+		<translate lang="en"><![CDATA[output]]></translate>
+		<translate lang="cz"><![CDATA[výstup]]></translate>
+		<translate lang="sk"><![CDATA[výstup]]></translate>
+	</item>
+	<item key="ButtonUndo">
+		<translate lang="en"><![CDATA[undo]]></translate>
+		<translate lang="cz"><![CDATA[zpet]]></translate>
+		<translate lang="sk"><![CDATA[späť]]></translate>
+	</item>
+	<item key="ButtonInfo">
+		<translate lang="en"><![CDATA[info]]></translate>
+		<translate lang="cz"><![CDATA[videonávod]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="ButtonClose">
+		<translate lang="en"><![CDATA[close]]></translate>
+		<translate lang="cz"><![CDATA[zavrit]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="ButtonZoomUp">
+		<translate lang="en"><![CDATA[zoomup]]></translate>
+		<translate lang="cz"><![CDATA[zvětšit]]></translate>
+		<translate lang="sk"><![CDATA[zväčšiť]]></translate>
+	</item>
+	<item key="ButtonZoomDown">
+		<translate lang="en"><![CDATA[zoomdown]]></translate>
+		<translate lang="cz"><![CDATA[zmenšit]]></translate>
+		<translate lang="sk"><![CDATA[zmenšiť]]></translate>
+	</item>
+	<item key="ButtonZoomMove">
+		<translate lang="en"><![CDATA[move]]></translate>
+		<translate lang="cz"><![CDATA[posun]]></translate>
+		<translate lang="sk"><![CDATA[posun]]></translate>
+	</item>
+	<item key="ButtonZoomActual">
+		<translate lang="en"><![CDATA[actual zoom]]></translate>
+		<translate lang="cz"><![CDATA[původní velikost]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="ButtonZoomFit">
+		<translate lang="en"><![CDATA[zoom to fit]]></translate>
+		<translate lang="cz"><![CDATA[upravit na velikost okna]]></translate>
+		<translate lang="sk"><![CDATA[---]]></translate>
+	</item>
+	<item key="ButtonHome">
+		<translate lang="en"><![CDATA[versions]]></translate>
+		<translate lang="cz"><![CDATA[verze]]></translate>
+		<translate lang="sk"><![CDATA[verzie]]></translate>
+	</item>
+</dictionary>

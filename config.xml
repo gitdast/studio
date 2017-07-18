@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<application>
+		<isResizable>true</isResizable>
+		<width>900</width> <!-- ignored, if isResizable = true -->
+		<height>500</height> <!-- ignored, if isResizable = true -->
+		<background_color>0xFFFFFF</background_color><!-- change this value in html object with param name="bgcolor" -->
+		<dictionaryUrl>dictionary.xml</dictionaryUrl>
+		<projectsUrl>projects.xml</projectsUrl>
+		<infoUrl>video/infovideo.html</infoUrl>
+		<homepageImageUrl>home_page_screen2.jpg</homepageImageUrl>
+		<lang>sk</lang>
+		<exportProjectGetIdUrl>http://localhost:91/getid.php</exportProjectGetIdUrl>
+		<exportProjectBitmapsUrl>http://localhost:91/savebitmap.php</exportProjectBitmapsUrl>
+		<exportProjectXmlUrl>http://localhost:91/savexml.php</exportProjectXmlUrl>
+		<loadProjectXmlUrl>http://localhost:91/loadxml.php</loadProjectXmlUrl>
+		<autofillProjectUrl>http://localhost:91/saveautofill.php</autofillProjectUrl>
+		<autofillWidth>0</autofillWidth>
+	</application>
+	
+	<colors>
+		<group id="Interior">
+			<colorset order="1" display="1" id="v1" selected="1">vzornik_color.xml</colorset>
+			<colorset order="2" display="1" id="v2">vzornik_interier_maxi.xml</colorset>
+			<colorset order="3" display="1" id="v3">vzornik_interier_mini.xml</colorset>
+		</group>
+		<group id="Exterior">
+			<colorset order="4" display="1" id="v4">vzornik_exterier.xml</colorset>
+		</group>
+	</colors>
+	
+</config>

@@ -1,0 +1,3361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<colors>
+<maintype name="OPTIMAL COLOREX" cols="5">
+	<type>
+		<color id="1">
+			<name><![CDATA[HC 14]]></name>
+			<definitions r="208" g="210" b="196" />
+		</color>
+		<color id="2">
+			<name><![CDATA[HC 17]]></name>
+			<definitions r="187" g="186" b="183" />
+		</color>
+		<color id="3">
+			<name><![CDATA[HC 26]]></name>
+			<definitions r="223" g="223" b="220" />
+		</color>
+		<color id="4">
+			<name><![CDATA[HC 29]]></name>
+			<definitions r="124" g="119" b="115" />
+		</color>
+		<color id="5">
+			<name><![CDATA[HC 36]]></name>
+			<definitions r="190" g="190" b="184" />
+		</color>
+		<color id="6">
+			<name><![CDATA[HC 39]]></name>
+			<definitions r="109" g="116" b="118" />
+		</color>
+		<color id="7">
+			<name><![CDATA[HC 43]]></name>
+			<definitions r="225" g="226" b="218" />
+		</color>
+		<color id="8">
+			<name><![CDATA[HC 44]]></name>
+			<definitions r="210" g="210" b="203" />
+		</color>
+		<color id="9">
+			<name><![CDATA[NC 3175]]></name>
+			<definitions r="228" g="225" b="219" />
+		</color>
+		<color id="10">
+			<name><![CDATA[NC 3176]]></name>
+			<definitions r="211" g="207" b="202" />
+		</color>
+		<color id="11">
+			<name><![CDATA[NC 3177]]></name>
+			<definitions r="189" g="186" b="184" />
+		</color>
+		<color id="12">
+			<name><![CDATA[NC 3178]]></name>
+			<definitions r="157" g="152" b="147" />
+		</color>
+		<color id="13">
+			<name><![CDATA[NC 3179]]></name>
+			<definitions r="123" g="117" b="112" />
+		</color>
+		<color id="14">
+			<name><![CDATA[NC 3180]]></name>
+			<definitions r="82" g="77" b="72" />
+		</color>
+		<color id="15">
+			<name><![CDATA[NC 3181]]></name>
+			<definitions r="233" g="236" b="229" />
+		</color>
+		<color id="16">
+			<name><![CDATA[NC 3182]]></name>
+			<definitions r="211" g="210" b="206" />
+		</color>
+		<color id="17">
+			<name><![CDATA[NC 3183]]></name>
+			<definitions r="190" g="196" b="192" />
+		</color>
+		<color id="18">
+			<name><![CDATA[NC 3184]]></name>
+			<definitions r="155" g="155" b="154" />
+		</color>
+		<color id="19">
+			<name><![CDATA[NC 3185]]></name>
+			<definitions r="108" g="106" b="101" />
+		</color>
+		<color id="20">
+			<name><![CDATA[NC 3186]]></name>
+			<definitions r="72" g="69" b="65" />
+		</color>
+		<color id="21">
+			<name><![CDATA[NC 3235]]></name>
+			<definitions r="220" g="219" b="213" />
+		</color>
+		<color id="22">
+			<name><![CDATA[NC 3236]]></name>
+			<definitions r="211" g="210" b="206" />
+		</color>
+		<color id="23">
+			<name><![CDATA[NC 3237]]></name>
+			<definitions r="197" g="201" b="196" />
+		</color>
+		<color id="24">
+			<name><![CDATA[NC 3238]]></name>
+			<definitions r="159" g="159" b="153" />
+		</color>
+		<color id="25">
+			<name><![CDATA[NC 3239]]></name>
+			<definitions r="128" g="126" b="119" />
+		</color>
+		<color id="26">
+			<name><![CDATA[NC 3240]]></name>
+			<definitions r="83" g="82" b="75" />
+		</color>
+		<color id="27">
+			<name><![CDATA[NC 3241]]></name>
+			<definitions r="224" g="224" b="216" />
+		</color>
+		<color id="28">
+			<name><![CDATA[NC 3242]]></name>
+			<definitions r="210" g="208" b="190" />
+		</color>
+		<color id="29">
+			<name><![CDATA[NC 3243]]></name>
+			<definitions r="187" g="186" b="166" />
+		</color>
+		<color id="30">
+			<name><![CDATA[NC 3244]]></name>
+			<definitions r="156" g="156" b="135" />
+		</color>
+		<color id="31">
+			<name><![CDATA[NC 3245]]></name>
+			<definitions r="119" g="118" b="96" />
+		</color>
+		<color id="32">
+			<name><![CDATA[NC 3246]]></name>
+			<definitions r="93" g="91" b="70" />
+		</color>
+		<color id="33">
+			<name><![CDATA[NC 3247]]></name>
+			<definitions r="228" g="228" b="220" />
+		</color>
+		<color id="34">
+			<name><![CDATA[NC 3248]]></name>
+			<definitions r="215" g="222" b="210" />
+		</color>
+		<color id="35">
+			<name><![CDATA[NC 3249]]></name>
+			<definitions r="180" g="183" b="166" />
+		</color>
+		<color id="36">
+			<name><![CDATA[NC 3250]]></name>
+			<definitions r="149" g="152" b="133" />
+		</color>
+		<color id="37">
+			<name><![CDATA[NC 3251]]></name>
+			<definitions r="115" g="117" b="98" />
+		</color>
+		<color id="38">
+			<name><![CDATA[NC 3252]]></name>
+			<definitions r="89" g="91" b="73" />
+		</color>
+		<color id="39">
+			<name><![CDATA[NC 3253]]></name>
+			<definitions r="234" g="239" b="230" />
+		</color>
+		<color id="40">
+			<name><![CDATA[NC 3254]]></name>
+			<definitions r="216" g="223" b="214" />
+		</color>
+		<color id="41">
+			<name><![CDATA[NC 3255]]></name>
+			<definitions r="185" g="189" b="180" />
+		</color>
+		<color id="42">
+			<name><![CDATA[NC 3256]]></name>
+			<definitions r="154" g="158" b="149" />
+		</color>
+		<color id="43">
+			<name><![CDATA[NC 3257]]></name>
+			<definitions r="113" g="117" b="107" />
+		</color>
+		<color id="44">
+			<name><![CDATA[NC 3258]]></name>
+			<definitions r="83" g="85" b="76" />
+		</color>
+		<color id="45">
+			<name><![CDATA[NC 3259]]></name>
+			<definitions r="221" g="226" b="216" />
+		</color>
+		<color id="46">
+			<name><![CDATA[NC 3260]]></name>
+			<definitions r="203" g="211" b="201" />
+		</color>
+		<color id="47">
+			<name><![CDATA[NC 3261]]></name>
+			<definitions r="175" g="187" b="174" />
+		</color>
+		<color id="48">
+			<name><![CDATA[NC 3262]]></name>
+			<definitions r="142" g="156" b="141" />
+		</color>
+		<color id="49">
+			<name><![CDATA[NC 3263]]></name>
+			<definitions r="114" g="127" b="111" />
+		</color>
+		<color id="50">
+			<name><![CDATA[NC 3264]]></name>
+			<definitions r="80" g="89" b="76" />
+		</color>
+		<color id="51">
+			<name><![CDATA[NC 3265]]></name>
+			<definitions r="218" g="223" b="221" />
+		</color>
+		<color id="52">
+			<name><![CDATA[NC 3266]]></name>
+			<definitions r="197" g="204" b="200" />
+		</color>
+		<color id="53">
+			<name><![CDATA[NC 3267]]></name>
+			<definitions r="170" g="179" b="175" />
+		</color>
+		<color id="54">
+			<name><![CDATA[NC 3268]]></name>
+			<definitions r="127" g="137" b="134" />
+		</color>
+		<color id="55">
+			<name><![CDATA[NC 3269]]></name>
+			<definitions r="104" g="114" b="110" />
+		</color>
+		<color id="56">
+			<name><![CDATA[NC 3270]]></name>
+			<definitions r="85" g="93" b="88" />
+		</color>
+		<color id="57">
+			<name><![CDATA[NC 3271]]></name>
+			<definitions r="186" g="195" b="191" />
+		</color>
+		<color id="58">
+			<name><![CDATA[NC 3272]]></name>
+			<definitions r="191" g="205" b="198" />
+		</color>
+		<color id="59">
+			<name><![CDATA[NC 3273]]></name>
+			<definitions r="159" g="176" b="170" />
+		</color>
+		<color id="60">
+			<name><![CDATA[NC 3274]]></name>
+			<definitions r="127" g="146" b="140" />
+		</color>
+		<color id="61">
+			<name><![CDATA[NC 3275]]></name>
+			<definitions r="92" g="108" b="101" />
+		</color>
+		<color id="62">
+			<name><![CDATA[NC 3276]]></name>
+			<definitions r="72" g="86" b="78" />
+		</color>
+		<color id="63">
+			<name><![CDATA[NC 3277]]></name>
+			<definitions r="206" g="219" b="219" />
+		</color>
+		<color id="64">
+			<name><![CDATA[NC 3278]]></name>
+			<definitions r="195" g="211" b="211" />
+		</color>
+		<color id="65">
+			<name><![CDATA[NC 3279]]></name>
+			<definitions r="166" g="188" b="190" />
+		</color>
+		<color id="66">
+			<name><![CDATA[NC 3280]]></name>
+			<definitions r="130" g="156" b="160" />
+		</color>
+		<color id="67">
+			<name><![CDATA[NC 3281]]></name>
+			<definitions r="104" g="130" b="134" />
+		</color>
+		<color id="68">
+			<name><![CDATA[NC 3282]]></name>
+			<definitions r="68" g="87" b="90" />
+		</color>
+		<color id="69">
+			<name><![CDATA[NC 3283]]></name>
+			<definitions r="210" g="220" b="222" />
+		</color>
+		<color id="70">
+			<name><![CDATA[NC 3284]]></name>
+			<definitions r="191" g="202" b="202" />
+		</color>
+		<color id="71">
+			<name><![CDATA[NC 3285]]></name>
+			<definitions r="163" g="176" b="178" />
+		</color>
+		<color id="72">
+			<name><![CDATA[NC 3286]]></name>
+			<definitions r="129" g="143" b="147" />
+		</color>
+		<color id="73">
+			<name><![CDATA[NC 3287]]></name>
+			<definitions r="96" g="109" b="112" />
+		</color>
+		<color id="74">
+			<name><![CDATA[NC 3288]]></name>
+			<definitions r="88" g="96" b="97" />
+		</color>
+		<color id="75">
+			<name><![CDATA[NC 3289]]></name>
+			<definitions r="223" g="223" b="220" />
+		</color>
+		<color id="76">
+			<name><![CDATA[NC 3290]]></name>
+			<definitions r="211" g="210" b="206" />
+		</color>
+		<color id="77">
+			<name><![CDATA[NC 3291]]></name>
+			<definitions r="187" g="186" b="183" />
+		</color>
+		<color id="78">
+			<name><![CDATA[NC 3292]]></name>
+			<definitions r="155" g="155" b="154" />
+		</color>
+		<color id="79">
+			<name><![CDATA[NC 3293]]></name>
+			<definitions r="128" g="128" b="126" />
+		</color>
+		<color id="80">
+			<name><![CDATA[NC 3294]]></name>
+			<definitions r="87" g="88" b="86" />
+		</color>
+		<color id="81">
+			<name><![CDATA[NC 3295]]></name>
+			<definitions r="211" g="212" b="210" />
+		</color>
+		<color id="82">
+			<name><![CDATA[NC 3296]]></name>
+			<definitions r="197" g="200" b="199" />
+		</color>
+		<color id="83">
+			<name><![CDATA[NC 3297]]></name>
+			<definitions r="184" g="186" b="185" />
+		</color>
+		<color id="84">
+			<name><![CDATA[NC 3298]]></name>
+			<definitions r="154" g="156" b="156" />
+		</color>
+		<color id="85">
+			<name><![CDATA[NC 3299]]></name>
+			<definitions r="120" g="122" b="122" />
+		</color>
+		<color id="86">
+			<name><![CDATA[NC 3300]]></name>
+			<definitions r="92" g="92" b="91" />
+		</color>
+		<color id="87">
+			<name><![CDATA[NC 3301]]></name>
+			<definitions r="214" g="217" b="215" />
+		</color>
+		<color id="88">
+			<name><![CDATA[NC 3302]]></name>
+			<definitions r="204" g="209" b="208" />
+		</color>
+		<color id="89">
+			<name><![CDATA[NC 3303]]></name>
+			<definitions r="179" g="185" b="185" />
+		</color>
+		<color id="90">
+			<name><![CDATA[NC 3304]]></name>
+			<definitions r="141" g="149" b="151" />
+		</color>
+		<color id="91">
+			<name><![CDATA[NC 3305]]></name>
+			<definitions r="113" g="124" b="128" />
+		</color>
+		<color id="92">
+			<name><![CDATA[NC 3306]]></name>
+			<definitions r="69" g="75" b="77" />
+		</color>
+		<color id="93">
+			<name><![CDATA[PC 1031]]></name>
+			<definitions r="234" g="232" b="237" />
+		</color>
+		<color id="94">
+			<name><![CDATA[PC 1032]]></name>
+			<definitions r="244" g="248" b="254" />
+		</color>
+		<color id="95">
+			<name><![CDATA[PC 1033]]></name>
+			<definitions r="239" g="242" b="253" />
+		</color>
+		<color id="96">
+			<name><![CDATA[PC 1052]]></name>
+			<definitions r="230" g="229" b="226" />
+		</color>
+		<color id="97">
+			<name><![CDATA[PC 1053]]></name>
+			<definitions r="221" g="222" b="220" />
+		</color>
+		<color id="98">
+			<name><![CDATA[PC 1054]]></name>
+			<definitions r="217" g="219" b="217" />
+		</color>
+		<color id="99">
+			<name><![CDATA[PC 1055]]></name>
+			<definitions r="232" g="234" b="229" />
+		</color>
+		<color id="100">
+			<name><![CDATA[PC 1056]]></name>
+			<definitions r="223" g="226" b="221" />
+		</color>
+		<color id="101">
+			<name><![CDATA[PC 1057]]></name>
+			<definitions r="218" g="222" b="217" />
+		</color>
+		<color id="102">
+			<name><![CDATA[PC 1058]]></name>
+			<definitions r="226" g="228" b="232" />
+		</color>
+		<color id="103">
+			<name><![CDATA[PC 1059]]></name>
+			<definitions r="222" g="223" b="229" />
+		</color>
+		<color id="104">
+			<name><![CDATA[PC 1060]]></name>
+			<definitions r="217" g="219" b="226" />
+		</color>
+		<color id="105">
+			<name><![CDATA[PC 1061]]></name>
+			<definitions r="234" g="231" b="234" />
+		</color>
+		<color id="106">
+			<name><![CDATA[PC 1062]]></name>
+			<definitions r="231" g="229" b="234" />
+		</color>
+		<color id="107">
+			<name><![CDATA[PC 1063]]></name>
+			<definitions r="236" g="242" b="249" />
+		</color>
+		<color id="108">
+			<name><![CDATA[PC 1064]]></name>
+			<definitions r="236" g="230" b="233" />
+		</color>
+		<color id="109">
+			<name><![CDATA[PC 1065]]></name>
+			<definitions r="243" g="244" b="249" />
+		</color>
+		<color id="110">
+			<name><![CDATA[PC 1066]]></name>
+			<definitions r="237" g="237" b="240" />
+		</color>
+		<color id="111">
+			<name><![CDATA[PC 1072]]></name>
+			<definitions r="240" g="246" b="246" />
+		</color>
+	</type>
+	<type>
+		<color id="112">
+			<name><![CDATA[BC 2187]]></name>
+			<definitions r="249" g="225" b="198" />
+		</color>
+		<color id="113">
+			<name><![CDATA[BC 2188]]></name>
+			<definitions r="243" g="205" b="166" />
+		</color>
+		<color id="114">
+			<name><![CDATA[BC 2189]]></name>
+			<definitions r="237" g="192" b="146" />
+		</color>
+		<color id="115">
+			<name><![CDATA[BC 2190]]></name>
+			<definitions r="227" g="174" b="122" />
+		</color>
+		<color id="116">
+			<name><![CDATA[BC 2191]]></name>
+			<definitions r="206" g="145" b="86" />
+		</color>
+		<color id="117">
+			<name><![CDATA[BC 2192]]></name>
+			<definitions r="188" g="123" b="61" />
+		</color>
+		<color id="118">
+			<name><![CDATA[BC 2193]]></name>
+			<definitions r="248" g="234" b="204" />
+		</color>
+		<color id="119">
+			<name><![CDATA[BC 2194]]></name>
+			<definitions r="253" g="223" b="184" />
+		</color>
+		<color id="120">
+			<name><![CDATA[BC 2195]]></name>
+			<definitions r="251" g="203" b="147" />
+		</color>
+		<color id="121">
+			<name><![CDATA[BC 2196]]></name>
+			<definitions r="241" g="189" b="118" />
+		</color>
+		<color id="122">
+			<name><![CDATA[BC 2197]]></name>
+			<definitions r="233" g="168" b="92" />
+		</color>
+		<color id="123">
+			<name><![CDATA[BC 2198]]></name>
+			<definitions r="219" g="150" b="69" />
+		</color>
+		<color id="124">
+			<name><![CDATA[BC 2199]]></name>
+			<definitions r="253" g="251" b="229" />
+		</color>
+		<color id="125">
+			<name><![CDATA[BC 2200]]></name>
+			<definitions r="249" g="227" b="197" />
+		</color>
+		<color id="126">
+			<name><![CDATA[BC 2201]]></name>
+			<definitions r="253" g="229" b="181" />
+		</color>
+		<color id="127">
+			<name><![CDATA[BC 2202]]></name>
+			<definitions r="242" g="191" b="123" />
+		</color>
+		<color id="128">
+			<name><![CDATA[BC 2203]]></name>
+			<definitions r="229" g="171" b="90" />
+		</color>
+		<color id="129">
+			<name><![CDATA[BC 2204]]></name>
+			<definitions r="209" g="147" b="58" />
+		</color>
+		<color id="130">
+			<name><![CDATA[BC 2205]]></name>
+			<definitions r="246" g="239" b="224" />
+		</color>
+		<color id="131">
+			<name><![CDATA[BC 2206]]></name>
+			<definitions r="248" g="230" b="200" />
+		</color>
+		<color id="132">
+			<name><![CDATA[BC 2207]]></name>
+			<definitions r="242" g="213" b="169" />
+		</color>
+		<color id="133">
+			<name><![CDATA[BC 2208]]></name>
+			<definitions r="229" g="186" b="124" />
+		</color>
+		<color id="134">
+			<name><![CDATA[BC 2209]]></name>
+			<definitions r="214" g="164" b="95" />
+		</color>
+		<color id="135">
+			<name><![CDATA[BC 2210]]></name>
+			<definitions r="194" g="138" b="67" />
+		</color>
+		<color id="136">
+			<name><![CDATA[BC 2211]]></name>
+			<definitions r="244" g="236" b="214" />
+		</color>
+		<color id="137">
+			<name><![CDATA[BC 2212]]></name>
+			<definitions r="251" g="236" b="198" />
+		</color>
+		<color id="138">
+			<name><![CDATA[BC 2213]]></name>
+			<definitions r="253" g="224" b="166" />
+		</color>
+		<color id="139">
+			<name><![CDATA[BC 2214]]></name>
+			<definitions r="250" g="208" b="127" />
+		</color>
+		<color id="140">
+			<name><![CDATA[BC 2215]]></name>
+			<definitions r="238" g="183" b="79" />
+		</color>
+		<color id="141">
+			<name><![CDATA[BC 2216]]></name>
+			<definitions r="219" g="162" b="43" />
+		</color>
+		<color id="142">
+			<name><![CDATA[BC 2217]]></name>
+			<definitions r="246" g="237" b="209" />
+		</color>
+		<color id="143">
+			<name><![CDATA[BC 2218]]></name>
+			<definitions r="250" g="233" b="194" />
+		</color>
+		<color id="144">
+			<name><![CDATA[BC 2219]]></name>
+			<definitions r="244" g="215" b="156" />
+		</color>
+		<color id="145">
+			<name><![CDATA[BC 2220]]></name>
+			<definitions r="236" g="202" b="129" />
+		</color>
+		<color id="146">
+			<name><![CDATA[BC 2221]]></name>
+			<definitions r="223" g="182" b="94" />
+		</color>
+		<color id="147">
+			<name><![CDATA[BC 2222]]></name>
+			<definitions r="202" g="154" b="54" />
+		</color>
+		<color id="148">
+			<name><![CDATA[BC 2223]]></name>
+			<definitions r="244" g="236" b="214" />
+		</color>
+		<color id="149">
+			<name><![CDATA[BC 2224]]></name>
+			<definitions r="249" g="235" b="196" />
+		</color>
+		<color id="150">
+			<name><![CDATA[BC 2225]]></name>
+			<definitions r="248" g="225" b="170" />
+		</color>
+		<color id="151">
+			<name><![CDATA[BC 2226]]></name>
+			<definitions r="233" g="196" b="110" />
+		</color>
+		<color id="152">
+			<name><![CDATA[BC 2227]]></name>
+			<definitions r="214" g="172" b="69" />
+		</color>
+		<color id="153">
+			<name><![CDATA[BC 2228]]></name>
+			<definitions r="214" g="167" b="52" />
+		</color>
+		<color id="154">
+			<name><![CDATA[BC 2229]]></name>
+			<definitions r="248" g="236" b="192" />
+		</color>
+		<color id="155">
+			<name><![CDATA[BC 2230]]></name>
+			<definitions r="247" g="228" b="165" />
+		</color>
+		<color id="156">
+			<name><![CDATA[BC 2231]]></name>
+			<definitions r="241" g="216" b="135" />
+		</color>
+		<color id="157">
+			<name><![CDATA[BC 2232]]></name>
+			<definitions r="232" g="203" b="108" />
+		</color>
+		<color id="158">
+			<name><![CDATA[BC 2233]]></name>
+			<definitions r="214" g="183" b="71" />
+		</color>
+		<color id="159">
+			<name><![CDATA[BC 2234]]></name>
+			<definitions r="187" g="155" b="47" />
+		</color>
+		<color id="160">
+			<name><![CDATA[HC 04]]></name>
+			<definitions r="128" g="118" b="98" />
+		</color>
+		<color id="161">
+			<name><![CDATA[HC 05]]></name>
+			<definitions r="227" g="219" b="201" />
+		</color>
+		<color id="162">
+			<name><![CDATA[HC 08]]></name>
+			<definitions r="161" g="128" b="99" />
+		</color>
+		<color id="163">
+			<name><![CDATA[HC 10]]></name>
+			<definitions r="238" g="225" b="202" />
+		</color>
+		<color id="164">
+			<name><![CDATA[HC 13]]></name>
+			<definitions r="248" g="238" b="217" />
+		</color>
+		<color id="165">
+			<name><![CDATA[HC 23]]></name>
+			<definitions r="240" g="234" b="225" />
+		</color>
+		<color id="166">
+			<name><![CDATA[HC 42]]></name>
+			<definitions r="238" g="234" b="222" />
+		</color>
+		<color id="167">
+			<name><![CDATA[HC 52]]></name>
+			<definitions r="239" g="233" b="216" />
+		</color>
+		<color id="168">
+			<name><![CDATA[HC 53]]></name>
+			<definitions r="227" g="202" b="160" />
+		</color>
+		<color id="169">
+			<name><![CDATA[NC 3001]]></name>
+			<definitions r="236" g="225" b="215" />
+		</color>
+		<color id="170">
+			<name><![CDATA[NC 3002]]></name>
+			<definitions r="227" g="213" b="203" />
+		</color>
+		<color id="171">
+			<name><![CDATA[NC 3003]]></name>
+			<definitions r="205" g="184" b="172" />
+		</color>
+		<color id="172">
+			<name><![CDATA[NC 3004]]></name>
+			<definitions r="184" g="159" b="149" />
+		</color>
+		<color id="173">
+			<name><![CDATA[NC 3005]]></name>
+			<definitions r="137" g="105" b="89" />
+		</color>
+		<color id="174">
+			<name><![CDATA[NC 3006]]></name>
+			<definitions r="117" g="84" b="67" />
+		</color>
+		<color id="175">
+			<name><![CDATA[NC 3007]]></name>
+			<definitions r="236" g="222" b="213" />
+		</color>
+		<color id="176">
+			<name><![CDATA[NC 3008]]></name>
+			<definitions r="231" g="207" b="196" />
+		</color>
+		<color id="177">
+			<name><![CDATA[NC 3009]]></name>
+			<definitions r="214" g="184" b="171" />
+		</color>
+		<color id="178">
+			<name><![CDATA[NC 3010]]></name>
+			<definitions r="188" g="152" b="137" />
+		</color>
+		<color id="179">
+			<name><![CDATA[NC 3011]]></name>
+			<definitions r="144" g="104" b="87" />
+		</color>
+		<color id="180">
+			<name><![CDATA[NC 3012]]></name>
+			<definitions r="120" g="80" b="63" />
+		</color>
+		<color id="181">
+			<name><![CDATA[NC 3013]]></name>
+			<definitions r="247" g="232" b="225" />
+		</color>
+		<color id="182">
+			<name><![CDATA[NC 3014]]></name>
+			<definitions r="237" g="212" b="194" />
+		</color>
+		<color id="183">
+			<name><![CDATA[NC 3015]]></name>
+			<definitions r="224" g="191" b="170" />
+		</color>
+		<color id="184">
+			<name><![CDATA[NC 3016]]></name>
+			<definitions r="202" g="161" b="135" />
+		</color>
+		<color id="185">
+			<name><![CDATA[NC 3017]]></name>
+			<definitions r="163" g="116" b="89" />
+		</color>
+		<color id="186">
+			<name><![CDATA[NC 3018]]></name>
+			<definitions r="143" g="96" b="69" />
+		</color>
+		<color id="187">
+			<name><![CDATA[NC 3019]]></name>
+			<definitions r="247" g="231" b="209" />
+		</color>
+		<color id="188">
+			<name><![CDATA[NC 3020]]></name>
+			<definitions r="235" g="207" b="185" />
+		</color>
+		<color id="189">
+			<name><![CDATA[NC 3021]]></name>
+			<definitions r="219" g="183" b="151" />
+		</color>
+		<color id="190">
+			<name><![CDATA[NC 3022]]></name>
+			<definitions r="202" g="160" b="124" />
+		</color>
+		<color id="191">
+			<name><![CDATA[NC 3023]]></name>
+			<definitions r="171" g="124" b="84" />
+		</color>
+		<color id="192">
+			<name><![CDATA[NC 3024]]></name>
+			<definitions r="135" g="91" b="55" />
+		</color>
+		<color id="193">
+			<name><![CDATA[NC 3025]]></name>
+			<definitions r="240" g="223" b="204" />
+		</color>
+		<color id="194">
+			<name><![CDATA[NC 3026]]></name>
+			<definitions r="230" g="206" b="181" />
+		</color>
+		<color id="195">
+			<name><![CDATA[NC 3027]]></name>
+			<definitions r="216" g="186" b="156" />
+		</color>
+		<color id="196">
+			<name><![CDATA[NC 3028]]></name>
+			<definitions r="200" g="167" b="133" />
+		</color>
+		<color id="197">
+			<name><![CDATA[NC 3029]]></name>
+			<definitions r="170" g="133" b="96" />
+		</color>
+		<color id="198">
+			<name><![CDATA[NC 3030]]></name>
+			<definitions r="148" g="111" b="75" />
+		</color>
+		<color id="199">
+			<name><![CDATA[NC 3031]]></name>
+			<definitions r="244" g="227" b="201" />
+		</color>
+		<color id="200">
+			<name><![CDATA[NC 3032]]></name>
+			<definitions r="238" g="213" b="178" />
+		</color>
+		<color id="201">
+			<name><![CDATA[NC 3033]]></name>
+			<definitions r="227" g="194" b="151" />
+		</color>
+		<color id="202">
+			<name><![CDATA[NC 3034]]></name>
+			<definitions r="214" g="177" b="126" />
+		</color>
+		<color id="203">
+			<name><![CDATA[NC 3035]]></name>
+			<definitions r="186" g="141" b="83" />
+		</color>
+		<color id="204">
+			<name><![CDATA[NC 3036]]></name>
+			<definitions r="152" g="107" b="53" />
+		</color>
+		<color id="205">
+			<name><![CDATA[NC 3037]]></name>
+			<definitions r="229" g="216" b="201" />
+		</color>
+		<color id="206">
+			<name><![CDATA[NC 3038]]></name>
+			<definitions r="222" g="202" b="182" />
+		</color>
+		<color id="207">
+			<name><![CDATA[NC 3039]]></name>
+			<definitions r="201" g="173" b="149" />
+		</color>
+		<color id="208">
+			<name><![CDATA[NC 3040]]></name>
+			<definitions r="182" g="151" b="125" />
+		</color>
+		<color id="209">
+			<name><![CDATA[NC 3041]]></name>
+			<definitions r="157" g="133" b="102" />
+		</color>
+		<color id="210">
+			<name><![CDATA[NC 3042]]></name>
+			<definitions r="137" g="105" b="75" />
+		</color>
+		<color id="211">
+			<name><![CDATA[NC 3043]]></name>
+			<definitions r="237" g="226" b="209" />
+		</color>
+		<color id="212">
+			<name><![CDATA[NC 3044]]></name>
+			<definitions r="234" g="214" b="189" />
+		</color>
+		<color id="213">
+			<name><![CDATA[NC 3045]]></name>
+			<definitions r="219" g="192" b="160" />
+		</color>
+		<color id="214">
+			<name><![CDATA[NC 3046]]></name>
+			<definitions r="197" g="164" b="123" />
+		</color>
+		<color id="215">
+			<name><![CDATA[NC 3047]]></name>
+			<definitions r="180" g="144" b="100" />
+		</color>
+		<color id="216">
+			<name><![CDATA[NC 3048]]></name>
+			<definitions r="139" g="104" b="63" />
+		</color>
+		<color id="217">
+			<name><![CDATA[NC 3049]]></name>
+			<definitions r="239" g="233" b="216" />
+		</color>
+		<color id="218">
+			<name><![CDATA[NC 3050]]></name>
+			<definitions r="240" g="224" b="201" />
+		</color>
+		<color id="219">
+			<name><![CDATA[NC 3051]]></name>
+			<definitions r="228" g="207" b="177" />
+		</color>
+		<color id="220">
+			<name><![CDATA[NC 3052]]></name>
+			<definitions r="207" g="180" b="142" />
+		</color>
+		<color id="221">
+			<name><![CDATA[NC 3053]]></name>
+			<definitions r="176" g="145" b="101" />
+		</color>
+		<color id="222">
+			<name><![CDATA[NC 3054]]></name>
+			<definitions r="148" g="118" b="75" />
+		</color>
+		<color id="223">
+			<name><![CDATA[NC 3055]]></name>
+			<definitions r="244" g="235" b="216" />
+		</color>
+		<color id="224">
+			<name><![CDATA[NC 3056]]></name>
+			<definitions r="236" g="223" b="195" />
+		</color>
+		<color id="225">
+			<name><![CDATA[NC 3057]]></name>
+			<definitions r="232" g="210" b="168" />
+		</color>
+		<color id="226">
+			<name><![CDATA[NC 3058]]></name>
+			<definitions r="206" g="175" b="123" />
+		</color>
+		<color id="227">
+			<name><![CDATA[NC 3059]]></name>
+			<definitions r="170" g="139" b="86" />
+		</color>
+		<color id="228">
+			<name><![CDATA[NC 3060]]></name>
+			<definitions r="148" g="118" b="65" />
+		</color>
+		<color id="229">
+			<name><![CDATA[NC 3061]]></name>
+			<definitions r="244" g="236" b="214" />
+		</color>
+		<color id="230">
+			<name><![CDATA[NC 3062]]></name>
+			<definitions r="244" g="227" b="192" />
+		</color>
+		<color id="231">
+			<name><![CDATA[NC 3063]]></name>
+			<definitions r="234" g="208" b="159" />
+		</color>
+		<color id="232">
+			<name><![CDATA[NC 3064]]></name>
+			<definitions r="216" g="184" b="121" />
+		</color>
+		<color id="233">
+			<name><![CDATA[NC 3065]]></name>
+			<definitions r="191" g="154" b="80" />
+		</color>
+		<color id="234">
+			<name><![CDATA[NC 3066]]></name>
+			<definitions r="169" g="133" b="56" />
+		</color>
+		<color id="235">
+			<name><![CDATA[NC 3067]]></name>
+			<definitions r="246" g="244" b="225" />
+		</color>
+		<color id="236">
+			<name><![CDATA[NC 3068]]></name>
+			<definitions r="229" g="222" b="201" />
+		</color>
+		<color id="237">
+			<name><![CDATA[NC 3069]]></name>
+			<definitions r="217" g="202" b="172" />
+		</color>
+		<color id="238">
+			<name><![CDATA[NC 3070]]></name>
+			<definitions r="190" g="173" b="137" />
+		</color>
+		<color id="239">
+			<name><![CDATA[NC 3071]]></name>
+			<definitions r="160" g="141" b="104" />
+		</color>
+		<color id="240">
+			<name><![CDATA[NC 3072]]></name>
+			<definitions r="123" g="102" b="65" />
+		</color>
+		<color id="241">
+			<name><![CDATA[NC 3073]]></name>
+			<definitions r="248" g="244" b="218" />
+		</color>
+		<color id="242">
+			<name><![CDATA[NC 3074]]></name>
+			<definitions r="227" g="212" b="180" />
+		</color>
+		<color id="243">
+			<name><![CDATA[NC 3075]]></name>
+			<definitions r="211" g="195" b="149" />
+		</color>
+		<color id="244">
+			<name><![CDATA[NC 3076]]></name>
+			<definitions r="186" g="167" b="109" />
+		</color>
+		<color id="245">
+			<name><![CDATA[NC 3077]]></name>
+			<definitions r="169" g="149" b="87" />
+		</color>
+		<color id="246">
+			<name><![CDATA[NC 3078]]></name>
+			<definitions r="130" g="113" b="54" />
+		</color>
+		<color id="247">
+			<name><![CDATA[NC 3079]]></name>
+			<definitions r="236" g="232" b="218" />
+		</color>
+		<color id="248">
+			<name><![CDATA[NC 3080]]></name>
+			<definitions r="222" g="218" b="198" />
+		</color>
+		<color id="249">
+			<name><![CDATA[NC 3081]]></name>
+			<definitions r="201" g="196" b="171" />
+		</color>
+		<color id="250">
+			<name><![CDATA[NC 3082]]></name>
+			<definitions r="172" g="167" b="136" />
+		</color>
+		<color id="251">
+			<name><![CDATA[NC 3083]]></name>
+			<definitions r="137" g="132" b="98" />
+		</color>
+		<color id="252">
+			<name><![CDATA[NC 3084]]></name>
+			<definitions r="107" g="103" b="72" />
+		</color>
+		<color id="253">
+			<name><![CDATA[NC 3187]]></name>
+			<definitions r="228" g="218" b="212" />
+		</color>
+		<color id="254">
+			<name><![CDATA[NC 3188]]></name>
+			<definitions r="214" g="202" b="193" />
+		</color>
+		<color id="255">
+			<name><![CDATA[NC 3189]]></name>
+			<definitions r="188" g="173" b="163" />
+		</color>
+		<color id="256">
+			<name><![CDATA[NC 3190]]></name>
+			<definitions r="172" g="155" b="144" />
+		</color>
+		<color id="257">
+			<name><![CDATA[NC 3191]]></name>
+			<definitions r="141" g="122" b="110" />
+		</color>
+		<color id="258">
+			<name><![CDATA[NC 3192]]></name>
+			<definitions r="101" g="82" b="70" />
+		</color>
+		<color id="259">
+			<name><![CDATA[NC 3193]]></name>
+			<definitions r="234" g="223" b="217" />
+		</color>
+		<color id="260">
+			<name><![CDATA[NC 3194]]></name>
+			<definitions r="219" g="203" b="193" />
+		</color>
+		<color id="261">
+			<name><![CDATA[NC 3195]]></name>
+			<definitions r="200" g="180" b="168" />
+		</color>
+		<color id="262">
+			<name><![CDATA[NC 3196]]></name>
+			<definitions r="178" g="155" b="142" />
+		</color>
+		<color id="263">
+			<name><![CDATA[NC 3197]]></name>
+			<definitions r="140" g="114" b="100" />
+		</color>
+		<color id="264">
+			<name><![CDATA[NC 3198]]></name>
+			<definitions r="106" g="81" b="68" />
+		</color>
+		<color id="265">
+			<name><![CDATA[NC 3199]]></name>
+			<definitions r="235" g="224" b="214" />
+		</color>
+		<color id="266">
+			<name><![CDATA[NC 3200]]></name>
+			<definitions r="228" g="214" b="202" />
+		</color>
+		<color id="267">
+			<name><![CDATA[NC 3201]]></name>
+			<definitions r="209" g="194" b="178" />
+		</color>
+		<color id="268">
+			<name><![CDATA[NC 3202]]></name>
+			<definitions r="183" g="164" b="145" />
+		</color>
+		<color id="269">
+			<name><![CDATA[NC 3203]]></name>
+			<definitions r="141" g="117" b="96" />
+		</color>
+		<color id="270">
+			<name><![CDATA[NC 3204]]></name>
+			<definitions r="121" g="97" b="75" />
+		</color>
+		<color id="271">
+			<name><![CDATA[NC 3205]]></name>
+			<definitions r="232" g="224" b="217" />
+		</color>
+		<color id="272">
+			<name><![CDATA[NC 3206]]></name>
+			<definitions r="215" g="202" b="192" />
+		</color>
+		<color id="273">
+			<name><![CDATA[NC 3207]]></name>
+			<definitions r="201" g="189" b="183" />
+		</color>
+		<color id="274">
+			<name><![CDATA[NC 3208]]></name>
+			<definitions r="169" g="158" b="148" />
+		</color>
+		<color id="275">
+			<name><![CDATA[NC 3209]]></name>
+			<definitions r="142" g="131" b="122" />
+		</color>
+		<color id="276">
+			<name><![CDATA[NC 3210]]></name>
+			<definitions r="105" g="96" b="89" />
+		</color>
+		<color id="277">
+			<name><![CDATA[NC 3211]]></name>
+			<definitions r="227" g="221" b="212" />
+		</color>
+		<color id="278">
+			<name><![CDATA[NC 3212]]></name>
+			<definitions r="215" g="207" b="196" />
+		</color>
+		<color id="279">
+			<name><![CDATA[NC 3213]]></name>
+			<definitions r="195" g="185" b="172" />
+		</color>
+		<color id="280">
+			<name><![CDATA[NC 3214]]></name>
+			<definitions r="165" g="153" b="138" />
+		</color>
+		<color id="281">
+			<name><![CDATA[NC 3215]]></name>
+			<definitions r="134" g="120" b="104" />
+		</color>
+		<color id="282">
+			<name><![CDATA[NC 3216]]></name>
+			<definitions r="100" g="84" b="69" />
+		</color>
+		<color id="283">
+			<name><![CDATA[NC 3217]]></name>
+			<definitions r="221" g="215" b="202" />
+		</color>
+		<color id="284">
+			<name><![CDATA[NC 3218]]></name>
+			<definitions r="203" g="195" b="179" />
+		</color>
+		<color id="285">
+			<name><![CDATA[NC 3219]]></name>
+			<definitions r="182" g="174" b="156" />
+		</color>
+		<color id="286">
+			<name><![CDATA[NC 3220]]></name>
+			<definitions r="161" g="152" b="132" />
+		</color>
+		<color id="287">
+			<name><![CDATA[NC 3221]]></name>
+			<definitions r="127" g="122" b="102" />
+		</color>
+		<color id="288">
+			<name><![CDATA[NC 3222]]></name>
+			<definitions r="105" g="96" b="77" />
+		</color>
+		<color id="289">
+			<name><![CDATA[NC 3223]]></name>
+			<definitions r="227" g="228" b="213" />
+		</color>
+		<color id="290">
+			<name><![CDATA[NC 3224]]></name>
+			<definitions r="220" g="214" b="199" />
+		</color>
+		<color id="291">
+			<name><![CDATA[NC 3225]]></name>
+			<definitions r="197" g="191" b="172" />
+		</color>
+		<color id="292">
+			<name><![CDATA[NC 3226]]></name>
+			<definitions r="168" g="160" b="138" />
+		</color>
+		<color id="293">
+			<name><![CDATA[NC 3227]]></name>
+			<definitions r="128" g="119" b="94" />
+		</color>
+		<color id="294">
+			<name><![CDATA[NC 3228]]></name>
+			<definitions r="89" g="83" b="63" />
+		</color>
+		<color id="295">
+			<name><![CDATA[NC 3229]]></name>
+			<definitions r="230" g="228" b="222" />
+		</color>
+		<color id="296">
+			<name><![CDATA[NC 3230]]></name>
+			<definitions r="216" g="213" b="202" />
+		</color>
+		<color id="297">
+			<name><![CDATA[NC 3231]]></name>
+			<definitions r="194" g="192" b="179" />
+		</color>
+		<color id="298">
+			<name><![CDATA[NC 3232]]></name>
+			<definitions r="164" g="160" b="146" />
+		</color>
+		<color id="299">
+			<name><![CDATA[NC 3233]]></name>
+			<definitions r="132" g="128" b="113" />
+		</color>
+		<color id="300">
+			<name><![CDATA[NC 3234]]></name>
+			<definitions r="92" g="88" b="75" />
+		</color>
+		<color id="301">
+			<name><![CDATA[NC 3337]]></name>
+			<definitions r="230" g="221" b="215" />
+		</color>
+		<color id="302">
+			<name><![CDATA[NC 3338]]></name>
+			<definitions r="223" g="212" b="209" />
+		</color>
+		<color id="303">
+			<name><![CDATA[NC 3339]]></name>
+			<definitions r="200" g="189" b="185" />
+		</color>
+		<color id="304">
+			<name><![CDATA[NC 3340]]></name>
+			<definitions r="173" g="155" b="149" />
+		</color>
+		<color id="305">
+			<name><![CDATA[NC 3341]]></name>
+			<definitions r="133" g="113" b="106" />
+		</color>
+		<color id="306">
+			<name><![CDATA[NC 3342]]></name>
+			<definitions r="99" g="79" b="71" />
+		</color>
+		<color id="307">
+			<name><![CDATA[NC 3343]]></name>
+			<definitions r="233" g="223" b="215" />
+		</color>
+		<color id="308">
+			<name><![CDATA[NC 3344]]></name>
+			<definitions r="214" g="201" b="193" />
+		</color>
+		<color id="309">
+			<name><![CDATA[NC 3345]]></name>
+			<definitions r="202" g="183" b="174" />
+		</color>
+		<color id="310">
+			<name><![CDATA[NC 3346]]></name>
+			<definitions r="174" g="151" b="141" />
+		</color>
+		<color id="311">
+			<name><![CDATA[NC 3347]]></name>
+			<definitions r="135" g="109" b="98" />
+		</color>
+		<color id="312">
+			<name><![CDATA[NC 3348]]></name>
+			<definitions r="104" g="79" b="68" />
+		</color>
+		<color id="313">
+			<name><![CDATA[PC 1034]]></name>
+			<definitions r="236" g="233" b="227" />
+		</color>
+		<color id="314">
+			<name><![CDATA[PC 1035]]></name>
+			<definitions r="234" g="231" b="225" />
+		</color>
+		<color id="315">
+			<name><![CDATA[PC 1036]]></name>
+			<definitions r="229" g="226" b="221" />
+		</color>
+		<color id="316">
+			<name><![CDATA[PC 1037]]></name>
+			<definitions r="249" g="249" b="238" />
+		</color>
+		<color id="317">
+			<name><![CDATA[PC 1038]]></name>
+			<definitions r="238" g="230" b="220" />
+		</color>
+		<color id="318">
+			<name><![CDATA[PC 1039]]></name>
+			<definitions r="231" g="221" b="213" />
+		</color>
+		<color id="319">
+			<name><![CDATA[PC 1040]]></name>
+			<definitions r="242" g="237" b="225" />
+		</color>
+		<color id="320">
+			<name><![CDATA[PC 1041]]></name>
+			<definitions r="242" g="234" b="221" />
+		</color>
+		<color id="321">
+			<name><![CDATA[PC 1042]]></name>
+			<definitions r="236" g="228" b="217" />
+		</color>
+		<color id="322">
+			<name><![CDATA[PC 1043]]></name>
+			<definitions r="238" g="236" b="227" />
+		</color>
+		<color id="323">
+			<name><![CDATA[PC 1044]]></name>
+			<definitions r="239" g="235" b="225" />
+		</color>
+		<color id="324">
+			<name><![CDATA[PC 1045]]></name>
+			<definitions r="236" g="230" b="220" />
+		</color>
+		<color id="325">
+			<name><![CDATA[PC 1046]]></name>
+			<definitions r="240" g="238" b="229" />
+		</color>
+		<color id="326">
+			<name><![CDATA[PC 1047]]></name>
+			<definitions r="248" g="250" b="234" />
+		</color>
+		<color id="327">
+			<name><![CDATA[PC 1048]]></name>
+			<definitions r="233" g="230" b="214" />
+		</color>
+		<color id="328">
+			<name><![CDATA[PC 1049]]></name>
+			<definitions r="236" g="234" b="230" />
+		</color>
+		<color id="329">
+			<name><![CDATA[PC 1050]]></name>
+			<definitions r="231" g="229" b="223" />
+		</color>
+		<color id="330">
+			<name><![CDATA[PC 1051]]></name>
+			<definitions r="226" g="225" b="220" />
+		</color>
+		<color id="331">
+			<name><![CDATA[SC 4013]]></name>
+			<definitions r="74" g="48" b="39" />
+		</color>
+		<color id="332">
+			<name><![CDATA[SC 4014]]></name>
+			<definitions r="69" g="57" b="55" />
+		</color>
+		<color id="333">
+			<name><![CDATA[SC 4015]]></name>
+			<definitions r="85" g="51" b="42" />
+		</color>
+		<color id="334">
+			<name><![CDATA[SC 4016]]></name>
+			<definitions r="82" g="42" b="41" />
+		</color>
+		<color id="335">
+			<name><![CDATA[SC 4017]]></name>
+			<definitions r="107" g="53" b="43" />
+		</color>
+		<color id="336">
+			<name><![CDATA[SC 4018]]></name>
+			<definitions r="84" g="72" b="76" />
+		</color>
+		<color id="337">
+			<name><![CDATA[SC 4019]]></name>
+			<definitions r="86" g="92" b="90" />
+		</color>
+		<color id="338">
+			<name><![CDATA[SC 4020]]></name>
+			<definitions r="47" g="52" b="50" />
+		</color>
+		<color id="339">
+			<name><![CDATA[SC 4021]]></name>
+			<definitions r="54" g="48" b="39" />
+		</color>
+		<color id="340">
+			<name><![CDATA[SC 4022]]></name>
+			<definitions r="48" g="48" b="48" />
+		</color>
+		<color id="341">
+			<name><![CDATA[SC 4023]]></name>
+			<definitions r="59" g="66" b="69" />
+		</color>
+		<color id="342">
+			<name><![CDATA[SC 4024]]></name>
+			<definitions r="66" g="61" b="63" />
+		</color>
+	</type>
+	<type>
+		<color id="343">
+			<name><![CDATA[BC 2055]]></name>
+			<definitions r="246" g="240" b="214" />
+		</color>
+		<color id="344">
+			<name><![CDATA[BC 2056]]></name>
+			<definitions r="243" g="239" b="200" />
+		</color>
+		<color id="345">
+			<name><![CDATA[BC 2057]]></name>
+			<definitions r="243" g="235" b="175" />
+		</color>
+		<color id="346">
+			<name><![CDATA[BC 2058]]></name>
+			<definitions r="235" g="229" b="141" />
+		</color>
+		<color id="347">
+			<name><![CDATA[BC 2059]]></name>
+			<definitions r="233" g="227" b="112" />
+		</color>
+		<color id="348">
+			<name><![CDATA[BC 2060]]></name>
+			<definitions r="218" g="211" b="75" />
+		</color>
+		<color id="349">
+			<name><![CDATA[BC 2061]]></name>
+			<definitions r="241" g="239" b="209" />
+		</color>
+		<color id="350">
+			<name><![CDATA[BC 2062]]></name>
+			<definitions r="236" g="235" b="188" />
+		</color>
+		<color id="351">
+			<name><![CDATA[BC 2063]]></name>
+			<definitions r="234" g="237" b="162" />
+		</color>
+		<color id="352">
+			<name><![CDATA[BC 2064]]></name>
+			<definitions r="220" g="225" b="132" />
+		</color>
+		<color id="353">
+			<name><![CDATA[BC 2065]]></name>
+			<definitions r="201" g="207" b="96" />
+		</color>
+		<color id="354">
+			<name><![CDATA[BC 2066]]></name>
+			<definitions r="174" g="184" b="57" />
+		</color>
+		<color id="355">
+			<name><![CDATA[BC 2067]]></name>
+			<definitions r="239" g="239" b="212" />
+		</color>
+		<color id="356">
+			<name><![CDATA[BC 2068]]></name>
+			<definitions r="233" g="234" b="192" />
+		</color>
+		<color id="357">
+			<name><![CDATA[BC 2069]]></name>
+			<definitions r="225" g="239" b="169" />
+		</color>
+		<color id="358">
+			<name><![CDATA[BC 2070]]></name>
+			<definitions r="210" g="227" b="139" />
+		</color>
+		<color id="359">
+			<name><![CDATA[BC 2071]]></name>
+			<definitions r="190" g="210" b="104" />
+		</color>
+		<color id="360">
+			<name><![CDATA[BC 2072]]></name>
+			<definitions r="160" g="186" b="65" />
+		</color>
+		<color id="361">
+			<name><![CDATA[BC 2073]]></name>
+			<definitions r="237" g="240" b="208" />
+		</color>
+		<color id="362">
+			<name><![CDATA[BC 2074]]></name>
+			<definitions r="232" g="238" b="184" />
+		</color>
+		<color id="363">
+			<name><![CDATA[BC 2075]]></name>
+			<definitions r="221" g="243" b="157" />
+		</color>
+		<color id="364">
+			<name><![CDATA[BC 2076]]></name>
+			<definitions r="205" g="234" b="129" />
+		</color>
+		<color id="365">
+			<name><![CDATA[BC 2077]]></name>
+			<definitions r="185" g="220" b="95" />
+		</color>
+		<color id="366">
+			<name><![CDATA[BC 2078]]></name>
+			<definitions r="154" g="186" b="95" />
+		</color>
+		<color id="367">
+			<name><![CDATA[BC 2079]]></name>
+			<definitions r="225" g="240" b="214" />
+		</color>
+		<color id="368">
+			<name><![CDATA[BC 2080]]></name>
+			<definitions r="221" g="250" b="208" />
+		</color>
+		<color id="369">
+			<name><![CDATA[BC 2081]]></name>
+			<definitions r="200" g="216" b="164" />
+		</color>
+		<color id="370">
+			<name><![CDATA[BC 2082]]></name>
+			<definitions r="195" g="236" b="174" />
+		</color>
+		<color id="371">
+			<name><![CDATA[BC 2083]]></name>
+			<definitions r="164" g="217" b="135" />
+		</color>
+		<color id="372">
+			<name><![CDATA[BC 2084]]></name>
+			<definitions r="116" g="181" b="81" />
+		</color>
+		<color id="373">
+			<name><![CDATA[BC 2085]]></name>
+			<definitions r="224" g="240" b="230" />
+		</color>
+		<color id="374">
+			<name><![CDATA[BC 2086]]></name>
+			<definitions r="225" g="239" b="221" />
+		</color>
+		<color id="375">
+			<name><![CDATA[BC 2087]]></name>
+			<definitions r="222" g="252" b="223" />
+		</color>
+		<color id="376">
+			<name><![CDATA[BC 2088]]></name>
+			<definitions r="188" g="240" b="192" />
+		</color>
+		<color id="377">
+			<name><![CDATA[BC 2089]]></name>
+			<definitions r="150" g="221" b="156" />
+		</color>
+		<color id="378">
+			<name><![CDATA[BC 2090]]></name>
+			<definitions r="107" g="192" b="111" />
+		</color>
+		<color id="379">
+			<name><![CDATA[BC 2091]]></name>
+			<definitions r="220" g="238" b="224" />
+		</color>
+		<color id="380">
+			<name><![CDATA[BC 2092]]></name>
+			<definitions r="211" g="248" b="223" />
+		</color>
+		<color id="381">
+			<name><![CDATA[BC 2093]]></name>
+			<definitions r="187" g="237" b="206" />
+		</color>
+		<color id="382">
+			<name><![CDATA[BC 2094]]></name>
+			<definitions r="148" g="215" b="172" />
+		</color>
+		<color id="383">
+			<name><![CDATA[BC 2095]]></name>
+			<definitions r="96" g="177" b="121" />
+		</color>
+		<color id="384">
+			<name><![CDATA[BC 2096]]></name>
+			<definitions r="87" g="166" b="120" />
+		</color>
+		<color id="385">
+			<name><![CDATA[BC 2097]]></name>
+			<definitions r="210" g="237" b="227" />
+		</color>
+		<color id="386">
+			<name><![CDATA[BC 2098]]></name>
+			<definitions r="222" g="252" b="236" />
+		</color>
+		<color id="387">
+			<name><![CDATA[BC 2099]]></name>
+			<definitions r="204" g="247" b="233" />
+		</color>
+		<color id="388">
+			<name><![CDATA[BC 2100]]></name>
+			<definitions r="171" g="234" b="216" />
+		</color>
+		<color id="389">
+			<name><![CDATA[BC 2101]]></name>
+			<definitions r="130" g="211" b="187" />
+		</color>
+		<color id="390">
+			<name><![CDATA[BC 2102]]></name>
+			<definitions r="85" g="182" b="150" />
+		</color>
+		<color id="391">
+			<name><![CDATA[BC 2103]]></name>
+			<definitions r="209" g="236" b="232" />
+		</color>
+		<color id="392">
+			<name><![CDATA[BC 2104]]></name>
+			<definitions r="194" g="242" b="237" />
+		</color>
+		<color id="393">
+			<name><![CDATA[BC 2105]]></name>
+			<definitions r="161" g="232" b="227" />
+		</color>
+		<color id="394">
+			<name><![CDATA[BC 2106]]></name>
+			<definitions r="112" g="210" b="204" />
+		</color>
+		<color id="395">
+			<name><![CDATA[BC 2107]]></name>
+			<definitions r="58" g="183" b="173" />
+		</color>
+		<color id="396">
+			<name><![CDATA[BC 2108]]></name>
+			<definitions r="0" g="146" b="132" />
+		</color>
+		<color id="397">
+			<name><![CDATA[BC 2235]]></name>
+			<definitions r="244" g="237" b="203" />
+		</color>
+		<color id="398">
+			<name><![CDATA[BC 2236]]></name>
+			<definitions r="240" g="227" b="178" />
+		</color>
+		<color id="399">
+			<name><![CDATA[BC 2237]]></name>
+			<definitions r="227" g="209" b="141" />
+		</color>
+		<color id="400">
+			<name><![CDATA[BC 2238]]></name>
+			<definitions r="216" g="197" b="118" />
+		</color>
+		<color id="401">
+			<name><![CDATA[BC 2239]]></name>
+			<definitions r="198" g="175" b="85" />
+		</color>
+		<color id="402">
+			<name><![CDATA[BC 2240]]></name>
+			<definitions r="179" g="156" b="62" />
+		</color>
+		<color id="403">
+			<name><![CDATA[BC 2241]]></name>
+			<definitions r="243" g="237" b="206" />
+		</color>
+		<color id="404">
+			<name><![CDATA[BC 2242]]></name>
+			<definitions r="238" g="229" b="184" />
+		</color>
+		<color id="405">
+			<name><![CDATA[BC 2243]]></name>
+			<definitions r="226" g="213" b="152" />
+		</color>
+		<color id="406">
+			<name><![CDATA[BC 2244]]></name>
+			<definitions r="208" g="193" b="118" />
+		</color>
+		<color id="407">
+			<name><![CDATA[BC 2245]]></name>
+			<definitions r="191" g="174" b="90" />
+		</color>
+		<color id="408">
+			<name><![CDATA[BC 2246]]></name>
+			<definitions r="153" g="141" b="53" />
+		</color>
+		<color id="409">
+			<name><![CDATA[BC 2247]]></name>
+			<definitions r="236" g="235" b="207" />
+		</color>
+		<color id="410">
+			<name><![CDATA[BC 2248]]></name>
+			<definitions r="230" g="228" b="189" />
+		</color>
+		<color id="411">
+			<name><![CDATA[BC 2249]]></name>
+			<definitions r="211" g="211" b="156" />
+		</color>
+		<color id="412">
+			<name><![CDATA[BC 2250]]></name>
+			<definitions r="193" g="194" b="119" />
+		</color>
+		<color id="413">
+			<name><![CDATA[BC 2251]]></name>
+			<definitions r="173" g="175" b="95" />
+		</color>
+		<color id="414">
+			<name><![CDATA[BC 2252]]></name>
+			<definitions r="153" g="156" b="72" />
+		</color>
+		<color id="415">
+			<name><![CDATA[BC 2253]]></name>
+			<definitions r="238" g="240" b="225" />
+		</color>
+		<color id="416">
+			<name><![CDATA[BC 2254]]></name>
+			<definitions r="224" g="231" b="206" />
+		</color>
+		<color id="417">
+			<name><![CDATA[BC 2255]]></name>
+			<definitions r="217" g="230" b="196" />
+		</color>
+		<color id="418">
+			<name><![CDATA[BC 2256]]></name>
+			<definitions r="188" g="203" b="158" />
+		</color>
+		<color id="419">
+			<name><![CDATA[BC 2257]]></name>
+			<definitions r="156" g="174" b="120" />
+		</color>
+		<color id="420">
+			<name><![CDATA[BC 2258]]></name>
+			<definitions r="116" g="131" b="78" />
+		</color>
+		<color id="421">
+			<name><![CDATA[BC 2259]]></name>
+			<definitions r="232" g="240" b="225" />
+		</color>
+		<color id="422">
+			<name><![CDATA[BC 2260]]></name>
+			<definitions r="218" g="233" b="212" />
+		</color>
+		<color id="423">
+			<name><![CDATA[BC 2261]]></name>
+			<definitions r="211" g="235" b="203" />
+		</color>
+		<color id="424">
+			<name><![CDATA[BC 2262]]></name>
+			<definitions r="180" g="210" b="169" />
+		</color>
+		<color id="425">
+			<name><![CDATA[BC 2263]]></name>
+			<definitions r="138" g="172" b="119" />
+		</color>
+		<color id="426">
+			<name><![CDATA[BC 2264]]></name>
+			<definitions r="102" g="136" b="80" />
+		</color>
+		<color id="427">
+			<name><![CDATA[BC 2265]]></name>
+			<definitions r="224" g="238" b="225" />
+		</color>
+		<color id="428">
+			<name><![CDATA[BC 2266]]></name>
+			<definitions r="205" g="231" b="213" />
+		</color>
+		<color id="429">
+			<name><![CDATA[BC 2267]]></name>
+			<definitions r="193" g="230" b="202" />
+		</color>
+		<color id="430">
+			<name><![CDATA[BC 2268]]></name>
+			<definitions r="158" g="205" b="170" />
+		</color>
+		<color id="431">
+			<name><![CDATA[BC 2269]]></name>
+			<definitions r="111" g="165" b="119" />
+		</color>
+		<color id="432">
+			<name><![CDATA[BC 2270]]></name>
+			<definitions r="75" g="121" b="76" />
+		</color>
+		<color id="433">
+			<name><![CDATA[BC 2271]]></name>
+			<definitions r="234" g="238" b="211" />
+		</color>
+		<color id="434">
+			<name><![CDATA[BC 2272]]></name>
+			<definitions r="223" g="241" b="196" />
+		</color>
+		<color id="435">
+			<name><![CDATA[BC 2273]]></name>
+			<definitions r="184" g="211" b="134" />
+		</color>
+		<color id="436">
+			<name><![CDATA[BC 2274]]></name>
+			<definitions r="194" g="239" b="215" />
+		</color>
+		<color id="437">
+			<name><![CDATA[BC 2275]]></name>
+			<definitions r="143" g="209" b="174" />
+		</color>
+		<color id="438">
+			<name><![CDATA[BC 2276]]></name>
+			<definitions r="127" g="175" b="143" />
+		</color>
+		<color id="439">
+			<name><![CDATA[BC 2277]]></name>
+			<definitions r="205" g="234" b="224" />
+		</color>
+		<color id="440">
+			<name><![CDATA[BC 2278]]></name>
+			<definitions r="195" g="238" b="223" />
+		</color>
+		<color id="441">
+			<name><![CDATA[BC 2279]]></name>
+			<definitions r="174" g="226" b="210" />
+		</color>
+		<color id="442">
+			<name><![CDATA[BC 2280]]></name>
+			<definitions r="132" g="199" b="178" />
+		</color>
+		<color id="443">
+			<name><![CDATA[BC 2281]]></name>
+			<definitions r="82" g="155" b="130" />
+		</color>
+		<color id="444">
+			<name><![CDATA[BC 2282]]></name>
+			<definitions r="57" g="122" b="97" />
+		</color>
+		<color id="445">
+			<name><![CDATA[BC 2283]]></name>
+			<definitions r="217" g="237" b="232" />
+		</color>
+		<color id="446">
+			<name><![CDATA[BC 2284]]></name>
+			<definitions r="198" g="239" b="233" />
+		</color>
+		<color id="447">
+			<name><![CDATA[BC 2285]]></name>
+			<definitions r="168" g="223" b="218" />
+		</color>
+		<color id="448">
+			<name><![CDATA[BC 2286]]></name>
+			<definitions r="129" g="198" b="191" />
+		</color>
+		<color id="449">
+			<name><![CDATA[BC 2287]]></name>
+			<definitions r="79" g="160" b="151" />
+		</color>
+		<color id="450">
+			<name><![CDATA[BC 2288]]></name>
+			<definitions r="53" g="130" b="120" />
+		</color>
+		<color id="451">
+			<name><![CDATA[HC 18]]></name>
+			<definitions r="222" g="243" b="158" />
+		</color>
+		<color id="452">
+			<name><![CDATA[HC 22]]></name>
+			<definitions r="226" g="243" b="198" />
+		</color>
+		<color id="453">
+			<name><![CDATA[HC 41]]></name>
+			<definitions r="182" g="212" b="169" />
+		</color>
+		<color id="454">
+			<name><![CDATA[HC 45]]></name>
+			<definitions r="141" g="175" b="120" />
+		</color>
+		<color id="455">
+			<name><![CDATA[HC 51]]></name>
+			<definitions r="172" g="189" b="158" />
+		</color>
+		<color id="456">
+			<name><![CDATA[NC 3085]]></name>
+			<definitions r="239" g="239" b="221" />
+		</color>
+		<color id="457">
+			<name><![CDATA[NC 3086]]></name>
+			<definitions r="225" g="225" b="204" />
+		</color>
+		<color id="458">
+			<name><![CDATA[NC 3087]]></name>
+			<definitions r="208" g="209" b="178" />
+		</color>
+		<color id="459">
+			<name><![CDATA[NC 3088]]></name>
+			<definitions r="183" g="185" b="146" />
+		</color>
+		<color id="460">
+			<name><![CDATA[NC 3089]]></name>
+			<definitions r="142" g="144" b="96" />
+		</color>
+		<color id="461">
+			<name><![CDATA[NC 3090]]></name>
+			<definitions r="115" g="117" b="70" />
+		</color>
+		<color id="462">
+			<name><![CDATA[NC 3091]]></name>
+			<definitions r="228" g="233" b="218" />
+		</color>
+		<color id="463">
+			<name><![CDATA[NC 3092]]></name>
+			<definitions r="216" g="224" b="206" />
+		</color>
+		<color id="464">
+			<name><![CDATA[NC 3093]]></name>
+			<definitions r="195" g="207" b="184" />
+		</color>
+		<color id="465">
+			<name><![CDATA[NC 3094]]></name>
+			<definitions r="170" g="186" b="156" />
+		</color>
+		<color id="466">
+			<name><![CDATA[NC 3095]]></name>
+			<definitions r="120" g="136" b="101" />
+		</color>
+		<color id="467">
+			<name><![CDATA[NC 3096]]></name>
+			<definitions r="94" g="108" b="76" />
+		</color>
+		<color id="468">
+			<name><![CDATA[NC 3097]]></name>
+			<definitions r="222" g="235" b="225" />
+		</color>
+		<color id="469">
+			<name><![CDATA[NC 3098]]></name>
+			<definitions r="200" g="223" b="210" />
+		</color>
+		<color id="470">
+			<name><![CDATA[NC 3099]]></name>
+			<definitions r="188" g="220" b="203" />
+		</color>
+		<color id="471">
+			<name><![CDATA[NC 3100]]></name>
+			<definitions r="149" g="189" b="167" />
+		</color>
+		<color id="472">
+			<name><![CDATA[NC 3101]]></name>
+			<definitions r="97" g="137" b="110" />
+		</color>
+		<color id="473">
+			<name><![CDATA[NC 3102]]></name>
+			<definitions r="75" g="109" b="84" />
+		</color>
+		<color id="474">
+			<name><![CDATA[NC 3103]]></name>
+			<definitions r="219" g="232" b="226" />
+		</color>
+		<color id="475">
+			<name><![CDATA[NC 3104]]></name>
+			<definitions r="201" g="219" b="213" />
+		</color>
+		<color id="476">
+			<name><![CDATA[NC 3105]]></name>
+			<definitions r="178" g="205" b="199" />
+		</color>
+		<color id="477">
+			<name><![CDATA[NC 3106]]></name>
+			<definitions r="138" g="173" b="164" />
+		</color>
+		<color id="478">
+			<name><![CDATA[NC 3107]]></name>
+			<definitions r="102" g="137" b="126" />
+		</color>
+		<color id="479">
+			<name><![CDATA[NC 3108]]></name>
+			<definitions r="83" g="114" b="103" />
+		</color>
+		<color id="480">
+			<name><![CDATA[PC 1010]]></name>
+			<definitions r="234" g="241" b="235" />
+		</color>
+		<color id="481">
+			<name><![CDATA[PC 1011]]></name>
+			<definitions r="228" g="240" b="232" />
+		</color>
+		<color id="482">
+			<name><![CDATA[PC 1012]]></name>
+			<definitions r="218" g="238" b="230" />
+		</color>
+		<color id="483">
+			<name><![CDATA[PC 1013]]></name>
+			<definitions r="236" g="240" b="229" />
+		</color>
+		<color id="484">
+			<name><![CDATA[PC 1014]]></name>
+			<definitions r="233" g="239" b="226" />
+		</color>
+		<color id="485">
+			<name><![CDATA[PC 1015]]></name>
+			<definitions r="229" g="238" b="222" />
+		</color>
+		<color id="486">
+			<name><![CDATA[SC 4007]]></name>
+			<definitions r="206" g="211" b="46" />
+		</color>
+	</type>
+	<type>
+		<color id="487">
+			<name><![CDATA[BC 2037]]></name>
+			<definitions r="246" g="237" b="209" />
+		</color>
+		<color id="488">
+			<name><![CDATA[BC 2038]]></name>
+			<definitions r="248" g="232" b="188" />
+		</color>
+		<color id="489">
+			<name><![CDATA[BC 2039]]></name>
+			<definitions r="254" g="230" b="165" />
+		</color>
+		<color id="490">
+			<name><![CDATA[BC 2040]]></name>
+			<definitions r="252" g="231" b="163" />
+		</color>
+		<color id="491">
+			<name><![CDATA[BC 2041]]></name>
+			<definitions r="252" g="223" b="134" />
+		</color>
+		<color id="492">
+			<name><![CDATA[BC 2042]]></name>
+			<definitions r="251" g="207" b="78" />
+		</color>
+		<color id="493">
+			<name><![CDATA[BC 2043]]></name>
+			<definitions r="241" g="237" b="211" />
+		</color>
+		<color id="494">
+			<name><![CDATA[BC 2044]]></name>
+			<definitions r="244" g="237" b="203" />
+		</color>
+		<color id="495">
+			<name><![CDATA[BC 2045]]></name>
+			<definitions r="250" g="235" b="173" />
+		</color>
+		<color id="496">
+			<name><![CDATA[BC 2046]]></name>
+			<definitions r="253" g="228" b="137" />
+		</color>
+		<color id="497">
+			<name><![CDATA[BC 2047]]></name>
+			<definitions r="254" g="215" b="82" />
+		</color>
+		<color id="498">
+			<name><![CDATA[BC 2048]]></name>
+			<definitions r="252" g="207" b="33" />
+		</color>
+		<color id="499">
+			<name><![CDATA[BC 2049]]></name>
+			<definitions r="246" g="239" b="201" />
+		</color>
+		<color id="500">
+			<name><![CDATA[BC 2050]]></name>
+			<definitions r="248" g="236" b="176" />
+		</color>
+		<color id="501">
+			<name><![CDATA[BC 2051]]></name>
+			<definitions r="243" g="227" b="137" />
+		</color>
+		<color id="502">
+			<name><![CDATA[BC 2052]]></name>
+			<definitions r="244" g="226" b="114" />
+		</color>
+		<color id="503">
+			<name><![CDATA[BC 2053]]></name>
+			<definitions r="232" g="210" b="81" />
+		</color>
+		<color id="504">
+			<name><![CDATA[BC 2054]]></name>
+			<definitions r="216" g="192" b="50" />
+		</color>
+		<color id="505">
+			<name><![CDATA[PC 1001]]></name>
+			<definitions r="240" g="243" b="239" />
+		</color>
+		<color id="506">
+			<name><![CDATA[PC 1002]]></name>
+			<definitions r="241" g="242" b="237" />
+		</color>
+		<color id="507">
+			<name><![CDATA[PC 1003]]></name>
+			<definitions r="242" g="241" b="234" />
+		</color>
+		<color id="508">
+			<name><![CDATA[PC 1016]]></name>
+			<definitions r="243" g="242" b="234" />
+		</color>
+		<color id="509">
+			<name><![CDATA[PC 1017]]></name>
+			<definitions r="244" g="241" b="225" />
+		</color>
+		<color id="510">
+			<name><![CDATA[PC 1018]]></name>
+			<definitions r="244" g="240" b="218" />
+		</color>
+		<color id="511">
+			<name><![CDATA[PC 1019]]></name>
+			<definitions r="245" g="240" b="228" />
+		</color>
+		<color id="512">
+			<name><![CDATA[PC 1020]]></name>
+			<definitions r="246" g="239" b="224" />
+		</color>
+		<color id="513">
+			<name><![CDATA[PC 1021]]></name>
+			<definitions r="245" g="238" b="221" />
+		</color>
+		<color id="514">
+			<name><![CDATA[PC 1067]]></name>
+			<definitions r="255" g="252" b="207" />
+		</color>
+		<color id="515">
+			<name><![CDATA[SC 4008]]></name>
+			<definitions r="241" g="207" b="0" />
+		</color>
+	</type>
+	<type>
+		<color id="516">
+			<name><![CDATA[BC 2001]]></name>
+			<definitions r="248" g="229" b="215" />
+		</color>
+		<color id="517">
+			<name><![CDATA[BC 2002]]></name>
+			<definitions r="246" g="222" b="214" />
+		</color>
+		<color id="518">
+			<name><![CDATA[BC 2003]]></name>
+			<definitions r="255" g="225" b="210" />
+		</color>
+		<color id="519">
+			<name><![CDATA[BC 2004]]></name>
+			<definitions r="250" g="221" b="205" />
+		</color>
+		<color id="520">
+			<name><![CDATA[BC 2005]]></name>
+			<definitions r="255" g="218" b="192" />
+		</color>
+		<color id="521">
+			<name><![CDATA[BC 2006]]></name>
+			<definitions r="252" g="210" b="200" />
+		</color>
+		<color id="522">
+			<name><![CDATA[BC 2157]]></name>
+			<definitions r="249" g="227" b="220" />
+		</color>
+		<color id="523">
+			<name><![CDATA[BC 2158]]></name>
+			<definitions r="252" g="209" b="194" />
+		</color>
+		<color id="524">
+			<name><![CDATA[BC 2159]]></name>
+			<definitions r="252" g="214" b="207" />
+		</color>
+		<color id="525">
+			<name><![CDATA[BC 2160]]></name>
+			<definitions r="249" g="202" b="185" />
+		</color>
+		<color id="526">
+			<name><![CDATA[BC 2161]]></name>
+			<definitions r="209" g="128" b="97" />
+		</color>
+		<color id="527">
+			<name><![CDATA[BC 2162]]></name>
+			<definitions r="181" g="98" b="58" />
+		</color>
+		<color id="528">
+			<name><![CDATA[BC 2163]]></name>
+			<definitions r="248" g="225" b="210" />
+		</color>
+		<color id="529">
+			<name><![CDATA[BC 2164]]></name>
+			<definitions r="248" g="214" b="191" />
+		</color>
+		<color id="530">
+			<name><![CDATA[BC 2165]]></name>
+			<definitions r="234" g="186" b="163" />
+		</color>
+		<color id="531">
+			<name><![CDATA[BC 2166]]></name>
+			<definitions r="225" g="165" b="137" />
+		</color>
+		<color id="532">
+			<name><![CDATA[BC 2167]]></name>
+			<definitions r="200" g="125" b="94" />
+		</color>
+		<color id="533">
+			<name><![CDATA[BC 2168]]></name>
+			<definitions r="178" g="103" b="69" />
+		</color>
+		<color id="534">
+			<name><![CDATA[BC 2169]]></name>
+			<definitions r="251" g="244" b="228" />
+		</color>
+		<color id="535">
+			<name><![CDATA[BC 2170]]></name>
+			<definitions r="254" g="234" b="207" />
+		</color>
+		<color id="536">
+			<name><![CDATA[BC 2171]]></name>
+			<definitions r="252" g="217" b="183" />
+		</color>
+		<color id="537">
+			<name><![CDATA[BC 2172]]></name>
+			<definitions r="241" g="180" b="130" />
+		</color>
+		<color id="538">
+			<name><![CDATA[BC 2173]]></name>
+			<definitions r="213" g="136" b="75" />
+		</color>
+		<color id="539">
+			<name><![CDATA[BC 2174]]></name>
+			<definitions r="191" g="101" b="45" />
+		</color>
+		<color id="540">
+			<name><![CDATA[BC 2175]]></name>
+			<definitions r="247" g="233" b="213" />
+		</color>
+		<color id="541">
+			<name><![CDATA[BC 2176]]></name>
+			<definitions r="250" g="224" b="196" />
+		</color>
+		<color id="542">
+			<name><![CDATA[BC 2177]]></name>
+			<definitions r="252" g="209" b="171" />
+		</color>
+		<color id="543">
+			<name><![CDATA[BC 2178]]></name>
+			<definitions r="243" g="184" b="135" />
+		</color>
+		<color id="544">
+			<name><![CDATA[BC 2179]]></name>
+			<definitions r="218" g="146" b="85" />
+		</color>
+		<color id="545">
+			<name><![CDATA[BC 2180]]></name>
+			<definitions r="200" g="126" b="63" />
+		</color>
+		<color id="546">
+			<name><![CDATA[BC 2181]]></name>
+			<definitions r="249" g="225" b="203" />
+		</color>
+		<color id="547">
+			<name><![CDATA[BC 2182]]></name>
+			<definitions r="245" g="211" b="179" />
+		</color>
+		<color id="548">
+			<name><![CDATA[BC 2183]]></name>
+			<definitions r="238" g="196" b="156" />
+		</color>
+		<color id="549">
+			<name><![CDATA[BC 2184]]></name>
+			<definitions r="227" g="176" b="130" />
+		</color>
+		<color id="550">
+			<name><![CDATA[BC 2185]]></name>
+			<definitions r="208" g="147" b="93" />
+		</color>
+		<color id="551">
+			<name><![CDATA[BC 2186]]></name>
+			<definitions r="184" g="116" b="63" />
+		</color>
+		<color id="552">
+			<name><![CDATA[HC 07]]></name>
+			<definitions r="154" g="77" b="51" />
+		</color>
+		<color id="553">
+			<name><![CDATA[HC 16]]></name>
+			<definitions r="252" g="239" b="239" />
+		</color>
+		<color id="554">
+			<name><![CDATA[HC 21]]></name>
+			<definitions r="233" g="217" b="217" />
+		</color>
+		<color id="555">
+			<name><![CDATA[HC 28]]></name>
+			<definitions r="245" g="204" b="184" />
+		</color>
+		<color id="556">
+			<name><![CDATA[HC 37]]></name>
+			<definitions r="225" g="189" b="172" />
+		</color>
+		<color id="557">
+			<name><![CDATA[HC 40]]></name>
+			<definitions r="112" g="70" b="56" />
+		</color>
+		<color id="558">
+			<name><![CDATA[NC 3163]]></name>
+			<definitions r="241" g="222" b="221" />
+		</color>
+		<color id="559">
+			<name><![CDATA[NC 3164]]></name>
+			<definitions r="231" g="204" b="200" />
+		</color>
+		<color id="560">
+			<name><![CDATA[NC 3165]]></name>
+			<definitions r="213" g="179" b="175" />
+		</color>
+		<color id="561">
+			<name><![CDATA[NC 3166]]></name>
+			<definitions r="187" g="147" b="144" />
+		</color>
+		<color id="562">
+			<name><![CDATA[NC 3167]]></name>
+			<definitions r="148" g="102" b="95" />
+		</color>
+		<color id="563">
+			<name><![CDATA[NC 3168]]></name>
+			<definitions r="128" g="83" b="74" />
+		</color>
+		<color id="564">
+			<name><![CDATA[NC 3169]]></name>
+			<definitions r="225" g="221" b="218" />
+		</color>
+		<color id="565">
+			<name><![CDATA[NC 3170]]></name>
+			<definitions r="212" g="200" b="194" />
+		</color>
+		<color id="566">
+			<name><![CDATA[NC 3171]]></name>
+			<definitions r="189" g="179" b="173" />
+		</color>
+		<color id="567">
+			<name><![CDATA[NC 3172]]></name>
+			<definitions r="161" g="149" b="144" />
+		</color>
+		<color id="568">
+			<name><![CDATA[NC 3173]]></name>
+			<definitions r="129" g="115" b="107" />
+		</color>
+		<color id="569">
+			<name><![CDATA[NC 3174]]></name>
+			<definitions r="96" g="81" b="73" />
+		</color>
+		<color id="570">
+			<name><![CDATA[PC 1025]]></name>
+			<definitions r="244" g="232" b="229" />
+		</color>
+		<color id="571">
+			<name><![CDATA[PC 1026]]></name>
+			<definitions r="246" g="231" b="227" />
+		</color>
+		<color id="572">
+			<name><![CDATA[PC 1027]]></name>
+			<definitions r="246" g="228" b="225" />
+		</color>
+		<color id="573">
+			<name><![CDATA[PC 1028]]></name>
+			<definitions r="240" g="231" b="233" />
+		</color>
+		<color id="574">
+			<name><![CDATA[PC 1029]]></name>
+			<definitions r="239" g="228" b="230" />
+		</color>
+		<color id="575">
+			<name><![CDATA[PC 1030]]></name>
+			<definitions r="246" g="239" b="245" />
+		</color>
+		<color id="576">
+			<name><![CDATA[PC 1068]]></name>
+			<definitions r="254" g="237" b="226" />
+		</color>
+		<color id="577">
+			<name><![CDATA[PC 1069]]></name>
+			<definitions r="253" g="238" b="233" />
+		</color>
+		<color id="578">
+			<name><![CDATA[PC 1070]]></name>
+			<definitions r="252" g="235" b="229" />
+		</color>
+	</type>
+	<type>
+		<color id="579">
+			<name><![CDATA[BC 2109]]></name>
+			<definitions r="199" g="230" b="231" />
+		</color>
+		<color id="580">
+			<name><![CDATA[BC 2110]]></name>
+			<definitions r="195" g="241" b="244" />
+		</color>
+		<color id="581">
+			<name><![CDATA[BC 2111]]></name>
+			<definitions r="160" g="226" b="233" />
+		</color>
+		<color id="582">
+			<name><![CDATA[BC 2112]]></name>
+			<definitions r="113" g="202" b="213" />
+		</color>
+		<color id="583">
+			<name><![CDATA[BC 2113]]></name>
+			<definitions r="50" g="168" b="179" />
+		</color>
+		<color id="584">
+			<name><![CDATA[BC 2114]]></name>
+			<definitions r="6" g="138" b="148" />
+		</color>
+		<color id="585">
+			<name><![CDATA[BC 2115]]></name>
+			<definitions r="210" g="231" b="232" />
+		</color>
+		<color id="586">
+			<name><![CDATA[BC 2116]]></name>
+			<definitions r="190" g="225" b="234" />
+		</color>
+		<color id="587">
+			<name><![CDATA[BC 2117]]></name>
+			<definitions r="157" g="220" b="236" />
+		</color>
+		<color id="588">
+			<name><![CDATA[BC 2118]]></name>
+			<definitions r="110" g="195" b="221" />
+		</color>
+		<color id="589">
+			<name><![CDATA[BC 2119]]></name>
+			<definitions r="53" g="162" b="193" />
+		</color>
+		<color id="590">
+			<name><![CDATA[BC 2120]]></name>
+			<definitions r="18" g="135" b="167" />
+		</color>
+		<color id="591">
+			<name><![CDATA[BC 2121]]></name>
+			<definitions r="201" g="231" b="238" />
+		</color>
+		<color id="592">
+			<name><![CDATA[BC 2122]]></name>
+			<definitions r="190" g="225" b="234" />
+		</color>
+		<color id="593">
+			<name><![CDATA[BC 2123]]></name>
+			<definitions r="165" g="226" b="251" />
+		</color>
+		<color id="594">
+			<name><![CDATA[BC 2124]]></name>
+			<definitions r="123" g="194" b="237" />
+		</color>
+		<color id="595">
+			<name><![CDATA[BC 2125]]></name>
+			<definitions r="79" g="165" b="218" />
+		</color>
+		<color id="596">
+			<name><![CDATA[BC 2126]]></name>
+			<definitions r="14" g="126" b="188" />
+		</color>
+		<color id="597">
+			<name><![CDATA[BC 2127]]></name>
+			<definitions r="199" g="225" b="235" />
+		</color>
+		<color id="598">
+			<name><![CDATA[BC 2128]]></name>
+			<definitions r="174" g="212" b="232" />
+		</color>
+		<color id="599">
+			<name><![CDATA[BC 2129]]></name>
+			<definitions r="138" g="194" b="227" />
+		</color>
+		<color id="600">
+			<name><![CDATA[BC 2130]]></name>
+			<definitions r="82" g="164" b="212" />
+		</color>
+		<color id="601">
+			<name><![CDATA[BC 2131]]></name>
+			<definitions r="66" g="140" b="193" />
+		</color>
+		<color id="602">
+			<name><![CDATA[BC 2132]]></name>
+			<definitions r="40" g="113" b="168" />
+		</color>
+		<color id="603">
+			<name><![CDATA[BC 2133]]></name>
+			<definitions r="221" g="239" b="246" />
+		</color>
+		<color id="604">
+			<name><![CDATA[BC 2134]]></name>
+			<definitions r="184" g="208" b="231" />
+		</color>
+		<color id="605">
+			<name><![CDATA[BC 2135]]></name>
+			<definitions r="169" g="206" b="240" />
+		</color>
+		<color id="606">
+			<name><![CDATA[BC 2136]]></name>
+			<definitions r="126" g="173" b="220" />
+		</color>
+		<color id="607">
+			<name><![CDATA[BC 2137]]></name>
+			<definitions r="80" g="133" b="190" />
+		</color>
+		<color id="608">
+			<name><![CDATA[BC 2138]]></name>
+			<definitions r="57" g="104" b="161" />
+		</color>
+		<color id="609">
+			<name><![CDATA[BC 2139]]></name>
+			<definitions r="212" g="222" b="236" />
+		</color>
+		<color id="610">
+			<name><![CDATA[BC 2140]]></name>
+			<definitions r="205" g="226" b="247" />
+		</color>
+		<color id="611">
+			<name><![CDATA[BC 2141]]></name>
+			<definitions r="179" g="204" b="238" />
+		</color>
+		<color id="612">
+			<name><![CDATA[BC 2142]]></name>
+			<definitions r="139" g="172" b="218" />
+		</color>
+		<color id="613">
+			<name><![CDATA[BC 2143]]></name>
+			<definitions r="92" g="129" b="184" />
+		</color>
+		<color id="614">
+			<name><![CDATA[BC 2144]]></name>
+			<definitions r="70" g="103" b="158" />
+		</color>
+		<color id="615">
+			<name><![CDATA[BC 2289]]></name>
+			<definitions r="210" g="233" b="231" />
+		</color>
+		<color id="616">
+			<name><![CDATA[BC 2290]]></name>
+			<definitions r="192" g="235" b="236" />
+		</color>
+		<color id="617">
+			<name><![CDATA[BC 2291]]></name>
+			<definitions r="161" g="218" b="220" />
+		</color>
+		<color id="618">
+			<name><![CDATA[BC 2292]]></name>
+			<definitions r="116" g="188" b="193" />
+		</color>
+		<color id="619">
+			<name><![CDATA[BC 2293]]></name>
+			<definitions r="78" g="158" b="162" />
+		</color>
+		<color id="620">
+			<name><![CDATA[BC 2294]]></name>
+			<definitions r="47" g="122" b="124" />
+		</color>
+		<color id="621">
+			<name><![CDATA[BC 2295]]></name>
+			<definitions r="219" g="245" b="243" />
+		</color>
+		<color id="622">
+			<name><![CDATA[BC 2296]]></name>
+			<definitions r="178" g="217" b="226" />
+		</color>
+		<color id="623">
+			<name><![CDATA[BC 2297]]></name>
+			<definitions r="158" g="212" b="225" />
+		</color>
+		<color id="624">
+			<name><![CDATA[BC 2298]]></name>
+			<definitions r="115" g="182" b="201" />
+		</color>
+		<color id="625">
+			<name><![CDATA[BC 2299]]></name>
+			<definitions r="69" g="142" b="163" />
+		</color>
+		<color id="626">
+			<name><![CDATA[BC 2300]]></name>
+			<definitions r="50" g="113" b="132" />
+		</color>
+		<color id="627">
+			<name><![CDATA[BC 2301]]></name>
+			<definitions r="194" g="223" b="231" />
+		</color>
+		<color id="628">
+			<name><![CDATA[BC 2302]]></name>
+			<definitions r="175" g="209" b="221" />
+		</color>
+		<color id="629">
+			<name><![CDATA[BC 2303]]></name>
+			<definitions r="128" g="187" b="208" />
+		</color>
+		<color id="630">
+			<name><![CDATA[BC 2304]]></name>
+			<definitions r="100" g="169" b="194" />
+		</color>
+		<color id="631">
+			<name><![CDATA[BC 2305]]></name>
+			<definitions r="54" g="117" b="142" />
+		</color>
+		<color id="632">
+			<name><![CDATA[BC 2306]]></name>
+			<definitions r="45" g="95" b="116" />
+		</color>
+		<color id="633">
+			<name><![CDATA[BC 2307]]></name>
+			<definitions r="194" g="223" b="231" />
+		</color>
+		<color id="634">
+			<name><![CDATA[BC 2308]]></name>
+			<definitions r="167" g="208" b="226" />
+		</color>
+		<color id="635">
+			<name><![CDATA[BC 2309]]></name>
+			<definitions r="128" g="186" b="213" />
+		</color>
+		<color id="636">
+			<name><![CDATA[BC 2310]]></name>
+			<definitions r="103" g="169" b="205" />
+		</color>
+		<color id="637">
+			<name><![CDATA[BC 2311]]></name>
+			<definitions r="67" g="135" b="173" />
+		</color>
+		<color id="638">
+			<name><![CDATA[BC 2312]]></name>
+			<definitions r="47" g="97" b="130" />
+		</color>
+		<color id="639">
+			<name><![CDATA[BC 2313]]></name>
+			<definitions r="206" g="224" b="236" />
+		</color>
+		<color id="640">
+			<name><![CDATA[BC 2314]]></name>
+			<definitions r="178" g="207" b="230" />
+		</color>
+		<color id="641">
+			<name><![CDATA[BC 2315]]></name>
+			<definitions r="157" g="199" b="235" />
+		</color>
+		<color id="642">
+			<name><![CDATA[BC 2316]]></name>
+			<definitions r="112" g="166" b="213" />
+		</color>
+		<color id="643">
+			<name><![CDATA[BC 2317]]></name>
+			<definitions r="75" g="133" b="186" />
+		</color>
+		<color id="644">
+			<name><![CDATA[BC 2318]]></name>
+			<definitions r="46" g="88" b="136" />
+		</color>
+		<color id="645">
+			<name><![CDATA[BC 2319]]></name>
+			<definitions r="216" g="225" b="237" />
+		</color>
+		<color id="646">
+			<name><![CDATA[BC 2320]]></name>
+			<definitions r="199" g="224" b="246" />
+		</color>
+		<color id="647">
+			<name><![CDATA[BC 2321]]></name>
+			<definitions r="168" g="200" b="233" />
+		</color>
+		<color id="648">
+			<name><![CDATA[BC 2322]]></name>
+			<definitions r="127" g="167" b="213" />
+		</color>
+		<color id="649">
+			<name><![CDATA[BC 2323]]></name>
+			<definitions r="77" g="122" b="175" />
+		</color>
+		<color id="650">
+			<name><![CDATA[BC 2324]]></name>
+			<definitions r="54" g="88" b="135" />
+		</color>
+		<color id="651">
+			<name><![CDATA[BC 2325]]></name>
+			<definitions r="217" g="221" b="231" />
+		</color>
+		<color id="652">
+			<name><![CDATA[BC 2326]]></name>
+			<definitions r="207" g="222" b="242" />
+		</color>
+		<color id="653">
+			<name><![CDATA[BC 2327]]></name>
+			<definitions r="178" g="196" b="226" />
+		</color>
+		<color id="654">
+			<name><![CDATA[BC 2328]]></name>
+			<definitions r="140" g="163" b="206" />
+		</color>
+		<color id="655">
+			<name><![CDATA[BC 2329]]></name>
+			<definitions r="99" g="121" b="168" />
+		</color>
+		<color id="656">
+			<name><![CDATA[BC 2330]]></name>
+			<definitions r="74" g="92" b="132" />
+		</color>
+		<color id="657">
+			<name><![CDATA[HC 11]]></name>
+			<definitions r="213" g="227" b="237" />
+		</color>
+		<color id="658">
+			<name><![CDATA[HC 15]]></name>
+			<definitions r="157" g="189" b="215" />
+		</color>
+		<color id="659">
+			<name><![CDATA[HC 20]]></name>
+			<definitions r="197" g="246" b="241" />
+		</color>
+		<color id="660">
+			<name><![CDATA[HC 24]]></name>
+			<definitions r="177" g="212" b="215" />
+		</color>
+		<color id="661">
+			<name><![CDATA[HC 25]]></name>
+			<definitions r="173" g="203" b="229" />
+		</color>
+		<color id="662">
+			<name><![CDATA[HC 30]]></name>
+			<definitions r="52" g="75" b="106" />
+		</color>
+		<color id="663">
+			<name><![CDATA[HC 34]]></name>
+			<definitions r="182" g="200" b="205" />
+		</color>
+		<color id="664">
+			<name><![CDATA[HC 35]]></name>
+			<definitions r="90" g="111" b="131" />
+		</color>
+		<color id="665">
+			<name><![CDATA[HC 46]]></name>
+			<definitions r="48" g="88" b="140" />
+		</color>
+		<color id="666">
+			<name><![CDATA[HC 47]]></name>
+			<definitions r="210" g="231" b="232" />
+		</color>
+		<color id="667">
+			<name><![CDATA[HC 48]]></name>
+			<definitions r="225" g="237" b="239" />
+		</color>
+		<color id="668">
+			<name><![CDATA[HC 49]]></name>
+			<definitions r="161" g="223" b="241" />
+		</color>
+		<color id="669">
+			<name><![CDATA[HC 50]]></name>
+			<definitions r="63" g="143" b="198" />
+		</color>
+		<color id="670">
+			<name><![CDATA[HC 54]]></name>
+			<definitions r="95" g="121" b="125" />
+		</color>
+		<color id="671">
+			<name><![CDATA[HC 55]]></name>
+			<definitions r="79" g="93" b="94" />
+		</color>
+		<color id="672">
+			<name><![CDATA[NC 3109]]></name>
+			<definitions r="210" g="233" b="231" />
+		</color>
+		<color id="673">
+			<name><![CDATA[NC 3110]]></name>
+			<definitions r="200" g="232" b="230" />
+		</color>
+		<color id="674">
+			<name><![CDATA[NC 3111]]></name>
+			<definitions r="150" g="198" b="204" />
+		</color>
+		<color id="675">
+			<name><![CDATA[NC 3112]]></name>
+			<definitions r="109" g="165" b="172" />
+		</color>
+		<color id="676">
+			<name><![CDATA[NC 3113]]></name>
+			<definitions r="73" g="127" b="133" />
+		</color>
+		<color id="677">
+			<name><![CDATA[NC 3114]]></name>
+			<definitions r="54" g="92" b="98" />
+		</color>
+		<color id="678">
+			<name><![CDATA[NC 3115]]></name>
+			<definitions r="204" g="231" b="233" />
+		</color>
+		<color id="679">
+			<name><![CDATA[NC 3116]]></name>
+			<definitions r="185" g="229" b="236" />
+		</color>
+		<color id="680">
+			<name><![CDATA[NC 3117]]></name>
+			<definitions r="153" g="209" b="220" />
+		</color>
+		<color id="681">
+			<name><![CDATA[NC 3118]]></name>
+			<definitions r="110" g="178" b="193" />
+		</color>
+		<color id="682">
+			<name><![CDATA[NC 3119]]></name>
+			<definitions r="68" g="140" b="156" />
+		</color>
+		<color id="683">
+			<name><![CDATA[NC 3120]]></name>
+			<definitions r="45" g="97" b="109" />
+		</color>
+		<color id="684">
+			<name><![CDATA[NC 3121]]></name>
+			<definitions r="205" g="227" b="235" />
+		</color>
+		<color id="685">
+			<name><![CDATA[NC 3122]]></name>
+			<definitions r="178" g="207" b="224" />
+		</color>
+		<color id="686">
+			<name><![CDATA[NC 3123]]></name>
+			<definitions r="141" g="190" b="215" />
+		</color>
+		<color id="687">
+			<name><![CDATA[NC 3124]]></name>
+			<definitions r="109" g="167" b="201" />
+		</color>
+		<color id="688">
+			<name><![CDATA[NC 3125]]></name>
+			<definitions r="59" g="113" b="148" />
+		</color>
+		<color id="689">
+			<name><![CDATA[NC 3126]]></name>
+			<definitions r="40" g="88" b="117" />
+		</color>
+		<color id="690">
+			<name><![CDATA[NC 3127]]></name>
+			<definitions r="210" g="225" b="234" />
+		</color>
+		<color id="691">
+			<name><![CDATA[NC 3128]]></name>
+			<definitions r="188" g="211" b="227" />
+		</color>
+		<color id="692">
+			<name><![CDATA[NC 3129]]></name>
+			<definitions r="166" g="202" b="226" />
+		</color>
+		<color id="693">
+			<name><![CDATA[NC 3130]]></name>
+			<definitions r="114" g="158" b="192" />
+		</color>
+		<color id="694">
+			<name><![CDATA[NC 3131]]></name>
+			<definitions r="87" g="134" b="172" />
+		</color>
+		<color id="695">
+			<name><![CDATA[NC 3132]]></name>
+			<definitions r="56" g="90" b="120" />
+		</color>
+		<color id="696">
+			<name><![CDATA[NC 3133]]></name>
+			<definitions r="212" g="225" b="234" />
+		</color>
+		<color id="697">
+			<name><![CDATA[NC 3134]]></name>
+			<definitions r="190" g="208" b="222" />
+		</color>
+		<color id="698">
+			<name><![CDATA[NC 3135]]></name>
+			<definitions r="172" g="202" b="228" />
+		</color>
+		<color id="699">
+			<name><![CDATA[NC 3136]]></name>
+			<definitions r="131" g="168" b="205" />
+		</color>
+		<color id="700">
+			<name><![CDATA[NC 3137]]></name>
+			<definitions r="94" g="133" b="174" />
+		</color>
+		<color id="701">
+			<name><![CDATA[NC 3138]]></name>
+			<definitions r="61" g="92" b="126" />
+		</color>
+		<color id="702">
+			<name><![CDATA[NC 3139]]></name>
+			<definitions r="212" g="219" b="230" />
+		</color>
+		<color id="703">
+			<name><![CDATA[NC 3140]]></name>
+			<definitions r="212" g="226" b="241" />
+		</color>
+		<color id="704">
+			<name><![CDATA[NC 3141]]></name>
+			<definitions r="184" g="202" b="227" />
+		</color>
+		<color id="705">
+			<name><![CDATA[NC 3142]]></name>
+			<definitions r="148" g="171" b="205" />
+		</color>
+		<color id="706">
+			<name><![CDATA[NC 3143]]></name>
+			<definitions r="106" g="131" b="169" />
+		</color>
+		<color id="707">
+			<name><![CDATA[NC 3144]]></name>
+			<definitions r="69" g="87" b="117" />
+		</color>
+		<color id="708">
+			<name><![CDATA[NC 3307]]></name>
+			<definitions r="209" g="220" b="224" />
+		</color>
+		<color id="709">
+			<name><![CDATA[NC 3308]]></name>
+			<definitions r="191" g="211" b="218" />
+		</color>
+		<color id="710">
+			<name><![CDATA[NC 3309]]></name>
+			<definitions r="150" g="173" b="182" />
+		</color>
+		<color id="711">
+			<name><![CDATA[NC 3310]]></name>
+			<definitions r="114" g="139" b="150" />
+		</color>
+		<color id="712">
+			<name><![CDATA[NC 3311]]></name>
+			<definitions r="86" g="108" b="119" />
+		</color>
+		<color id="713">
+			<name><![CDATA[NC 3312]]></name>
+			<definitions r="69" g="85" b="94" />
+		</color>
+		<color id="714">
+			<name><![CDATA[NC 3313]]></name>
+			<definitions r="203" g="214" b="222" />
+		</color>
+		<color id="715">
+			<name><![CDATA[NC 3314]]></name>
+			<definitions r="187" g="199" b="208" />
+		</color>
+		<color id="716">
+			<name><![CDATA[NC 3315]]></name>
+			<definitions r="155" g="174" b="190" />
+		</color>
+		<color id="717">
+			<name><![CDATA[NC 3316]]></name>
+			<definitions r="118" g="140" b="160" />
+		</color>
+		<color id="718">
+			<name><![CDATA[NC 3317]]></name>
+			<definitions r="93" g="113" b="133" />
+		</color>
+		<color id="719">
+			<name><![CDATA[NC 3318]]></name>
+			<definitions r="74" g="89" b="105" />
+		</color>
+		<color id="720">
+			<name><![CDATA[NC 3319]]></name>
+			<definitions r="216" g="219" b="224" />
+		</color>
+		<color id="721">
+			<name><![CDATA[NC 3320]]></name>
+			<definitions r="193" g="198" b="207" />
+		</color>
+		<color id="722">
+			<name><![CDATA[NC 3321]]></name>
+			<definitions r="161" g="168" b="181" />
+		</color>
+		<color id="723">
+			<name><![CDATA[NC 3322]]></name>
+			<definitions r="131" g="143" b="161" />
+		</color>
+		<color id="724">
+			<name><![CDATA[NC 3323]]></name>
+			<definitions r="95" g="105" b="120" />
+		</color>
+		<color id="725">
+			<name><![CDATA[NC 3324]]></name>
+			<definitions r="75" g="83" b="95" />
+		</color>
+		<color id="726">
+			<name><![CDATA[PC 1004]]></name>
+			<definitions r="233" g="237" b="238" />
+		</color>
+		<color id="727">
+			<name><![CDATA[PC 1005]]></name>
+			<definitions r="224" g="232" b="235" />
+		</color>
+		<color id="728">
+			<name><![CDATA[PC 1006]]></name>
+			<definitions r="216" g="228" b="237" />
+		</color>
+		<color id="729">
+			<name><![CDATA[PC 1007]]></name>
+			<definitions r="230" g="239" b="239" />
+		</color>
+		<color id="730">
+			<name><![CDATA[PC 1008]]></name>
+			<definitions r="237" g="253" b="251" />
+		</color>
+		<color id="731">
+			<name><![CDATA[PC 1009]]></name>
+			<definitions r="218" g="235" b="239" />
+		</color>
+		<color id="732">
+			<name><![CDATA[SC 4003]]></name>
+			<definitions r="52" g="78" b="132" />
+		</color>
+		<color id="733">
+			<name><![CDATA[SC 4004]]></name>
+			<definitions r="51" g="107" b="171" />
+		</color>
+		<color id="734">
+			<name><![CDATA[SC 4005]]></name>
+			<definitions r="0" g="138" b="191" />
+		</color>
+		<color id="735">
+			<name><![CDATA[SC 4006]]></name>
+			<definitions r="61" g="64" b="75" />
+		</color>
+		<color id="736">
+			<name><![CDATA[SC 4009]]></name>
+			<definitions r="25" g="156" b="162" />
+		</color>
+		<color id="737">
+			<name><![CDATA[SC 4010]]></name>
+			<definitions r="0" g="123" b="136" />
+		</color>
+		<color id="738">
+			<name><![CDATA[SC 4011]]></name>
+			<definitions r="55" g="76" b="75" />
+		</color>
+		<color id="739">
+			<name><![CDATA[SC 4012]]></name>
+			<definitions r="52" g="60" b="66" />
+		</color>
+	</type>
+	<type>
+		<color id="740">
+			<name><![CDATA[BC 2007]]></name>
+			<definitions r="247" g="232" b="220" />
+		</color>
+		<color id="741">
+			<name><![CDATA[BC 2008]]></name>
+			<definitions r="251" g="229" b="208" />
+		</color>
+		<color id="742">
+			<name><![CDATA[BC 2009]]></name>
+			<definitions r="255" g="225" b="189" />
+		</color>
+		<color id="743">
+			<name><![CDATA[BC 2010]]></name>
+			<definitions r="255" g="194" b="147" />
+		</color>
+		<color id="744">
+			<name><![CDATA[BC 2011]]></name>
+			<definitions r="252" g="189" b="154" />
+		</color>
+		<color id="745">
+			<name><![CDATA[BC 2012]]></name>
+			<definitions r="249" g="158" b="95" />
+		</color>
+		<color id="746">
+			<name><![CDATA[BC 2013]]></name>
+			<definitions r="246" g="235" b="217" />
+		</color>
+		<color id="747">
+			<name><![CDATA[BC 2014]]></name>
+			<definitions r="252" g="226" b="199" />
+		</color>
+		<color id="748">
+			<name><![CDATA[BC 2015]]></name>
+			<definitions r="255" g="230" b="202" />
+		</color>
+		<color id="749">
+			<name><![CDATA[BC 2016]]></name>
+			<definitions r="255" g="199" b="151" />
+		</color>
+		<color id="750">
+			<name><![CDATA[BC 2017]]></name>
+			<definitions r="248" g="164" b="101" />
+		</color>
+		<color id="751">
+			<name><![CDATA[BC 2018]]></name>
+			<definitions r="240" g="139" b="63" />
+		</color>
+		<color id="752">
+			<name><![CDATA[BC 2019]]></name>
+			<definitions r="247" g="236" b="223" />
+		</color>
+		<color id="753">
+			<name><![CDATA[BC 2020]]></name>
+			<definitions r="250" g="224" b="196" />
+		</color>
+		<color id="754">
+			<name><![CDATA[BC 2021]]></name>
+			<definitions r="254" g="217" b="173" />
+		</color>
+		<color id="755">
+			<name><![CDATA[BC 2022]]></name>
+			<definitions r="247" g="189" b="130" />
+		</color>
+		<color id="756">
+			<name><![CDATA[BC 2023]]></name>
+			<definitions r="228" g="157" b="85" />
+		</color>
+		<color id="757">
+			<name><![CDATA[BC 2024]]></name>
+			<definitions r="216" g="137" b="60" />
+		</color>
+		<color id="758">
+			<name><![CDATA[BC 2025]]></name>
+			<definitions r="247" g="233" b="213" />
+		</color>
+		<color id="759">
+			<name><![CDATA[BC 2026]]></name>
+			<definitions r="254" g="226" b="190" />
+		</color>
+		<color id="760">
+			<name><![CDATA[BC 2027]]></name>
+			<definitions r="255" g="218" b="167" />
+		</color>
+		<color id="761">
+			<name><![CDATA[BC 2028]]></name>
+			<definitions r="254" g="202" b="137" />
+		</color>
+		<color id="762">
+			<name><![CDATA[BC 2029]]></name>
+			<definitions r="249" g="178" b="97" />
+		</color>
+		<color id="763">
+			<name><![CDATA[BC 2030]]></name>
+			<definitions r="235" g="142" b="44" />
+		</color>
+		<color id="764">
+			<name><![CDATA[BC 2031]]></name>
+			<definitions r="247" g="234" b="211" />
+		</color>
+		<color id="765">
+			<name><![CDATA[BC 2032]]></name>
+			<definitions r="249" g="235" b="209" />
+		</color>
+		<color id="766">
+			<name><![CDATA[BC 2033]]></name>
+			<definitions r="255" g="228" b="191" />
+		</color>
+		<color id="767">
+			<name><![CDATA[BC 2034]]></name>
+			<definitions r="249" g="229" b="194" />
+		</color>
+		<color id="768">
+			<name><![CDATA[BC 2035]]></name>
+			<definitions r="255" g="223" b="177" />
+		</color>
+		<color id="769">
+			<name><![CDATA[BC 2036]]></name>
+			<definitions r="255" g="230" b="178" />
+		</color>
+		<color id="770">
+			<name><![CDATA[HC 01]]></name>
+			<definitions r="247" g="232" b="220" />
+		</color>
+		<color id="771">
+			<name><![CDATA[HC 02]]></name>
+			<definitions r="254" g="209" b="175" />
+		</color>
+		<color id="772">
+			<name><![CDATA[HC 03]]></name>
+			<definitions r="233" g="122" b="46" />
+		</color>
+		<color id="773">
+			<name><![CDATA[HC 06]]></name>
+			<definitions r="242" g="185" b="117" />
+		</color>
+		<color id="774">
+			<name><![CDATA[HC 09]]></name>
+			<definitions r="248" g="208" b="128" />
+		</color>
+		<color id="775">
+			<name><![CDATA[HC 12]]></name>
+			<definitions r="253" g="220" b="175" />
+		</color>
+		<color id="776">
+			<name><![CDATA[HC 19]]></name>
+			<definitions r="255" g="226" b="132" />
+		</color>
+		<color id="777">
+			<name><![CDATA[HC 27]]></name>
+			<definitions r="254" g="224" b="198" />
+		</color>
+		<color id="778">
+			<name><![CDATA[HC 38]]></name>
+			<definitions r="237" g="216" b="197" />
+		</color>
+		<color id="779">
+			<name><![CDATA[PC 1022]]></name>
+			<definitions r="242" g="235" b="226" />
+		</color>
+		<color id="780">
+			<name><![CDATA[PC 1023]]></name>
+			<definitions r="246" g="235" b="223" />
+		</color>
+		<color id="781">
+			<name><![CDATA[PC 1024]]></name>
+			<definitions r="248" g="234" b="220" />
+		</color>
+	</type>
+	<type>
+		<color id="782">
+			<name><![CDATA[BC 2145]]></name>
+			<definitions r="233" g="242" b="251" />
+		</color>
+		<color id="783">
+			<name><![CDATA[BC 2146]]></name>
+			<definitions r="213" g="226" b="247" />
+		</color>
+		<color id="784">
+			<name><![CDATA[BC 2147]]></name>
+			<definitions r="186" g="202" b="238" />
+		</color>
+		<color id="785">
+			<name><![CDATA[BC 2148]]></name>
+			<definitions r="148" g="168" b="218" />
+		</color>
+		<color id="786">
+			<name><![CDATA[BC 2149]]></name>
+			<definitions r="102" g="124" b="184" />
+		</color>
+		<color id="787">
+			<name><![CDATA[BC 2150]]></name>
+			<definitions r="75" g="94" b="152" />
+		</color>
+		<color id="788">
+			<name><![CDATA[BC 2151]]></name>
+			<definitions r="238" g="244" b="253" />
+		</color>
+		<color id="789">
+			<name><![CDATA[BC 2152]]></name>
+			<definitions r="217" g="226" b="245" />
+		</color>
+		<color id="790">
+			<name><![CDATA[BC 2153]]></name>
+			<definitions r="193" g="204" b="236" />
+		</color>
+		<color id="791">
+			<name><![CDATA[BC 2154]]></name>
+			<definitions r="158" g="172" b="217" />
+		</color>
+		<color id="792">
+			<name><![CDATA[BC 2155]]></name>
+			<definitions r="111" g="125" b="180" />
+		</color>
+		<color id="793">
+			<name><![CDATA[BC 2156]]></name>
+			<definitions r="81" g="91" b="142" />
+		</color>
+		<color id="794">
+			<name><![CDATA[BC 2331]]></name>
+			<definitions r="228" g="235" b="249" />
+		</color>
+		<color id="795">
+			<name><![CDATA[BC 2332]]></name>
+			<definitions r="212" g="220" b="241" />
+		</color>
+		<color id="796">
+			<name><![CDATA[BC 2333]]></name>
+			<definitions r="187" g="194" b="227" />
+		</color>
+		<color id="797">
+			<name><![CDATA[BC 2334]]></name>
+			<definitions r="149" g="158" b="202" />
+		</color>
+		<color id="798">
+			<name><![CDATA[BC 2335]]></name>
+			<definitions r="117" g="126" b="173" />
+		</color>
+		<color id="799">
+			<name><![CDATA[BC 2336]]></name>
+			<definitions r="73" g="80" b="118" />
+		</color>
+		<color id="800">
+			<name><![CDATA[HC 31]]></name>
+			<definitions r="91" g="75" b="82" />
+		</color>
+		<color id="801">
+			<name><![CDATA[HC 32]]></name>
+			<definitions r="182" g="182" b="207" />
+		</color>
+		<color id="802">
+			<name><![CDATA[HC 33]]></name>
+			<definitions r="229" g="221" b="224" />
+		</color>
+		<color id="803">
+			<name><![CDATA[NC 3145]]></name>
+			<definitions r="215" g="219" b="224" />
+		</color>
+		<color id="804">
+			<name><![CDATA[NC 3146]]></name>
+			<definitions r="222" g="226" b="236" />
+		</color>
+		<color id="805">
+			<name><![CDATA[NC 3147]]></name>
+			<definitions r="197" g="201" b="219" />
+		</color>
+		<color id="806">
+			<name><![CDATA[NC 3148]]></name>
+			<definitions r="147" g="153" b="179" />
+		</color>
+		<color id="807">
+			<name><![CDATA[NC 3149]]></name>
+			<definitions r="111" g="117" b="143" />
+		</color>
+		<color id="808">
+			<name><![CDATA[NC 3150]]></name>
+			<definitions r="88" g="92" b="116" />
+		</color>
+		<color id="809">
+			<name><![CDATA[NC 3151]]></name>
+			<definitions r="230" g="231" b="238" />
+		</color>
+		<color id="810">
+			<name><![CDATA[NC 3152]]></name>
+			<definitions r="219" g="220" b="231" />
+		</color>
+		<color id="811">
+			<name><![CDATA[NC 3153]]></name>
+			<definitions r="195" g="194" b="212" />
+		</color>
+		<color id="812">
+			<name><![CDATA[NC 3154]]></name>
+			<definitions r="158" g="157" b="180" />
+		</color>
+		<color id="813">
+			<name><![CDATA[NC 3155]]></name>
+			<definitions r="105" g="102" b="124" />
+		</color>
+		<color id="814">
+			<name><![CDATA[NC 3156]]></name>
+			<definitions r="82" g="80" b="96" />
+		</color>
+		<color id="815">
+			<name><![CDATA[NC 3157]]></name>
+			<definitions r="248" g="240" b="242" />
+		</color>
+		<color id="816">
+			<name><![CDATA[NC 3158]]></name>
+			<definitions r="236" g="235" b="242" />
+		</color>
+		<color id="817">
+			<name><![CDATA[NC 3159]]></name>
+			<definitions r="232" g="228" b="238" />
+		</color>
+		<color id="818">
+			<name><![CDATA[NC 3160]]></name>
+			<definitions r="223" g="213" b="223" />
+		</color>
+		<color id="819">
+			<name><![CDATA[NC 3161]]></name>
+			<definitions r="221" g="219" b="237" />
+		</color>
+		<color id="820">
+			<name><![CDATA[NC 3162]]></name>
+			<definitions r="92" g="76" b="83" />
+		</color>
+		<color id="821">
+			<name><![CDATA[NC 3325]]></name>
+			<definitions r="221" g="216" b="222" />
+		</color>
+		<color id="822">
+			<name><![CDATA[NC 3326]]></name>
+			<definitions r="218" g="219" b="226" />
+		</color>
+		<color id="823">
+			<name><![CDATA[NC 3327]]></name>
+			<definitions r="195" g="195" b="209" />
+		</color>
+		<color id="824">
+			<name><![CDATA[NC 3328]]></name>
+			<definitions r="158" g="158" b="176" />
+		</color>
+		<color id="825">
+			<name><![CDATA[NC 3329]]></name>
+			<definitions r="104" g="103" b="119" />
+		</color>
+		<color id="826">
+			<name><![CDATA[NC 3330]]></name>
+			<definitions r="81" g="80" b="92" />
+		</color>
+		<color id="827">
+			<name><![CDATA[NC 3331]]></name>
+			<definitions r="234" g="223" b="221" />
+		</color>
+		<color id="828">
+			<name><![CDATA[NC 3332]]></name>
+			<definitions r="219" g="205" b="204" />
+		</color>
+		<color id="829">
+			<name><![CDATA[NC 3333]]></name>
+			<definitions r="197" g="181" b="185" />
+		</color>
+		<color id="830">
+			<name><![CDATA[NC 3334]]></name>
+			<definitions r="172" g="151" b="153" />
+		</color>
+		<color id="831">
+			<name><![CDATA[NC 3335]]></name>
+			<definitions r="124" g="100" b="100" />
+		</color>
+		<color id="832">
+			<name><![CDATA[NC 3336]]></name>
+			<definitions r="94" g="78" b="76" />
+		</color>
+		<color id="833">
+			<name><![CDATA[PC 1071]]></name>
+			<definitions r="235" g="232" b="240" />
+		</color>
+		<color id="834">
+			<name><![CDATA[SC 4001]]></name>
+			<definitions r="88" g="98" b="151" />
+		</color>
+		<color id="835">
+			<name><![CDATA[SC 4002]]></name>
+			<definitions r="67" g="67" b="91" />
+		</color>
+	</type>
+</maintype>
+</colors>

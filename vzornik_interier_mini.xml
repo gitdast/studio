@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<colors>
+<maintype name="ESMAL INTERIER MINI" cols="5">
+	<type>
+		<color id="1">
+			<name><![CDATA[A21-A]]></name>
+			<definitions r="240" g="233" b="197" />
+		</color>
+		<color id="2">
+			<name><![CDATA[A21-B]]></name>
+			<definitions r="241" g="232" b="175" />
+		</color>
+		<color id="3">
+			<name><![CDATA[A21-C]]></name>
+			<definitions r="236" g="223" b="140" />
+		</color>
+		<color id="4">
+			<name><![CDATA[A21-D]]></name>
+			<definitions r="225" g="211" b="108" />
+		</color>
+		<color id="5">
+			<name><![CDATA[A21-E]]></name>
+			<definitions r="215" g="200" b="77" />
+		</color>
+		<color id="6">
+			<name><![CDATA[A22-A]]></name>
+			<definitions r="239" g="234" b="208" />
+		</color>
+		<color id="7">
+			<name><![CDATA[A22-B]]></name>
+			<definitions r="236" g="232" b="190" />
+		</color>
+		<color id="8">
+			<name><![CDATA[A22-C]]></name>
+			<definitions r="227" g="223" b="156" />
+		</color>
+		<color id="9">
+			<name><![CDATA[A22-D]]></name>
+			<definitions r="211" g="210" b="130" />
+		</color>
+		<color id="10">
+			<name><![CDATA[A22-E]]></name>
+			<definitions r="195" g="195" b="96" />
+		</color>
+		<color id="11">
+			<name><![CDATA[A23-A]]></name>
+			<definitions r="238" g="236" b="209" />
+		</color>
+		<color id="12">
+			<name><![CDATA[A23-B]]></name>
+			<definitions r="235" g="235" b="192" />
+		</color>
+		<color id="13">
+			<name><![CDATA[A23-C]]></name>
+			<definitions r="216" g="222" b="159" />
+		</color>
+		<color id="14">
+			<name><![CDATA[A23-D]]></name>
+			<definitions r="204" g="214" b="134" />
+		</color>
+		<color id="15">
+			<name><![CDATA[A23-E]]></name>
+			<definitions r="184" g="197" b="105" />
+		</color>
+		<color id="16">
+			<name><![CDATA[A24-A]]></name>
+			<definitions r="239" g="239" b="207" />
+		</color>
+		<color id="17">
+			<name><![CDATA[A24-B]]></name>
+			<definitions r="228" g="234" b="185" />
+		</color>
+		<color id="18">
+			<name><![CDATA[A24-C]]></name>
+			<definitions r="214" g="228" b="150" />
+		</color>
+		<color id="19">
+			<name><![CDATA[A24-D]]></name>
+			<definitions r="194" g="216" b="122" />
+		</color>
+		<color id="20">
+			<name><![CDATA[A24-E]]></name>
+			<definitions r="178" g="209" b="94" />
+		</color>
+		<color id="21">
+			<name><![CDATA[A25-A]]></name>
+			<definitions r="227" g="231" b="205" />
+		</color>
+		<color id="22">
+			<name><![CDATA[A25-B]]></name>
+			<definitions r="214" g="226" b="187" />
+		</color>
+		<color id="23">
+			<name><![CDATA[A25-C]]></name>
+			<definitions r="202" g="216" b="164" />
+		</color>
+		<color id="24">
+			<name><![CDATA[A25-D]]></name>
+			<definitions r="176" g="199" b="130" />
+		</color>
+		<color id="25">
+			<name><![CDATA[A25-E]]></name>
+			<definitions r="148" g="176" b="97" />
+		</color>
+		<color id="26">
+			<name><![CDATA[A26-A]]></name>
+			<definitions r="225" g="235" b="209" />
+		</color>
+		<color id="27">
+			<name><![CDATA[A26-B]]></name>
+			<definitions r="208" g="230" b="191" />
+		</color>
+		<color id="28">
+			<name><![CDATA[A26-C]]></name>
+			<definitions r="184" g="219" b="163" />
+		</color>
+		<color id="29">
+			<name><![CDATA[A26-D]]></name>
+			<definitions r="154" g="203" b="129" />
+		</color>
+		<color id="30">
+			<name><![CDATA[A26-E]]></name>
+			<definitions r="111" g="173" b="82" />
+		</color>
+		<color id="31">
+			<name><![CDATA[A27-A]]></name>
+			<definitions r="228" g="237" b="217" />
+		</color>
+		<color id="32">
+			<name><![CDATA[A27-B]]></name>
+			<definitions r="209" g="233" b="205" />
+		</color>
+		<color id="33">
+			<name><![CDATA[A27-C]]></name>
+			<definitions r="177" g="224" b="178" />
+		</color>
+		<color id="34">
+			<name><![CDATA[A27-D]]></name>
+			<definitions r="140" g="206" b="147" />
+		</color>
+		<color id="35">
+			<name><![CDATA[A27-E]]></name>
+			<definitions r="95" g="181" b="107" />
+		</color>
+		<color id="36">
+			<name><![CDATA[A28-A]]></name>
+			<definitions r="222" g="235" b="219" />
+		</color>
+		<color id="37">
+			<name><![CDATA[A28-B]]></name>
+			<definitions r="198" g="230" b="208" />
+		</color>
+		<color id="38">
+			<name><![CDATA[A28-C]]></name>
+			<definitions r="175" g="222" b="192" />
+		</color>
+		<color id="39">
+			<name><![CDATA[A28-D]]></name>
+			<definitions r="138" g="202" b="163" />
+		</color>
+		<color id="40">
+			<name><![CDATA[A28-E]]></name>
+			<definitions r="88" g="169" b="120" />
+		</color>
+		<color id="41">
+			<name><![CDATA[A29-A]]></name>
+			<definitions r="214" g="235" b="222" />
+		</color>
+		<color id="42">
+			<name><![CDATA[A29-B]]></name>
+			<definitions r="190" g="227" b="213" />
+		</color>
+		<color id="43">
+			<name><![CDATA[A29-C]]></name>
+			<definitions r="158" g="217" b="199" />
+		</color>
+		<color id="44">
+			<name><![CDATA[A29-D]]></name>
+			<definitions r="118" g="197" b="176" />
+		</color>
+		<color id="45">
+			<name><![CDATA[A29-E]]></name>
+			<definitions r="78" g="173" b="146" />
+		</color>
+		<color id="46">
+			<name><![CDATA[B22-E]]></name>
+			<definitions r="196" g="171" b="86" />
+		</color>
+		<color id="47">
+			<name><![CDATA[B24-E]]></name>
+			<definitions r="173" g="167" b="96" />
+		</color>
+		<color id="48">
+			<name><![CDATA[B26-E]]></name>
+			<definitions r="137" g="166" b="120" />
+		</color>
+		<color id="49">
+			<name><![CDATA[B27-E]]></name>
+			<definitions r="108" g="157" b="117" />
+		</color>
+		<color id="50">
+			<name><![CDATA[B29-E]]></name>
+			<definitions r="79" g="150" b="127" />
+		</color>
+		<color id="51">
+			<name><![CDATA[B30-E]]></name>
+			<definitions r="73" g="154" b="146" />
+		</color>
+	</type>
+	<type>
+		<color id="52">
+			<name><![CDATA[A17-A]]></name>
+			<definitions r="245" g="235" b="208" />
+		</color>
+		<color id="53">
+			<name><![CDATA[A17-B]]></name>
+			<definitions r="251" g="231" b="190" />
+		</color>
+		<color id="54">
+			<name><![CDATA[A17-C]]></name>
+			<definitions r="253" g="225" b="168" />
+		</color>
+		<color id="55">
+			<name><![CDATA[A17-D]]></name>
+			<definitions r="255" g="214" b="133" />
+		</color>
+		<color id="56">
+			<name><![CDATA[A17-E]]></name>
+			<definitions r="255" g="195" b="79" />
+		</color>
+		<color id="57">
+			<name><![CDATA[A18-E]]></name>
+			<definitions r="250" g="202" b="83" />
+		</color>
+		<color id="58">
+			<name><![CDATA[A19-A]]></name>
+			<definitions r="242" g="237" b="210" />
+		</color>
+		<color id="59">
+			<name><![CDATA[A19-B]]></name>
+			<definitions r="243" g="233" b="198" />
+		</color>
+		<color id="60">
+			<name><![CDATA[A19-C]]></name>
+			<definitions r="246" g="228" b="171" />
+		</color>
+		<color id="61">
+			<name><![CDATA[A19-D]]></name>
+			<definitions r="249" g="221" b="136" />
+		</color>
+		<color id="62">
+			<name><![CDATA[A19-E]]></name>
+			<definitions r="248" g="206" b="83" />
+		</color>
+	</type>
+	<type>
+		<color id="63">
+			<name><![CDATA[A6-A]]></name>
+			<definitions r="239" g="225" b="226" />
+		</color>
+		<color id="64">
+			<name><![CDATA[A6-B]]></name>
+			<definitions r="243" g="206" b="209" />
+		</color>
+		<color id="65">
+			<name><![CDATA[A6-C]]></name>
+			<definitions r="238" g="183" b="193" />
+		</color>
+		<color id="66">
+			<name><![CDATA[A6-D]]></name>
+			<definitions r="230" g="150" b="163" />
+		</color>
+		<color id="67">
+			<name><![CDATA[A7-E]]></name>
+			<definitions r="213" g="99" b="100" />
+		</color>
+		<color id="68">
+			<name><![CDATA[A8-E]]></name>
+			<definitions r="216" g="112" b="102" />
+		</color>
+		<color id="69">
+			<name><![CDATA[A9-A]]></name>
+			<definitions r="244" g="222" b="214" />
+		</color>
+		<color id="70">
+			<name><![CDATA[A9-B]]></name>
+			<definitions r="249" g="209" b="195" />
+		</color>
+		<color id="71">
+			<name><![CDATA[A9-C]]></name>
+			<definitions r="248" g="193" b="178" />
+		</color>
+		<color id="72">
+			<name><![CDATA[A9-D]]></name>
+			<definitions r="242" g="162" b="143" />
+		</color>
+		<color id="73">
+			<name><![CDATA[A9-E]]></name>
+			<definitions r="229" g="123" b="97" />
+		</color>
+		<color id="74">
+			<name><![CDATA[B6-A]]></name>
+			<definitions r="238" g="217" b="218" />
+		</color>
+		<color id="75">
+			<name><![CDATA[B6-B]]></name>
+			<definitions r="235" g="197" b="204" />
+		</color>
+		<color id="76">
+			<name><![CDATA[B6-C]]></name>
+			<definitions r="228" g="174" b="185" />
+		</color>
+		<color id="77">
+			<name><![CDATA[B6-D]]></name>
+			<definitions r="212" g="142" b="157" />
+		</color>
+		<color id="78">
+			<name><![CDATA[B7-E]]></name>
+			<definitions r="191" g="111" b="112" />
+		</color>
+		<color id="79">
+			<name><![CDATA[B8-A]]></name>
+			<definitions r="245" g="222" b="215" />
+		</color>
+		<color id="80">
+			<name><![CDATA[B8-B]]></name>
+			<definitions r="245" g="211" b="206" />
+		</color>
+		<color id="81">
+			<name><![CDATA[B8-C]]></name>
+			<definitions r="243" g="188" b="182" />
+		</color>
+		<color id="82">
+			<name><![CDATA[B8-D]]></name>
+			<definitions r="227" g="145" b="139" />
+		</color>
+		<color id="83">
+			<name><![CDATA[B8-E]]></name>
+			<definitions r="200" g="111" b="100" />
+		</color>
+		<color id="84">
+			<name><![CDATA[B9-A]]></name>
+			<definitions r="245" g="222" b="210" />
+		</color>
+		<color id="85">
+			<name><![CDATA[B9-B]]></name>
+			<definitions r="246" g="206" b="193" />
+		</color>
+		<color id="86">
+			<name><![CDATA[B9-C]]></name>
+			<definitions r="244" g="190" b="176" />
+		</color>
+		<color id="87">
+			<name><![CDATA[B9-D]]></name>
+			<definitions r="233" g="161" b="143" />
+		</color>
+		<color id="88">
+			<name><![CDATA[B9-E]]></name>
+			<definitions r="208" g="124" b="100" />
+		</color>
+	</type>
+	<type>
+		<color id="89">
+			<name><![CDATA[A30-A]]></name>
+			<definitions r="212" g="234" b="225" />
+		</color>
+		<color id="90">
+			<name><![CDATA[A30-B]]></name>
+			<definitions r="182" g="227" b="220" />
+		</color>
+		<color id="91">
+			<name><![CDATA[A30-C]]></name>
+			<definitions r="147" g="216" b="209" />
+		</color>
+		<color id="92">
+			<name><![CDATA[A30-D]]></name>
+			<definitions r="96" g="196" b="190" />
+		</color>
+		<color id="93">
+			<name><![CDATA[A30-E]]></name>
+			<definitions r="33" g="171" b="163" />
+		</color>
+		<color id="94">
+			<name><![CDATA[A31-A]]></name>
+			<definitions r="203" g="231" b="228" />
+		</color>
+		<color id="95">
+			<name><![CDATA[A31-B]]></name>
+			<definitions r="182" g="224" b="223" />
+		</color>
+		<color id="96">
+			<name><![CDATA[A31-C]]></name>
+			<definitions r="146" g="210" b="216" />
+		</color>
+		<color id="97">
+			<name><![CDATA[A31-D]]></name>
+			<definitions r="102" g="191" b="200" />
+		</color>
+		<color id="98">
+			<name><![CDATA[A31-E]]></name>
+			<definitions r="31" g="160" b="169" />
+		</color>
+		<color id="99">
+			<name><![CDATA[A33-A]]></name>
+			<definitions r="206" g="230" b="232" />
+		</color>
+		<color id="100">
+			<name><![CDATA[A33-B]]></name>
+			<definitions r="190" g="225" b="229" />
+		</color>
+		<color id="101">
+			<name><![CDATA[A33-C]]></name>
+			<definitions r="150" g="210" b="228" />
+		</color>
+		<color id="102">
+			<name><![CDATA[A33-D]]></name>
+			<definitions r="101" g="187" b="222" />
+		</color>
+		<color id="103">
+			<name><![CDATA[A34-A]]></name>
+			<definitions r="202" g="225" b="229" />
+		</color>
+		<color id="104">
+			<name><![CDATA[A34-B]]></name>
+			<definitions r="180" g="214" b="226" />
+		</color>
+		<color id="105">
+			<name><![CDATA[A34-C]]></name>
+			<definitions r="149" g="200" b="223" />
+		</color>
+		<color id="106">
+			<name><![CDATA[A34-D]]></name>
+			<definitions r="102" g="170" b="207" />
+		</color>
+		<color id="107">
+			<name><![CDATA[A35-A]]></name>
+			<definitions r="212" g="225" b="228" />
+		</color>
+		<color id="108">
+			<name><![CDATA[A35-B]]></name>
+			<definitions r="185" g="211" b="225" />
+		</color>
+		<color id="109">
+			<name><![CDATA[A35-C]]></name>
+			<definitions r="157" g="193" b="219" />
+		</color>
+		<color id="110">
+			<name><![CDATA[A35-D]]></name>
+			<definitions r="118" g="164" b="204" />
+		</color>
+		<color id="111">
+			<name><![CDATA[A35-E]]></name>
+			<definitions r="77" g="132" b="182" />
+		</color>
+		<color id="112">
+			<name><![CDATA[A36-A]]></name>
+			<definitions r="216" g="224" b="229" />
+		</color>
+		<color id="113">
+			<name><![CDATA[A36-B]]></name>
+			<definitions r="196" g="210" b="225" />
+		</color>
+		<color id="114">
+			<name><![CDATA[A36-C]]></name>
+			<definitions r="169" g="192" b="219" />
+		</color>
+		<color id="115">
+			<name><![CDATA[A36-D]]></name>
+			<definitions r="132" g="162" b="202" />
+		</color>
+		<color id="116">
+			<name><![CDATA[A36-E]]></name>
+			<definitions r="90" g="125" b="174" />
+		</color>
+		<color id="117">
+			<name><![CDATA[A37-A]]></name>
+			<definitions r="221" g="224" b="228" />
+		</color>
+		<color id="118">
+			<name><![CDATA[A37-B]]></name>
+			<definitions r="201" g="209" b="225" />
+		</color>
+		<color id="119">
+			<name><![CDATA[A37-C]]></name>
+			<definitions r="176" g="190" b="219" />
+		</color>
+		<color id="120">
+			<name><![CDATA[A37-D]]></name>
+			<definitions r="141" g="159" b="203" />
+		</color>
+		<color id="121">
+			<name><![CDATA[A38-A]]></name>
+			<definitions r="225" g="226" b="229" />
+		</color>
+		<color id="122">
+			<name><![CDATA[A38-B]]></name>
+			<definitions r="209" g="212" b="225" />
+		</color>
+		<color id="123">
+			<name><![CDATA[A38-C]]></name>
+			<definitions r="184" g="190" b="217" />
+		</color>
+		<color id="124">
+			<name><![CDATA[A38-D]]></name>
+			<definitions r="152" g="163" b="204" />
+		</color>
+		<color id="125">
+			<name><![CDATA[B31-A]]></name>
+			<definitions r="210" g="232" b="226" />
+		</color>
+		<color id="126">
+			<name><![CDATA[B31-B]]></name>
+			<definitions r="180" g="221" b="218" />
+		</color>
+		<color id="127">
+			<name><![CDATA[B31-C]]></name>
+			<definitions r="152" g="205" b="206" />
+		</color>
+		<color id="128">
+			<name><![CDATA[B31-D]]></name>
+			<definitions r="103" g="177" b="181" />
+		</color>
+		<color id="129">
+			<name><![CDATA[B31-E]]></name>
+			<definitions r="71" g="151" b="155" />
+		</color>
+		<color id="130">
+			<name><![CDATA[B33-A]]></name>
+			<definitions r="201" g="226" b="227" />
+		</color>
+		<color id="131">
+			<name><![CDATA[B33-B]]></name>
+			<definitions r="169" g="211" b="221" />
+		</color>
+		<color id="132">
+			<name><![CDATA[B33-C]]></name>
+			<definitions r="133" g="188" b="206" />
+		</color>
+		<color id="133">
+			<name><![CDATA[B33-D]]></name>
+			<definitions r="93" g="161" b="183" />
+		</color>
+		<color id="134">
+			<name><![CDATA[B34-A]]></name>
+			<definitions r="203" g="225" b="228" />
+		</color>
+		<color id="135">
+			<name><![CDATA[B34-B]]></name>
+			<definitions r="170" g="211" b="224" />
+		</color>
+		<color id="136">
+			<name><![CDATA[B34-C]]></name>
+			<definitions r="138" g="191" b="213" />
+		</color>
+		<color id="137">
+			<name><![CDATA[B34-D]]></name>
+			<definitions r="96" g="160" b="190" />
+		</color>
+		<color id="138">
+			<name><![CDATA[B35-A]]></name>
+			<definitions r="204" g="222" b="230" />
+		</color>
+		<color id="139">
+			<name><![CDATA[B35-B]]></name>
+			<definitions r="178" g="207" b="226" />
+		</color>
+		<color id="140">
+			<name><![CDATA[B35-C]]></name>
+			<definitions r="148" g="186" b="216" />
+		</color>
+		<color id="141">
+			<name><![CDATA[B35-D]]></name>
+			<definitions r="104" g="158" b="198" />
+		</color>
+		<color id="142">
+			<name><![CDATA[B35-E]]></name>
+			<definitions r="71" g="130" b="177" />
+		</color>
+		<color id="143">
+			<name><![CDATA[B36-A]]></name>
+			<definitions r="215" g="223" b="229" />
+		</color>
+		<color id="144">
+			<name><![CDATA[B36-B]]></name>
+			<definitions r="187" g="207" b="223" />
+		</color>
+		<color id="145">
+			<name><![CDATA[B36-C]]></name>
+			<definitions r="161" g="187" b="214" />
+		</color>
+		<color id="146">
+			<name><![CDATA[B36-D]]></name>
+			<definitions r="121" g="158" b="196" />
+		</color>
+		<color id="147">
+			<name><![CDATA[B36-E]]></name>
+			<definitions r="78" g="121" b="167" />
+		</color>
+		<color id="148">
+			<name><![CDATA[B37-A]]></name>
+			<definitions r="216" g="221" b="225" />
+		</color>
+		<color id="149">
+			<name><![CDATA[B37-B]]></name>
+			<definitions r="197" g="206" b="221" />
+		</color>
+		<color id="150">
+			<name><![CDATA[B37-C]]></name>
+			<definitions r="168" g="183" b="209" />
+		</color>
+		<color id="151">
+			<name><![CDATA[B37-D]]></name>
+			<definitions r="133" g="154" b="192" />
+		</color>
+		<color id="152">
+			<name><![CDATA[C35-E]]></name>
+			<definitions r="85" g="131" b="165" />
+		</color>
+		<color id="153">
+			<name><![CDATA[C36-E]]></name>
+			<definitions r="92" g="131" b="167" />
+		</color>
+	</type>
+	<type>
+		<color id="154">
+			<name><![CDATA[A10-A]]></name>
+			<definitions r="244" g="226" b="215" />
+		</color>
+		<color id="155">
+			<name><![CDATA[A10-B]]></name>
+			<definitions r="248" g="218" b="199" />
+		</color>
+		<color id="156">
+			<name><![CDATA[A10-C]]></name>
+			<definitions r="250" g="203" b="181" />
+		</color>
+		<color id="157">
+			<name><![CDATA[A10-D]]></name>
+			<definitions r="247" g="178" b="150" />
+		</color>
+		<color id="158">
+			<name><![CDATA[A10-E]]></name>
+			<definitions r="243" g="143" b="107" />
+		</color>
+		<color id="159">
+			<name><![CDATA[A11-A]]></name>
+			<definitions r="243" g="231" b="220" />
+		</color>
+		<color id="160">
+			<name><![CDATA[A11-B]]></name>
+			<definitions r="246" g="226" b="207" />
+		</color>
+		<color id="161">
+			<name><![CDATA[A11-C]]></name>
+			<definitions r="253" g="210" b="178" />
+		</color>
+		<color id="162">
+			<name><![CDATA[A11-D]]></name>
+			<definitions r="252" g="182" b="142" />
+		</color>
+		<color id="163">
+			<name><![CDATA[A11-E]]></name>
+			<definitions r="248" g="149" b="98" />
+		</color>
+		<color id="164">
+			<name><![CDATA[A12-A]]></name>
+			<definitions r="244" g="231" b="217" />
+		</color>
+		<color id="165">
+			<name><![CDATA[A12-B]]></name>
+			<definitions r="250" g="222" b="200" />
+		</color>
+		<color id="166">
+			<name><![CDATA[A12-C]]></name>
+			<definitions r="254" g="215" b="190" />
+		</color>
+		<color id="167">
+			<name><![CDATA[A12-D]]></name>
+			<definitions r="249" g="186" b="146" />
+		</color>
+		<color id="168">
+			<name><![CDATA[A12-E]]></name>
+			<definitions r="246" g="156" b="102" />
+		</color>
+		<color id="169">
+			<name><![CDATA[A13-E]]></name>
+			<definitions r="225" g="150" b="90" />
+		</color>
+		<color id="170">
+			<name><![CDATA[A14-A]]></name>
+			<definitions r="248" g="232" b="211" />
+		</color>
+		<color id="171">
+			<name><![CDATA[A14-B]]></name>
+			<definitions r="249" g="220" b="191" />
+		</color>
+		<color id="172">
+			<name><![CDATA[A14-C]]></name>
+			<definitions r="252" g="205" b="160" />
+		</color>
+		<color id="173">
+			<name><![CDATA[A14-D]]></name>
+			<definitions r="248" g="187" b="132" />
+		</color>
+		<color id="174">
+			<name><![CDATA[A14-E]]></name>
+			<definitions r="243" g="167" b="100" />
+		</color>
+		<color id="175">
+			<name><![CDATA[A15-A]]></name>
+			<definitions r="248" g="233" b="213" />
+		</color>
+		<color id="176">
+			<name><![CDATA[A15-B]]></name>
+			<definitions r="254" g="225" b="193" />
+		</color>
+		<color id="177">
+			<name><![CDATA[A15-C]]></name>
+			<definitions r="255" g="212" b="171" />
+		</color>
+		<color id="178">
+			<name><![CDATA[A15-D]]></name>
+			<definitions r="255" g="188" b="118" />
+		</color>
+		<color id="179">
+			<name><![CDATA[A15-E]]></name>
+			<definitions r="253" g="157" b="75" />
+		</color>
+		<color id="180">
+			<name><![CDATA[A16-A]]></name>
+			<definitions r="247" g="230" b="208" />
+		</color>
+		<color id="181">
+			<name><![CDATA[A16-B]]></name>
+			<definitions r="251" g="228" b="197" />
+		</color>
+		<color id="182">
+			<name><![CDATA[A16-C]]></name>
+			<definitions r="255" g="218" b="174" />
+		</color>
+		<color id="183">
+			<name><![CDATA[A16-D]]></name>
+			<definitions r="255" g="204" b="135" />
+		</color>
+		<color id="184">
+			<name><![CDATA[A16-E]]></name>
+			<definitions r="255" g="181" b="78" />
+		</color>
+		<color id="185">
+			<name><![CDATA[B10-E]]></name>
+			<definitions r="189" g="122" b="96" />
+		</color>
+		<color id="186">
+			<name><![CDATA[B11-A]]></name>
+			<definitions r="243" g="228" b="215" />
+		</color>
+		<color id="187">
+			<name><![CDATA[B11-B]]></name>
+			<definitions r="248" g="219" b="196" />
+		</color>
+		<color id="188">
+			<name><![CDATA[B11-C]]></name>
+			<definitions r="248" g="205" b="175" />
+		</color>
+		<color id="189">
+			<name><![CDATA[B11-D]]></name>
+			<definitions r="237" g="170" b="126" />
+		</color>
+		<color id="190">
+			<name><![CDATA[B11-E]]></name>
+			<definitions r="214" g="132" b="82" />
+		</color>
+		<color id="191">
+			<name><![CDATA[B12-A]]></name>
+			<definitions r="243" g="227" b="209" />
+		</color>
+		<color id="192">
+			<name><![CDATA[B12-B]]></name>
+			<definitions r="246" g="219" b="193" />
+		</color>
+		<color id="193">
+			<name><![CDATA[B12-C]]></name>
+			<definitions r="248" g="204" b="170" />
+		</color>
+		<color id="194">
+			<name><![CDATA[B12-D]]></name>
+			<definitions r="237" g="177" b="136" />
+		</color>
+		<color id="195">
+			<name><![CDATA[B12-E]]></name>
+			<definitions r="211" g="141" b="92" />
+		</color>
+		<color id="196">
+			<name><![CDATA[B13-E]]></name>
+			<definitions r="203" g="143" b="96" />
+		</color>
+		<color id="197">
+			<name><![CDATA[B15-A]]></name>
+			<definitions r="245" g="227" b="202" />
+		</color>
+		<color id="198">
+			<name><![CDATA[B15-B]]></name>
+			<definitions r="246" g="216" b="180" />
+		</color>
+		<color id="199">
+			<name><![CDATA[B15-C]]></name>
+			<definitions r="246" g="197" b="146" />
+		</color>
+		<color id="200">
+			<name><![CDATA[B15-D]]></name>
+			<definitions r="237" g="178" b="118" />
+		</color>
+		<color id="201">
+			<name><![CDATA[B15-E]]></name>
+			<definitions r="226" g="162" b="95" />
+		</color>
+		<color id="202">
+			<name><![CDATA[B17-A]]></name>
+			<definitions r="239" g="232" b="217" />
+		</color>
+		<color id="203">
+			<name><![CDATA[B17-B]]></name>
+			<definitions r="242" g="225" b="196" />
+		</color>
+		<color id="204">
+			<name><![CDATA[B17-C]]></name>
+			<definitions r="242" g="211" b="170" />
+		</color>
+		<color id="205">
+			<name><![CDATA[B17-D]]></name>
+			<definitions r="230" g="183" b="127" />
+		</color>
+		<color id="206">
+			<name><![CDATA[B17-E]]></name>
+			<definitions r="209" g="159" b="97" />
+		</color>
+		<color id="207">
+			<name><![CDATA[B18-A]]></name>
+			<definitions r="244" g="235" b="211" />
+		</color>
+		<color id="208">
+			<name><![CDATA[B18-B]]></name>
+			<definitions r="245" g="230" b="194" />
+		</color>
+		<color id="209">
+			<name><![CDATA[B18-C]]></name>
+			<definitions r="246" g="217" b="162" />
+		</color>
+		<color id="210">
+			<name><![CDATA[B18-D]]></name>
+			<definitions r="244" g="201" b="125" />
+		</color>
+		<color id="211">
+			<name><![CDATA[B18-E]]></name>
+			<definitions r="233" g="176" b="79" />
+		</color>
+		<color id="212">
+			<name><![CDATA[B19-E]]></name>
+			<definitions r="220" g="176" b="96" />
+		</color>
+	</type>
+	<type>
+		<color id="213">
+			<name><![CDATA[A1-A]]></name>
+			<definitions r="228" g="217" b="224" />
+		</color>
+		<color id="214">
+			<name><![CDATA[A1-B]]></name>
+			<definitions r="223" g="210" b="222" />
+		</color>
+		<color id="215">
+			<name><![CDATA[A1-C]]></name>
+			<definitions r="205" g="190" b="214" />
+		</color>
+		<color id="216">
+			<name><![CDATA[A1-D]]></name>
+			<definitions r="182" g="165" b="200" />
+		</color>
+		<color id="217">
+			<name><![CDATA[A1-E]]></name>
+			<definitions r="143" g="124" b="169" />
+		</color>
+		<color id="218">
+			<name><![CDATA[A2-A]]></name>
+			<definitions r="233" g="218" b="225" />
+		</color>
+		<color id="219">
+			<name><![CDATA[A2-B]]></name>
+			<definitions r="228" g="206" b="222" />
+		</color>
+		<color id="220">
+			<name><![CDATA[A2-C]]></name>
+			<definitions r="208" g="179" b="210" />
+		</color>
+		<color id="221">
+			<name><![CDATA[A2-D]]></name>
+			<definitions r="185" g="150" b="194" />
+		</color>
+		<color id="222">
+			<name><![CDATA[A2-E]]></name>
+			<definitions r="143" g="103" b="153" />
+		</color>
+		<color id="223">
+			<name><![CDATA[A3-A]]></name>
+			<definitions r="236" g="217" b="225" />
+		</color>
+		<color id="224">
+			<name><![CDATA[A3-B]]></name>
+			<definitions r="235" g="209" b="224" />
+		</color>
+		<color id="225">
+			<name><![CDATA[A3-C]]></name>
+			<definitions r="225" g="186" b="214" />
+		</color>
+		<color id="226">
+			<name><![CDATA[A3-D]]></name>
+			<definitions r="203" g="153" b="198" />
+		</color>
+		<color id="227">
+			<name><![CDATA[A3-E]]></name>
+			<definitions r="167" g="104" b="159" />
+		</color>
+		<color id="228">
+			<name><![CDATA[A4-A]]></name>
+			<definitions r="238" g="221" b="229" />
+		</color>
+		<color id="229">
+			<name><![CDATA[A4-B]]></name>
+			<definitions r="237" g="204" b="221" />
+		</color>
+		<color id="230">
+			<name><![CDATA[A4-C]]></name>
+			<definitions r="231" g="180" b="209" />
+		</color>
+		<color id="231">
+			<name><![CDATA[A4-D]]></name>
+			<definitions r="218" g="148" b="190" />
+		</color>
+		<color id="232">
+			<name><![CDATA[A5-A]]></name>
+			<definitions r="240" g="223" b="225" />
+		</color>
+		<color id="233">
+			<name><![CDATA[A5-B]]></name>
+			<definitions r="235" g="203" b="215" />
+		</color>
+		<color id="234">
+			<name><![CDATA[A5-C]]></name>
+			<definitions r="229" g="182" b="203" />
+		</color>
+		<color id="235">
+			<name><![CDATA[A5-D]]></name>
+			<definitions r="220" g="154" b="182" />
+		</color>
+		<color id="236">
+			<name><![CDATA[B1-E]]></name>
+			<definitions r="121" g="111" b="143" />
+		</color>
+		<color id="237">
+			<name><![CDATA[B2-E]]></name>
+			<definitions r="131" g="104" b="134" />
+		</color>
+		<color id="238">
+			<name><![CDATA[B3-A]]></name>
+			<definitions r="234" g="218" b="223" />
+		</color>
+		<color id="239">
+			<name><![CDATA[B3-B]]></name>
+			<definitions r="227" g="201" b="214" />
+		</color>
+		<color id="240">
+			<name><![CDATA[B3-C]]></name>
+			<definitions r="206" g="172" b="198" />
+		</color>
+		<color id="241">
+			<name><![CDATA[B3-D]]></name>
+			<definitions r="184" g="140" b="175" />
+		</color>
+		<color id="242">
+			<name><![CDATA[B3-E]]></name>
+			<definitions r="150" g="101" b="136" />
+		</color>
+		<color id="243">
+			<name><![CDATA[B38-A]]></name>
+			<definitions r="217" g="217" b="225" />
+		</color>
+		<color id="244">
+			<name><![CDATA[B38-B]]></name>
+			<definitions r="201" g="203" b="221" />
+		</color>
+		<color id="245">
+			<name><![CDATA[B38-C]]></name>
+			<definitions r="178" g="182" b="211" />
+		</color>
+		<color id="246">
+			<name><![CDATA[B38-D]]></name>
+			<definitions r="145" g="151" b="190" />
+		</color>
+	</type>
+</maintype>
+</colors>

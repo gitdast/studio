@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<colors>
+<maintype name="ESMAL COLOR" cols="2">
+	<type>
+		<color id="1">
+			<name><![CDATA[EC11 - 0]]></name>
+			<definitions r="206" g="209" b="209" />
+		</color>
+		<color id="2">
+			<name><![CDATA[EC11 - 1]]></name>
+			<definitions r="229" g="229" b="225" />
+		</color>
+		<color id="3">
+			<name><![CDATA[EC21 - 0]]></name>
+			<definitions r="187" g="227" b="218" />
+		</color>
+		<color id="4">
+			<name><![CDATA[EC21 - 1]]></name>
+			<definitions r="202" g="227" b="213" />
+		</color>
+		<color id="5">
+			<name><![CDATA[EC31 - 0]]></name>
+			<definitions r="246" g="198" b="220" />
+		</color>
+		<color id="6">
+			<name><![CDATA[EC31 - 1]]></name>
+			<definitions r="246" g="209" b="227" />
+		</color>
+		<color id="7">
+			<name><![CDATA[EC41 - 0]]></name>
+			<definitions r="253" g="228" b="132" />
+		</color>
+		<color id="8">
+			<name><![CDATA[EC41 - 1]]></name>
+			<definitions r="253" g="240" b="167" />
+		</color>
+		<color id="9">
+			<name><![CDATA[EC51 - 0]]></name>
+			<definitions r="254" g="216" b="164" />
+		</color>
+		<color id="10">
+			<name><![CDATA[EC51 - 1]]></name>
+			<definitions r="254" g="224" b="182" />
+		</color>
+		<color id="11">
+			<name><![CDATA[EC52 - 0]]></name>
+			<definitions r="249" g="166" b="79" />
+		</color>
+		<color id="12">
+			<name><![CDATA[EC52 - 1]]></name>
+			<definitions r="251" g="188" b="123" />
+		</color>
+		<color id="13">
+			<name><![CDATA[EC61 - 0]]></name>
+			<definitions r="233" g="218" b="172" />
+		</color>
+		<color id="14">
+			<name><![CDATA[EC61 - 1]]></name>
+			<definitions r="239" g="227" b="193" />
+		</color>
+		<color id="15">
+			<name><![CDATA[EC71 - 0]]></name>
+			<definitions r="237" g="211" b="194" />
+		</color>
+		<color id="16">
+			<name><![CDATA[EC71 - 1]]></name>
+			<definitions r="241" g="220" b="206" />
+		</color>
+		<color id="17">
+			<name><![CDATA[EC81 - 0]]></name>
+			<definitions r="226" g="198" b="183" />
+		</color>
+		<color id="18">
+			<name><![CDATA[EC81 - 1]]></name>
+			<definitions r="236" g="213" b="196" />
+		</color>
+		<color id="19">
+			<name><![CDATA[EC82 - 0]]></name>
+			<definitions r="233" g="192" b="155" />
+		</color>
+		<color id="20">
+			<name><![CDATA[EC82 - 1]]></name>
+			<definitions r="250" g="221" b="194" />
+		</color>
+		<color id="21">
+			<name><![CDATA[EC91 - 0]]></name>
+			<definitions r="211" g="229" b="160" />
+		</color>
+		<color id="22">
+			<name><![CDATA[EC91 - 1]]></name>
+			<definitions r="220" g="234" b="179" />
+		</color>
+		<color id="23">
+			<name><![CDATA[EC101 - 0]]></name>
+			<definitions r="207" g="203" b="133" />
+		</color>
+		<color id="24">
+			<name><![CDATA[EC101 - 1]]></name>
+			<definitions r="218" g="214" b="163" />
+		</color>
+	</type>
+</maintype>
+</colors>
