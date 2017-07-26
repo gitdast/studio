@@ -3,9 +3,9 @@
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	import flash.utils.getQualifiedClassName;
+	import flash.display.Sprite;
 	
 	public class ColorsetsMenu extends MovieClip{
-		//public var activeGroupId:String;
 		public var activeId:String;
 		public var headlines:Array = new Array();
 		
@@ -18,16 +18,16 @@
 			//this.setActive(this.getChildAt(1) as MovieClip);
 		}
 		
-		/**
-		* @note - there's headline text in dictionary for each group, key like: gid + "_headline";
-		*/
 		private function createGroups(){
-			var colorGroups = Studio.rootStg.xmlConfig.getColorGroupsInfo();
-			
-			var labelGroup:TextField;
+			var colorGroups = Studio.rootStg.xmlConfig.getColorGroupsInfo(),			
+				labelGroup:TextField,
+				groupWidth:Number = this.controlWidth / colorGroups.length() - Studio.PANEL_PADDING;
+				
 			for(var i = 0; i < colorGroups.length(); i++){
 				labelGroup = new TextField();
-				labelGroup.width = this.controlWidth / colorGroups.length() - Studio.PANEL_PADDING;
+				labelGroup.autoSize = "center";
+				labelGroup.mouseEnabled = false;
+				labelGroup.cacheAsBitmap = true;
 				labelGroup.selectable = false;
 				labelGroup.text = Studio.rootStg.xmlDictionary.getTranslate(colorGroups[i]);
 				labelGroup.setTextFormat(Studio.rootStg.getTextFormatBold(15, "center", 0x8e8e8e));
@@ -38,7 +38,7 @@
 				
 				this.addChild(labelGroup);
 				
-				this.addColorsets(labelGroup.x, labelGroup.width, colorGroups[i]);
+				this.addColorsets(labelGroup.x, groupWidth, colorGroups[i]);
 			}
 		}
 		

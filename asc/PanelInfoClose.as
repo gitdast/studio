@@ -1,93 +1,95 @@
 ﻿package{
-	import flash.display.Sprite;
-	import flash.display.Shape;
 	import flash.text.TextField;
 	import flash.events.MouseEvent;
 
-	//import flash.display.MovieClip;
-	
 	public class PanelInfoClose extends PanelSlide{
-		//public var labelField:TextField;
-		public var butt_yes:ButtonFile;
-		public var butt_no:ButtonFile;
+		public var buttYes:ButtonPanel;
+		public var buttNo:ButtonPanel;
 		
-		private var goHomepage:Boolean;
-		private var goWhere:String;
+		private var callback:Function;
 		
-		private const pH:Number = 100;
-		
-		public function PanelInfoClose(stageW:Number, goHome:Boolean, goWhere:String){
+		public function PanelInfoClose(stageW:Number, stageH:Number, panelW:Number = 0, panelH:Number = 0, callback:Function = null){
 			trace("PanelInfoClose: init");
-			super(stageW, pH);
+			super(stageW, stageH, panelW, panelH);
 			
-			this.goHomepage = goHome;
-			this.goWhere = goWhere;
+			this.x = stageW / 2 - this.panelWidth / 2;
+			this.y = Studio.PANEL_PADDING;
 			
-			//this.addInfosign();
-			//this.addLabel("infoProjectClose");
-			//this.addQuestion();
+			this.callback = callback;
+			
+			this.addLabel();
+			this.addContent();
+			this.addButtons();
 		}
 		
-		public function addQuestion(){
-			var buttlabel:String;
+		private function addContent(){
+			ico = new ico_warning();
+			ico.x = this.panelWidth / 2;
+			ico.y = this.panelHeaderHeight + 15 + ico.height / 2;
 			
-			butt_yes = new ButtonFile();
-			buttlabel = Studio.rootStg.xmlDictionary.getTranslate("infoProjectAnswerYes");
-			butt_yes.buttonMode = true;
-			butt_yes.mouseChildren = false;
-			butt_yes.dt_label.text = buttlabel.toUpperCase();
-			butt_yes.bgd.width = butt_yes.dt_label.textWidth + 19;
-			butt_yes.x = labelField.x + labelField.width/2 - butt_yes.bgd.width - 20;
-			butt_yes.y = labelField.y + labelField.height + 10;
-			butt_yes.hitArea = butt_yes.bgd;
-			addChild(butt_yes);
-			butt_yes.addEventListener("click", buttonYesClickHandler);
+			var format = Studio.rootStg.getTextFormat2(16, "center", 0x8e8e8e);
+			var contentField = new TextField();
+			contentField.width = this.panelWidth - 2 * Studio.PANEL_PADDING;
+			contentField.wordWrap = true;
+			contentField.selectable = false;
+			contentField.text = Studio.rootStg.xmlDictionary.getTranslate("panelInfoCloseText");
+			contentField.setTextFormat(format);
+			contentField.embedFonts = true;
+			contentField.antiAliasType = "advanced";
+			contentField.x = Studio.PANEL_PADDING;
+			contentField.y = ico.y + ico.height / 2 + 15;
 			
-			butt_no = new ButtonFile();
-			buttlabel = Studio.rootStg.xmlDictionary.getTranslate("infoProjectAnswerNo");
-			butt_no.buttonMode = true;
-			butt_no.mouseChildren = false;
-			butt_no.dt_label.text = buttlabel.toUpperCase();
-			butt_no.bgd.width = butt_no.dt_label.textWidth + 19;
-			butt_no.x = labelField.x + labelField.width/2 + 20;
-			butt_no.y = labelField.y + labelField.height + 10;
-			butt_no.hitArea = butt_no.bgd;
-			addChild(butt_no);
-			butt_no.addEventListener("click", buttonNoClickHandler);
+			this.addChild(contentField);
+			this.addChild(ico);
 		}
 		
-		private function buttonYesClickHandler(e:MouseEvent){
-			butt_no.removeEventListener("click", buttonNoClickHandler);
-			butt_yes.removeEventListener("click", buttonYesClickHandler);
-			this.removeChild(butt_no);
-			this.removeChild(butt_yes);
+		private function addButtons(){
+			var w = (this.panelWidth - 3 * Studio.PANEL_PADDING) / 2;
+			
+			buttYes = new ButtonPanel(w, "panelInfoCloseYes");
+			buttNo = new ButtonPanel(w, "panelInfoCloseNo");
+			this.addChild(buttYes);
+			this.addChild(buttNo);
+			
+			buttYes.x = Studio.PANEL_PADDING;
+			buttNo.x = this.panelWidth - Studio.PANEL_PADDING - buttNo.width;
+			buttYes.y = buttNo.y = this.panelHeight - Studio.PANEL_PADDING - buttYes.height;
+			
+			buttYes.addEventListener("click", clickButtYes);
+			buttNo.addEventListener("click", clickButtNo);
+		}
+		
+		private function clickButtYes(e:MouseEvent){
 			this.slideUp(e);
-			Studio.rootStg.closeProject();
+			//Studio.rootStg.closeProject();
 			
+			/*
 			if(goHomepage) Studio.rootStg.addHomepage();
 			if(goWhere=="pre") Studio.rootStg.createProjectPreparedOpener();
 			if(goWhere=="own") Studio.rootStg.openFileDialog();
+			*/
+			callback();
 		}
 		
-		private function buttonNoClickHandler(e:MouseEvent){
-			butt_no.removeEventListener("click", buttonNoClickHandler);
-			butt_yes.removeEventListener("click", buttonYesClickHandler);
-			this.removeChild(butt_no);
-			this.removeChild(butt_yes);
-			
+		private function clickButtNo(e:MouseEvent){
 			this.slideUp(e);
+		}
+		
+		override protected function publishPanelRemoved(){
+			Studio.rootStg.panelInfo = null;
 		}
 		
 		override public function resizeHandler(w:Number, h:Number, scrollRatio:Number = -1){
 			super.resizeHandler(w, h);
-			if(butt_yes) butt_yes.x = labelField.x + labelField.width/2 - butt_yes.bgd.width - 20;
-			if(butt_no) butt_no.x = labelField.x + labelField.width/2 + 20;
+			buttYes.x = Studio.PANEL_PADDING;
+			buttNo.x = this.panelWidth - Studio.PANEL_PADDING - buttNo.width;
+			buttYes.y = buttNo.y = this.panelHeight - Studio.PANEL_PADDING - buttYes.height;
 		}
 		
 		override public function remove(){
 			super.remove();
-			if(butt_no) butt_no.removeEventListener("click", buttonNoClickHandler);
-			if(butt_yes) butt_yes.removeEventListener("click", buttonYesClickHandler);
+			buttYes.removeEventListener("click", clickButtYes);
+			buttNo.removeEventListener("click", clickButtNo);
 		}
 	}
 	

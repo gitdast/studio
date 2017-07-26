@@ -1,9 +1,7 @@
 ﻿package{
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
-	import flash.text.TextField;
 	import flash.geom.ColorTransform;
-	import fl.motion.Color;
 	
 	public class ColorItemSampler extends ColorItem{
 		public var colorData:Object;
@@ -26,7 +24,7 @@
 		
 		override public function clickHandler(e:MouseEvent){
 			if(Studio.rootStg.panelWalls.wallsControl){
-				Studio.rootStg.panelWalls.wallsControl.signalColorChanged(this.colorData);
+				Studio.rootStg.panelWalls.wallsControl.changeColor(this.colorData);
 			}
 		}
 		

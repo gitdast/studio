@@ -7,15 +7,14 @@
 			super(false, true);
 		}
 
-		/*
 		override public function clickHandler(e:MouseEvent){
-			ColorStudio.rootStg.createPanelInfoSave();
-			if(ColorStudio.rootStg.projectP.prData){
-				ColorStudio.rootStg.panelInfo.addQuestion();
-			}else{
-				ColorStudio.rootStg.projectP.export();
+			if(Studio.rootStg.project.projectSaved){
+				Studio.rootStg.createPanelInfoSave("panelInfoSaveRewrite");
+			}
+			else{
+				Studio.rootStg.createPanelInfoSave("panelInfoSaveEmail");
 			}
 		}
-		*/
+		
 	}
-}
+} 

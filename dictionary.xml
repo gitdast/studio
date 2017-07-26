@@ -1,44 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <dictionary>
-	<item key="homepageButtonPreparedLabel">
-		<translate lang="en"><![CDATA[open]]></translate>
-		<translate lang="cz"><![CDATA[připravené simulace]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+	<item key="PanelNew">
+		<translate lang="en"><![CDATA[New Project]]></translate>
+		<translate lang="cz"><![CDATA[Nový projekt]]></translate>
+		<translate lang="sk"><![CDATA[Nový projekt]]></translate>
 	</item>
-	<item key="ButtonNewProject">
+	<item key="panelNewText">
+		<translate lang="en"><![CDATA[Přejete si nahrát vlastní fotografii nebo použít fotografii z naší fotobanky?]]></translate>
+		<translate lang="cz"><![CDATA[Přejete si nahrát vlastní fotografii nebo použít fotografii z naší fotobanky?]]></translate>
+		<translate lang="sk"><![CDATA[Přejete si nahrát vlastní fotografii nebo použít fotografii z naší fotobanky?]]></translate>
+	</item>
+	<item key="panelNewButtonPrepared">
+		<translate lang="en"><![CDATA[open simulations]]></translate>
+		<translate lang="cz"><![CDATA[připravené simulace]]></translate>
+		<translate lang="sk"><![CDATA[pripravené simulácie]]></translate>
+	</item>
+	<item key="panelNewButtonNewProject">
 		<translate lang="en"><![CDATA[nahrát vlastní fotografii]]></translate>
 		<translate lang="cz"><![CDATA[nahrát vlastní fotografii]]></translate>
 		<translate lang="sk"><![CDATA[nahrať vlastnú fotografiu]]></translate>
+	</item>
+	<item key="ButtonNewProject">
+		<translate lang="en"><![CDATA[start new project]]></translate>
+		<translate lang="cz"><![CDATA[zacit novy projekt]]></translate>
+		<translate lang="sk"><![CDATA[zacit novy projekt]]></translate>
 	</item>
 	<item key="homepageButtonLoadLabel">
 		<translate lang="en"><![CDATA[zadat číslo projektu]]></translate>
 		<translate lang="cz"><![CDATA[zadat číslo projektu]]></translate>
 		<translate lang="sk"><![CDATA[zadať číslo projektu]]></translate>
 	</item>
-	<item key="homepageButtonVideoLabel">
-		<translate lang="en"><![CDATA[play video]]></translate>
-		<translate lang="cz"><![CDATA[spustit video]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="homepageButtonPreparedText">
-		<translate lang="en"><![CDATA[Vyzkoušet připravené simulace]]></translate>
-		<translate lang="cz"><![CDATA[Vyzkoušet připravené simulace]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="homepageButtonPhotoText">
-		<translate lang="en"><![CDATA[Vytvořit simulaci z vlastní fotografie]]></translate>
-		<translate lang="cz"><![CDATA[Vytvořit simulaci z vlastní fotografie]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="homepageButtonLoadText">
-		<translate lang="en"><![CDATA[Otevřít již uloženou simulaci]]></translate>
-		<translate lang="cz"><![CDATA[Otevřít již uloženou simulaci]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="homepageButtonVideoText">
-		<translate lang="en"><![CDATA[Spustit videonávod]]></translate>
-		<translate lang="cz"><![CDATA[Spustit videonávod]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+	<item key="ProjectsPreparedLabel">
+		<translate lang="en"><![CDATA[Prepared simulations]]></translate>
+		<translate lang="cz"><![CDATA[Připravené simulace]]></translate>
+		<translate lang="sk"><![CDATA[Pripravené simulácie]]></translate>
 	</item>
 	<!-- <panelColor> -->
 	<item key="panelColor">
@@ -49,33 +44,33 @@
 	<item key="ButtonColorset">
 		<translate lang="en"><![CDATA[colorset]]></translate>
 		<translate lang="cz"><![CDATA[vzornik]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[colorset]]></translate>
 	</item>
 	<item key="colorFilterLabel">
 		<translate lang="en"><![CDATA[filter label]]></translate>
 		<translate lang="cz"><![CDATA[Odstínová skupina]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[filter label]]></translate>
 	</item>
 	<item key="colorSamplerLabel">
 		<translate lang="en"><![CDATA[sampler label]]></translate>
 		<translate lang="cz"><![CDATA[Odstín]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[sampler label]]></translate>
 	</item>
 	<item key="Interior">
 		<translate lang="en"><![CDATA[Interior]]></translate>
 		<translate lang="cz"><![CDATA[Interiér]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Interior]]></translate>
 	</item>
 	<item key="Exterior">
 		<translate lang="en"><![CDATA[Exterior]]></translate>
 		<translate lang="cz"><![CDATA[Fasáda]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Exterior]]></translate>
 	</item>
 	<!-- <tools> -->
 	<item key="toolsLabel">
 		<translate lang="en"><![CDATA[Tools]]></translate>
 		<translate lang="cz"><![CDATA[Nástroje]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Tools]]></translate>
 	</item>
 	<item key="curvePlus">
 		<translate lang="en"><![CDATA[Positive curve]]></translate>
@@ -125,12 +120,12 @@
 	<item key="magicPlusSettings">
 		<translate lang="en"><![CDATA[Magic tolerance]]></translate>
 		<translate lang="cz"><![CDATA[Nastavení citlivosti]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Magic tolerance]]></translate>
 	</item>
 	<item key="magicMinusSettings">
 		<translate lang="en"><![CDATA[Magic tolerance]]></translate>
 		<translate lang="cz"><![CDATA[Nastavení citlivosti]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Magic tolerance]]></translate>
 	</item>
 	<!-- <list of walls> -->
 	<item key="wallsControlLabel">
@@ -154,105 +149,123 @@
 		<translate lang="sk"><![CDATA[vyberte farbu]]></translate>
 	</item>
 	<!-- <project & info> -->
-	<item key="infoProjectSending">
-		<translate lang="en"><![CDATA[Sending project to server...]]></translate>
-		<translate lang="cz"><![CDATA[Projekt je odesílán na server...]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+	<item key="titleProjectID">
+		<translate lang="en"><![CDATA[Project ID:]]></translate>
+		<translate lang="cz"><![CDATA[Projekt ID:]]></translate>
+		<translate lang="sk"><![CDATA[Projekt ID:]]></translate>
 	</item>
-	<item key="infoProjectSendingBmp">
-		<translate lang="en"><![CDATA[Saving bitmaps...]]></translate>
-		<translate lang="cz"><![CDATA[Ukládám váš projekt]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+	<item key="PanelInfoClose">
+		<translate lang="en"><![CDATA[Close project]]></translate>
+		<translate lang="cz"><![CDATA[Zavřít projekt]]></translate>
+		<translate lang="sk"><![CDATA[Zatvoriť projekt]]></translate>
 	</item>
-	<item key="infoYourProjectId">
-		<translate lang="en"><![CDATA[Your project was saved with number %%%projNumber%%%. Keep this number somewhere. Maybe we wil send you an email, it depends...]]></translate>
-		<translate lang="cz"><![CDATA[Váš projekt byl uložen pod číslem %%%projNumber%%%. Toto si číslo projektu si dobře uložte, umožní vám vrátit se k projektu později.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+	<item key="panelInfoCloseText">
+		<translate lang="en"><![CDATA[You'r gonna close your project. By click on YES will you loose unsaved work.]]></translate>
+		<translate lang="cz"><![CDATA[Chystáte se zavřít projekt. Kliknutím na ANO ztratíte neuloženou práci.]]></translate>
+		<translate lang="sk"><![CDATA[Chystáte se zavřít projekt. Kliknutím na ANO ztratíte neuloženou práci.]]></translate>
 	</item>
-	<item key="infoProjectReplace">
-		<translate lang="en"><![CDATA[replace current project?]]></translate>
-		<translate lang="cz"><![CDATA[Přepsat stávající projekt?]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectAnswerYes">
+	<item key="panelInfoCloseYes">
 		<translate lang="en"><![CDATA[YES]]></translate>
 		<translate lang="cz"><![CDATA[ANO]]></translate>
 		<translate lang="sk"><![CDATA[ÁNO]]></translate>
 	</item>
-	<item key="infoProjectAnswerNo">
+	<item key="panelInfoCloseNo">
 		<translate lang="en"><![CDATA[NO]]></translate>
 		<translate lang="cz"><![CDATA[NE]]></translate>
 		<translate lang="sk"><![CDATA[NIE]]></translate>
 	</item>
-	<item key="infoProjectAnswerYes-rewrite">
+	<item key="panelInfoSaveRewrite">
+		<translate lang="en"><![CDATA[replace current project?]]></translate>
+		<translate lang="cz"><![CDATA[Přepsat stávající projekt?]]></translate>
+		<translate lang="sk"><![CDATA[replace current project?]]></translate>
+	</item>
+	<item key="panelInfoSaveButtRewrite">
 		<translate lang="en"><![CDATA[rewrite previous]]></translate>
 		<translate lang="cz"><![CDATA[Přepsat předchozí uložení]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[rewrite previous]]></translate>
 	</item>
-	<item key="infoProjectAnswerNo-new">
+	<item key="panelInfoSaveButtNew">
 		<translate lang="en"><![CDATA[Save as new project]]></translate>
 		<translate lang="cz"><![CDATA[Uložit jako nový projekt]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Save as new project]]></translate>
 	</item>
-	<item key="infoProjectEmail">
-		<translate lang="en"><![CDATA[provide email to send you the ID]]></translate>
-		<translate lang="cz"><![CDATA[Vyplňte email a ID projektu Vám automaticky bude odesláno. Pokud nechcete vyplňovat email, nezapomeňte si po uložení ID zapsat.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectEmailContinue">
+	<item key="panelInfoSaveButtonEmailContinue">
 		<translate lang="en"><![CDATA[continue]]></translate>
 		<translate lang="cz"><![CDATA[pokračovat]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[continue]]></translate>
 	</item>
+	<item key="panelInfoSaveEmailText">
+		<translate lang="en"><![CDATA[provide email to send you the ID]]></translate>
+		<translate lang="cz"><![CDATA[Vyplňte email a ID projektu Vám automaticky bude odesláno. Pokud nechcete vyplňovat email, nezapomeňte si po uložení ID zapsat.]]></translate>
+		<translate lang="sk"><![CDATA[Vyplňte email a ID projektu Vám automaticky bude odesláno. Pokud nechcete vyplňovat email, nezapomeňte si po uložení ID zapsat.]]></translate>
+	</item>
+	<item key="panelInfoSaveSaving">
+		<translate lang="en"><![CDATA[Saving project...]]></translate>
+		<translate lang="cz"><![CDATA[Projekt je odesílán na server...]]></translate>
+		<translate lang="sk"><![CDATA[Saving project...]]></translate>
+	</item>	
+	<item key="panelInfoSaveProjectSending">
+		<translate lang="en"><![CDATA[Sending project to server...]]></translate>
+		<translate lang="cz"><![CDATA[Projekt je odesílán na server...]]></translate>
+		<translate lang="sk"><![CDATA[Sending project to server...]]></translate>
+	</item>
+	<item key="panelInfoSaveProjectSendingBmp">
+		<translate lang="en"><![CDATA[Saving bitmaps...]]></translate>
+		<translate lang="cz"><![CDATA[Ukládám váš projekt]]></translate>
+		<translate lang="sk"><![CDATA[Saving bitmaps...]]></translate>
+	</item>
+	<item key="panelInfoSaveYourProjectId">
+		<translate lang="en"><![CDATA[Your project was saved with number %%%projNumber%%%. Keep this number somewhere. Maybe we wil send you an email, it depends...]]></translate>
+		<translate lang="cz"><![CDATA[Váš projekt byl uložen pod číslem %%%projNumber%%%. Toto si číslo projektu si dobře uložte, umožní vám vrátit se k projektu později.]]></translate>
+		<translate lang="sk"><![CDATA[Your project was saved with number %%%projNumber%%%. Keep this number somewhere.]]></translate>
+	</item>
+	<item key="PanelInfoLoad">
+		<translate lang="en"><![CDATA[Load project]]></translate>
+		<translate lang="cz"><![CDATA[Načíst projekt]]></translate>
+		<translate lang="sk"><![CDATA[Load project]]></translate>
+	</item>
+	<item key="panelInfoProjectNotFound">
+		<translate lang="en"><![CDATA[Project with number %%%projNumber%%% was not found]]></translate>
+		<translate lang="cz"><![CDATA[Projekt s číslem %%%projNumber%%% nebyl nalezen]]></translate>
+		<translate lang="sk"><![CDATA[Project with number %%%projNumber%%% was not found]]></translate>
+	</item>
+	<item key="panelInfoProjectLoading">
+		<translate lang="en"><![CDATA[Loading project...]]></translate>
+		<translate lang="cz"><![CDATA[Otvírám projekt...]]></translate>
+		<translate lang="sk"><![CDATA[Loading project...]]></translate>
+	</item>
+	<item key="panelInfoProjectLoadError">
+		<translate lang="en"><![CDATA[Sorry, error during loading]]></translate>
+		<translate lang="cz"><![CDATA[Vyskytla se chyba, omlouvám se ...]]></translate>
+		<translate lang="sk"><![CDATA[Sorry, error during loading]]></translate>
+	</item>
+	<item key="panelInfoProjectLoaded">
+		<translate lang="en"><![CDATA[Project was loaded]]></translate>
+		<translate lang="cz"><![CDATA[Projekt byl úspěšně otevřen]]></translate>
+		<translate lang="sk"><![CDATA[Project was loaded]]></translate>
+	</item>
+	
+	
 	<item key="infoProjectSearching">
 		<translate lang="en"><![CDATA[Searching project...]]></translate>
 		<translate lang="cz"><![CDATA[Hledám uložený projekt...]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Searching project...]]></translate>
 	</item>
 	<item key="infoSaveError-0">
 		<translate lang="en"><![CDATA[An Error occured during the saving.]]></translate>
 		<translate lang="cz"><![CDATA[Během ukládání nastala chyba.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[An Error occured during the saving.]]></translate>
 	</item>
 	<item key="infoSaveError-1">
 		<translate lang="en"><![CDATA[An Error 1 occured during the saving.]]></translate>
 		<translate lang="cz"><![CDATA[Behem ukladani nastala chyba 1.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[An Error 1 occured during the saving.]]></translate>
 	</item>
-	<item key="infoProjectNotFound">
-		<translate lang="en"><![CDATA[Project with number %%%projNumber%%% was not found]]></translate>
-		<translate lang="cz"><![CDATA[Projekt s číslem %%%projNumber%%% nebyl nalezen]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectLoading">
-		<translate lang="en"><![CDATA[Loading project...]]></translate>
-		<translate lang="cz"><![CDATA[Otvírám projekt...]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectLoadError">
-		<translate lang="en"><![CDATA[Sorry, error during loading]]></translate>
-		<translate lang="cz"><![CDATA[Vyskytla se chyba, omlouvám se ...]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectLoaded">
-		<translate lang="en"><![CDATA[Project was loaded]]></translate>
-		<translate lang="cz"><![CDATA[Projekt byl úspěšně otevřen]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="infoProjectClose">
-		<translate lang="en"><![CDATA[You'r gonna close your project. By click on YES will you loose unsaved work.]]></translate>
-		<translate lang="cz"><![CDATA[Chystáte se zavřít projekt. Kliknutím na ANO ztratíte neuloženou práci.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
-	<item key="labelPreparedProjects">
-		<translate lang="en"><![CDATA[Prepared examples]]></translate>
-		<translate lang="cz"><![CDATA[Připravené simulace]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
-	</item>
+	
 	<item key="labelNewProjects">
 		<translate lang="en"><![CDATA[Start your own project]]></translate>
 		<translate lang="cz"><![CDATA[Vytvořit vlastní simulaci]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[Start your own project]]></translate>
 	</item>
 	<item key="labelChooseNewProject">
 		<translate lang="en"><![CDATA[Choose your own photo]]></translate>
@@ -262,23 +275,19 @@
 	<item key="buttonChooseNewProject">
 		<translate lang="en"><![CDATA[browse file]]></translate>
 		<translate lang="cz"><![CDATA[vybrat soubor]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[browse file]]></translate>
 	</item>
 	<item key="labelOpenSavedProject">
 		<translate lang="en"><![CDATA[open saved project]]></translate>
 		<translate lang="cz"><![CDATA[otevřít uložený projekt]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[open saved project]]></translate>
 	</item>
 	<item key="buttonOpenSavedProject">
 		<translate lang="en"><![CDATA[open]]></translate>
 		<translate lang="cz"><![CDATA[otevřít]]></translate>
 		<translate lang="sk"><![CDATA[otvoriť]]></translate>
 	</item>
-	<item key="titleProjectID">
-		<translate lang="en"><![CDATA[Project ID:]]></translate>
-		<translate lang="cz"><![CDATA[Projekt ID:]]></translate>
-		<translate lang="sk"><![CDATA[Projekt ID:]]></translate>
-	</item>
+	
 	<item key="titleTemporaryProjects">
 		<translate lang="en"><![CDATA[Temporary saved projects]]></translate>
 		<translate lang="cz"><![CDATA[Dočasně uložené projekty]]></translate>

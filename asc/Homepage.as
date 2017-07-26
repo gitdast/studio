@@ -11,7 +11,8 @@
 	public class Homepage extends Sprite{
 		public var loadForm:MovieClip;
 		public var loadFormTextDefault:String;
-		public var butt_new:ButtonNewProject;
+		public var thumbnailCategory:ProjectThumbnailCategoryTemp;
+		public var scrollBar:ScrollBarVertical;
 		
 		private var controlWidth:int;
 		private var controlHeight:int;
@@ -24,20 +25,50 @@
 			this.y = 0;			
 			this.loadFormTextDefault = Studio.rootStg.xmlDictionary.getTranslate("homepageButtonLoadLabel");
 			this.addLoadForm();
-			this.addNewButton();
+			
+			this.createCategory();
+			this.addScrollbar();
 		}
 		
-		private function addNewButton(){
-			butt_new = new ButtonNewProject();
-			butt_new.x = 0;
-			butt_new.y = 120;
-			this.addChild(butt_new);
+		private function createCategory(){
+			thumbnailCategory = new ProjectThumbnailCategoryTemp(controlWidth, Studio.rootStg.temp);
+			thumbnailCategory.x = 0;
+			thumbnailCategory.y = 105;
+			this.addChild(thumbnailCategory);
 		}
 		
-		private function clickNewProjectHandler(e:MouseEvent){
-			Studio.rootStg.openFileDialog();
+		private function addScrollbar(){
+			scrollBar = new ScrollBarVertical(thumbnailCategory, controlWidth, controlHeight);
+			scrollBar.x = controlWidth - Studio.PANEL_PADDING;
+			scrollBar.y = thumbnailCategory.y;
+			this.addChild(scrollBar);
 		}
 		
+		public function removeTempProject(prId:String){
+			var i:int;
+			for(i = 0; i < Studio.rootStg.temp.length; i++){
+				if(Studio.rootStg.temp[i].prId == prId){
+					trace("removing");
+					Studio.rootStg.temp.splice(i, 1);
+					break;
+				}
+			}
+			
+			var child;
+			for(i = 1; i < thumbnailCategory.numChildren; i++){
+				child = thumbnailCategory.getChildAt(i);
+				if(child.projData.prId == prId){
+					child.remove();
+					thumbnailCategory.removeChild(child);
+					break;
+				}
+			}
+			
+			thumbnailCategory.resizeHandler(controlWidth);
+		}
+		
+	//*** load form ***//
+	
 		private function addLoadForm(){
 			this.loadForm = new load_form();
 			loadForm.x = controlWidth / 2;
@@ -50,7 +81,7 @@
 			loadForm.dt_text.addEventListener("focusOut", focusOutInputHandler);
 			
 			loadForm.butt.addEventListener("click", clickLoadHandler);
-			loadForm.butt.buttonMode = true;			
+			loadForm.butt.buttonMode = true;
 		}
 		
 		private function clickInputHandler(e:MouseEvent){
@@ -66,23 +97,23 @@
 		}
 		
 		private function clickLoadHandler(e:MouseEvent){
-			//e.stopPropagation();
 			if(loadForm.dt_text.text != ""){
 				Studio.rootStg.createLoadProject(loadForm.dt_text.text);
 			}
 		}
+	
+	//*** rest ***//
 		
 		public function resizeHandler(stageW:Number, stageH:Number){
-			this.controlWidth = stageW - Studio.PANEL_WIDTH - 2 * Studio.PANEL_PADDING;
-			this.controlHeight = stageH - 2 * Studio.PANEL_PADDING;
+			this.controlWidth = stageW - Studio.PANEL_WIDTH - 4 * Studio.PANEL_PADDING;
+			this.controlHeight = stageH - 4 * Studio.PANEL_PADDING;
+			this.loadForm.x = controlWidth / 2;
 		}
 		
 		public function remove(){
 			loadForm.dt_text.removeEventListener("click", clickInputHandler);
 			loadForm.dt_text.removeEventListener("focusOut", focusOutInputHandler);
 			loadForm.butt.removeEventListener("click", clickLoadHandler);
-			
-			butt_new.remove();
 		}
 
 	}

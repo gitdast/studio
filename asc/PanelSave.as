@@ -34,10 +34,14 @@
 			this.addChild(butt_save);
 			this.addChild(butt_home);
 			this.addChild(butt_savetemp);
+			
+			butt_home.enable();
 		}
 		
 		public function enable(isNewProject:Boolean = false){
-			butt_save.enable();
+			if(isNewProject){
+				butt_save.enable();
+			}
 			butt_home.enable();
 			butt_savetemp.enable();
 		}
@@ -45,7 +49,8 @@
 		public function disable(){
 			butt_save.disable();
 			butt_home.disable();
-			if(Studio.rootStg.temp.length == 0) butt_savetemp.disable(); //??
+			//if(Studio.rootStg.temp.length == 0)
+				butt_savetemp.disable();
 		}
 		
 		/*

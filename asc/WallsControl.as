@@ -55,7 +55,7 @@
 			}
 			
 			Studio.rootStg.panelWalls.resizeHandler(Studio.rootStg.appHeight);
-			//Studio.rootStg.artBoard.signalRemoveWall(num);
+			Studio.rootStg.artBoard.signalRemoveWall(num);
 		}
 		
 		public function changeWall(num:int){
@@ -64,16 +64,9 @@
 			this.selectedWall.setSelected(true);
 		}
 		
-		public function signalColorChanged(colorData:Object){
-			if(Studio.rootStg.panelWalls.state == "active"){
-				this.selectedWall.setColor(colorData);
-				Studio.rootStg.artBoard.signalColorChanged(selectedWall);
-			}
-		}
-		
-		public function signalAlphaChanged(pAlpha:Number){
-			this.selectedWall.wallAlpha = pAlpha;
-			Studio.rootStg.artBoard.signalColorChanged(selectedWall);
+		public function changeColor(colorData:Object){
+			this.selectedWall.setColor(colorData);
+			Studio.rootStg.artBoard.changeColor(selectedWall);
 		}
 		
 		public function deselectWall(){

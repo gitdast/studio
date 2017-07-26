@@ -2,7 +2,7 @@
 <config>
 	<application>
 		<isResizable>true</isResizable>
-		<width>900</width> <!-- ignored, if isResizable = true -->
+		<width>1100</width> <!-- ignored, if isResizable = true -->
 		<height>500</height> <!-- ignored, if isResizable = true -->
 		<background_color>0xFFFFFF</background_color><!-- change this value in html object with param name="bgcolor" -->
 		<dictionaryUrl>dictionary.xml</dictionaryUrl>
@@ -10,11 +10,11 @@
 		<infoUrl>video/infovideo.html</infoUrl>
 		<homepageImageUrl>home_page_screen2.jpg</homepageImageUrl>
 		<lang>sk</lang>
-		<exportProjectGetIdUrl>http://localhost:91/getid.php</exportProjectGetIdUrl>
-		<exportProjectBitmapsUrl>http://localhost:91/savebitmap.php</exportProjectBitmapsUrl>
-		<exportProjectXmlUrl>http://localhost:91/savexml.php</exportProjectXmlUrl>
-		<loadProjectXmlUrl>http://localhost:91/loadxml.php</loadProjectXmlUrl>
-		<autofillProjectUrl>http://localhost:91/saveautofill.php</autofillProjectUrl>
+		<exportProjectGetIdUrl>http://localhost:82/app/getid.php</exportProjectGetIdUrl>
+		<exportProjectBitmapsUrl>http://localhost:82/app/savebitmap.php</exportProjectBitmapsUrl>
+		<exportProjectXmlUrl>http://localhost:82/app/savexml.php</exportProjectXmlUrl>
+		<loadProjectXmlUrl>http://localhost:82/app/loadxml.php</loadProjectXmlUrl>
+		<autofillProjectUrl>http://localhost:82/app/saveautofill.php</autofillProjectUrl>
 		<autofillWidth>0</autofillWidth>
 	</application>
 	

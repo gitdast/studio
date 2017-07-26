@@ -22,7 +22,6 @@
 		
 		public const MODE_COLOR = "coloring";
 		public const MODE_MOVE = "move";
-		public const MODE_COLOR_ACTIVE = "paint";
 		public const MODE_DRAW_CURVE = "curvePlus";
 		public const MODE_DRAW_CURVE_NEG = "curveMinus";
 		public const MODE_DRAW_BRUSH = "brush";
@@ -36,18 +35,24 @@
 		public function ArtBoard(stageW:Number, stageH:Number){
 			trace("ArtBoard: init",stageW, stageH);
 			this.boardWidth = stageW - Studio.PANEL_WIDTH - 10;
-			this.boardHeight = stageH - 50 - 15 - 15;
+			this.boardHeight = stageH - 30 - 15;
 			this.x = Studio.PANEL_WIDTH + 5;
-			this.y = 50 + 10;
+			this.y = 30;
 			this.addHitArea();
 		}
 		
 		public function setMode(pmode:String){
 			trace("ArtBoard - setMode:", pmode);
-			this.removeAll();
+			this.remove();
 			this.addEventListener("rollOver", cursorRollOverHandler);
 			this.addEventListener("rollOut", cursorRollOutHandler);
 			projectMc.mouseChildren = false;
+			
+			this.actionMode = pmode;
+		}
+		
+		public function changeColor(wall:WallsControlItem){
+			projectMc.setColor(wall);
 		}
 		
 		public function moveMouseDownHandler(e:MouseEvent){
@@ -231,12 +236,12 @@
 			this.mask = maskSprite;
 		}
 		
-		public function removeAll(){
+		public function remove(){
 			if(projectMc){
 				projectMc.removeEventListener("mouseDown", moveMouseDownHandler);
 				projectMc.removeEventListener("mouseUp", moveMouseUpHandler);
 				this.removeEventListener("rollOut", moveMouseUpHandler);
-				projectMc.removeEventListeners();
+				projectMc.remove();
 			}
 			this.removeEventListener("rollOver", cursorRollOverHandler);
 			this.removeEventListener("rollOut", cursorRollOverHandler);

@@ -1,13 +1,11 @@
 ﻿package{
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
-	import flash.events.IEventDispatcher;
 	import flash.events.IOErrorEvent;
 	import flash.events.SecurityErrorEvent;
-	import flash.events.ProgressEvent;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
-	//import flash.system.Security;
+
 		
 	public class XmlColors extends EventDispatcher{
 		public var loadingSet:Object;
@@ -18,7 +16,6 @@
 		
 		public function XmlColors(){
 			loader = new URLLoader();
-			//loader.addEventListener(ProgressEvent.PROGRESS, progressHandler);
 			loader.addEventListener(Event.COMPLETE, loadCompleteHandler);
 			loader.addEventListener(IOErrorEvent.IO_ERROR, ioErrorHandler);
 			loader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, securityErrorHandler);
@@ -64,10 +61,6 @@
 		private function ioErrorHandler(e:IOErrorEvent){
 			trace("ioErrorHandler: " + e);
 			var error = true;
-		}
-		
-		private function progressHandler(e:ProgressEvent){
-			trace("XmlColors: progressHandler:" + e);
 		}
 		
 		/*

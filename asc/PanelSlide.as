@@ -1,18 +1,20 @@
 ﻿package{
+	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	import flash.display.Shape;
-	import flash.geom.Matrix;
-	import flash.filters.DropShadowFilter;
-	import flash.events.Event;
 	import flash.text.TextField;
-	import flash.display.MovieClip;
+	import flash.geom.Matrix;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
+	import flash.filters.DropShadowFilter;
 	import flash.utils.getQualifiedClassName;
 	
 	public class PanelSlide extends Sprite{
 		public var butt_close:MovieClip;
 		public var labelText:String;
 		public var labelField:TextField;
-		public var header:Shape;
+		public var ico:MovieClip;
+		public var header:Sprite;
 		public var gradient:Shape;
 		
 		public var panelWidth:Number;
@@ -24,12 +26,14 @@
 		
 		public var panelHeaderHeight:int = 70;
 		
-		public function PanelSlide(stageW:Number, stageH:Number, panelW:Number = 0, panelH:Number = 0){
+		public function PanelSlide(stageW:Number, stageH:Number, panelW:Number = 0, panelH:Number = 0, _name:String = null){
 			trace("PanelSlide: init");
+			this.name = _name ? _name : this.name;
 			this.labelText = Studio.rootStg.xmlDictionary.getTranslate(this.name.substr(0,8) == "instance" ? getQualifiedClassName(this) : this.name);
 			
+			var maxHeight = stageH - 2 * Studio.PANEL_PADDING;
 			this.panelWidth = panelW ? panelW : stageW - Studio.PANEL_WIDTH - 2 * Studio.PANEL_PADDING;
-			this.panelHeight = panelH ? panelH : stageH - 2 * Studio.PANEL_PADDING;
+			this.panelHeight = panelH && (panelH <= maxHeight) ? panelH : maxHeight;
 			this.customWidth = panelW > 0;
 			this.customHeight = panelH > 0;
 			
@@ -42,7 +46,7 @@
 		public function slideDown(){
 			trace("slideDown", this.height, this.panelHeight);
 			this.posYinit = this.y;
-			this.slideStep = this.height / 10;
+			this.slideStep = this.height / 6;
 			this.y = - this.height - 5;
 			this.visible = true;
 			this.addEventListener("enterFrame", doSlideDown);
@@ -56,8 +60,8 @@
 			}
 		}
 		
-		public function slideUp(e:Event){
-			this.slideStep = this.height / 10;
+		public function slideUp(e:Event, steps:Number = 0){
+			this.slideStep = this.height / (steps ? steps : 6);
 			this.addEventListener("enterFrame", doSlideUp);
 		}
 		
@@ -67,11 +71,12 @@
 				this.removeEventListener("enterFrame", doSlideUp);
 				this.remove();
 				this.parent.removeChild(this);
-				this.publishPanelRemove();
+				this.publishPanelRemoved();
 			}
 		}
 		
-		protected function publishPanelRemove(){
+		protected function publishPanelRemoved(){
+			Studio.rootStg.panelInfo = null;
 		}
 		
 		public function addButtonClose(){
@@ -84,20 +89,35 @@
 		}
 		
 		protected function addLabel(){
-			var format = Studio.rootStg.getTextFormatBold(16, "center", 0x8e8e8e);
+			var format = Studio.rootStg.getTextFormatBold(18, "center", 0x8e8e8e);
 			
 			labelField = new TextField();
 			labelField.width = this.width;
 			labelField.height = panelHeaderHeight;
 			labelField.autoSize = "center";
 			labelField.selectable = false;
+			labelField.defaultTextFormat = format;
 			labelField.text = this.labelText;
 			labelField.setTextFormat(format);
 			labelField.embedFonts = true;
 			labelField.antiAliasType = "advanced";
-			labelField.y -= Math.round(labelField.height / 2);
+			labelField.y = panelHeaderHeight / 2 - labelField.height / 2;
 			
 			this.addChild(labelField);
+		}
+		
+		protected function addDragDrop(){
+			this.header.addEventListener("mouseDown", startDragHandler);
+			this.header.addEventListener("mouseUp", stopDragHandler);
+		}
+		
+		private function startDragHandler(e:MouseEvent){
+			this.header.addEventListener("rollOut", stopDragHandler);
+			this.startDrag(false, null);
+		}
+		
+		private function stopDragHandler(e:MouseEvent){
+			this.stopDrag();
 		}
 		
 		private function createBackground(){
@@ -105,7 +125,7 @@
 			this.graphics.drawRoundRect(0, 0, this.panelWidth, this.panelHeight, 16, 16);
 			this.graphics.endFill();
 			
-			header = new Shape();
+			header = new Sprite();
 			header.graphics.beginFill(0x333333, 1);
 			header.graphics.drawRoundRect(0, 0, this.panelWidth, panelHeaderHeight, 16, 16);
 			header.graphics.endFill();
@@ -148,6 +168,11 @@
 			butt_close.removeEventListener("click", this.slideUp);
 			this.removeEventListener("enterFrame", doSlideUp);
 			this.removeEventListener("enterFrame", doSlideDown);
+			
+			this.stopDrag();
+			this.header.removeEventListener("mouseDown", startDragHandler);
+			this.header.removeEventListener("mouseUp", stopDragHandler);
+			this.header.removeEventListener("rollOut", stopDragHandler);
 		}
 	}
 	

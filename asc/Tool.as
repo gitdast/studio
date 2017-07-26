@@ -12,8 +12,7 @@
 		
 		public function Tool(_name:String){
 			trace("Tool: init..."+_name);
-			this.name = _name;
-			super();		
+			super(true, false, _name);
 			
 			this.addIcon();
 		}

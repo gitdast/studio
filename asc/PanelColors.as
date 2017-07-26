@@ -6,7 +6,6 @@
 	import fl.controls.ComboBox;
 	import flash.events.Event;
 	import flash.text.TextField;
-	import flash.events.MouseEvent;
 	
 	public class PanelColors extends PanelSlide{
 		public var xmlColors:XmlColors;
@@ -16,9 +15,6 @@
 		public var sampler:ColorSampler;
 		public var labelSampler:TextField;
 		public var scrollBar:ScrollBarVertical;
-	
-		public var colorHolder:ColorHolder;
-		public var colorLabel:TextField;
 
 		public function PanelColors(stageW:Number, stageH:Number, panelW:Number = 0, panelH:Number = 0){
 			trace("PanelColors: init");
@@ -37,20 +33,22 @@
 			
 			this.createColorsetsMenu();
 
-			this.header.height = colorsetsMenu.height + 2 * Studio.PANEL_PADDING;
-			this.gradient.y = this.header.height - gradient.height;
-			
 			var selectedSet:String = xmlColors.getColorsetSelected();
 			this.changeColorset(selectedSet);
 			this.colorsetsMenu.switchButtons(selectedSet);
 			
 			this.slideDown();
+			
+			this.addDragDrop();
 		}
 		
 		public function createColorsetsMenu(){
 			this.colorsetsMenu = new ColorsetsMenu(this.panelWidth - Studio.PANEL_PADDING);
 			this.colorsetsMenu.x = Studio.PANEL_PADDING;
-			this.addChild(colorsetsMenu);			
+			this.addChild(colorsetsMenu);
+			
+			this.header.height = colorsetsMenu.height + 2 * Studio.PANEL_PADDING;
+			this.gradient.y = this.header.height - gradient.height;
 		}
 		
 		public function changeColorset(id:String){
@@ -123,7 +121,7 @@
 			this.addChild(labelSampler);
 		}
 		
-		override protected function publishPanelRemove(){
+		override protected function publishPanelRemoved(){
 			Studio.rootStg.panelColors = null;
 		}
 		
@@ -136,7 +134,7 @@
 				sampler.resizeHandler(this.panelWidth - 2 * Studio.PANEL_PADDING);
 			}
 			if(this.scrollBar){
-				this.scrollBar.resizeHandler(this.panelHeight - Studio.PANEL_PADDING - sampler.y, scrollRatio);
+				this.scrollBar.resizeHandler(this.panelWidth, this.panelHeight - Studio.PANEL_PADDING - sampler.y, scrollRatio);
 			}
 		}
 		

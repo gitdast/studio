@@ -25,7 +25,7 @@
 		}
 		
 		override public function clickHandler(e:MouseEvent){
-			Studio.rootStg.openFileDialog();
+			Studio.rootStg.createPanelNew();
 		}
 
 	}

@@ -6,7 +6,7 @@
 	public class PanelTools extends Sprite{
 		public var tsettings:ToolSettings;
 		public var activeTool:Tool;		
-		private var namesArray:Array = ["curvePlus", "curveMinus", "magicPlus", "magicMinus", "brush", "gum", "paint"];
+		private var namesArray:Array = ["curvePlus", "curveMinus", "magicPlus", "magicMinus", "brush", "gum", "move"];
 		private var hasSettingsArray:Array = ["magicPlus", "magicMinus", "brush", "gum"];
 		
 		public var setting_brush:Number = 0.5; //* brushThickness = 8
@@ -14,9 +14,6 @@
 		public var setting_magic:Number = 1; //* wandTolerance = 15
 		
 		public var mc_bgd:MovieClip;
-		
-		public var idTitle:TextField;
-		public var idLabel:TextField;
 		
 		public static const PANEL_HEIGHT = 170;
 		
@@ -118,7 +115,7 @@
 			var format = Studio.rootStg.getTextFormatCond(15, "left", 0x8E8E8E);
 			
 			var labelField = new TextField();
-			//labelField.selectable = false;
+			labelField.selectable = false;
 			labelField.autoSize = "left";
 			labelField.text = Studio.rootStg.xmlDictionary.getTranslate("toolsLabel");
 			labelField.setTextFormat(format);
@@ -143,38 +140,6 @@
 			settingsShape.graphics.drawRoundRect(Studio.PANEL_PADDING + 1, Studio.PANEL_PADDING + 1, Studio.PANEL_WIDTH - 2 * Studio.PANEL_PADDING - 2, ToolSettings.HEIGHT - 2, 16, 16);
 			settingsShape.graphics.endFill();
 			this.addChild(settingsShape);
-		}
-		
-		public function setIdLabel(){
-			if(!idTitle){
-				idTitle = new TextField();
-				idTitle.x = 10;
-				idTitle.y = 8;
-				idTitle.autoSize = "left";
-				idTitle.selectable = false;
-				idTitle.text = Studio.rootStg.xmlDictionary.getTranslate("titleProjectID");
-				this.addChild(idTitle);
-				Studio.rootStg.addTextFormatBold(idTitle, 14, 0x999999);
-			}
-			
-			if(!idLabel){
-				idLabel = new TextField();
-				idLabel.autoSize = "left";
-				idLabel.multiline = false;
-				idLabel.embedFonts = true;
-				idLabel.antiAliasType = "advanced";
-				idLabel.defaultTextFormat = Studio.rootStg.getTextFormatCond(12, "left", 0x999999);
-				idLabel.text = Studio.rootStg.sessionId;
-				idLabel.x = idTitle.width + 25;
-				idLabel.y = 10;
-				this.addChild(idLabel);
-			}else{
-				idLabel.text = Studio.rootStg.sessionId;
-			}
-		}
-		
-		public function clearIdLabel(){
-			if(idLabel) idLabel.text = "";
 		}
 		
 	}

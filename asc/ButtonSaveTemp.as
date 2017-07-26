@@ -7,17 +7,8 @@
 			super(false, true);
 		}
 		
-		/*
-		override public function overHandler(e:MouseEvent){
-			if(this.currentFrame == 1){
-				super.overHandler(e);
-				Studio.rootStg.panelMain.createProjectTempSaver();
-			}
+		override public function clickHandler(e:MouseEvent){
+			Studio.rootStg.temp.push(Studio.rootStg.project.getTempData());
 		}
-		override public function outHandler(e:MouseEvent){
-			if(Studio.rootStg.panelMain.tryCloseProjectTempSaver(e)){
-				super.outHandler(e);
-			}
-		}*/
 	}
 }

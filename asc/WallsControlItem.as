@@ -50,20 +50,26 @@
 			this.createBackground();
 			this.addLabels();
 			this.addColorRect();
-			
 			this.addEventListeners();
 			
+			this.setMode();
+		}
+		
+		private function setMode(){
 			if(Studio.rootStg.panelWalls.state == "active"){
 				this.addButtons();
 				this.addSlider();
 				this.addEventListenersActive();
 			}
 			else{
+				this.labelWall.selectable = false;
 				this.addEventListenersPasive();
 			}			
 		}
 		
-		public function addEventListeners(){
+		private function addEventListeners(){
+			this.mouseChildren = true;
+			this.buttonMode = true;
 			this.colorRect.buttonMode = true;
 			this.colorRect.addEventListener("click", colorClickHandler);
 		}
@@ -79,14 +85,18 @@
 		}
 		
 		private function colorClickHandler(e:MouseEvent){
-			Studio.rootStg.createPanelColors(this.wallNum);
+			trace("color click - setcolor");
+			if(!Studio.rootStg.panelColors){
+				Studio.rootStg.createPanelColors(this.wallNum);
+			}
+			else if(Studio.rootStg.panelWalls.wallsControl.selectedWall == this){
+				Studio.rootStg.panelColors.slideUp(e);
+			}
 		}
 		
 		/***** active mode *****/
 		
-		public function addEventListenersActive(){
-			this.mouseChildren = true;
-			this.buttonMode = true;
+		private function addEventListenersActive(){
 			this.addEventListener("click", activeClickHandler);
 			this.addEventListener("keyDown", keyHandler);
 			
@@ -95,22 +105,16 @@
 		}
 
 		private function activeClickHandler(e:MouseEvent){
+			trace("active click - change wall");
 			e.preventDefault();
-			
-			//* reseting all after paint mode
-			if(Studio.rootStg.artBoard && Studio.rootStg.artBoard.actionMode == "paint"){
-				Studio.rootStg.panelWalls.wallsControl.reselectWall();
-				Studio.rootStg.panelTools.deselectTool();
-			}
-			
-			Studio.rootStg.panelWalls.wallsControl.changeWall(wallNum);
-			
 			if(getQualifiedClassName(e.target) != "flash.text::TextField"){
 				stage.focus = null;
 			}
 			else if(labelWall.selectionBeginIndex == labelWall.selectionEndIndex){
 				labelWall.setSelection(0, labelWall.length);
 			}
+			
+			Studio.rootStg.panelWalls.wallsControl.changeWall(wallNum);
 		}
 		
 		private function keyHandler(e:KeyboardEvent){
@@ -124,11 +128,9 @@
 		/***** pasive mode *****/
 		
 		public function addEventListenersPasive(){
-			this.mouseChildren = false;
-			this.buttonMode = false;
+			this.addEventListener("click", pasiveClickHandler);
 			this.addEventListener("mouseOver", pasiveOverHandler);
-			this.addEventListener("mouseOut", pasiveOutHandler);
-			
+			this.addEventListener("mouseOut", pasiveOutHandler);			
 		}
 		
 		private function pasiveOverHandler(e:MouseEvent){
@@ -139,15 +141,32 @@
 			Studio.rootStg.artBoard.projectMc.signalWallOut(wallNum+1);
 		}
 		
-		/***** ----- *****/
+		private function pasiveClickHandler(e:MouseEvent){
+			Studio.rootStg.panelWalls.wallsControl.changeWall(wallNum);
+		}
+														  
+		/***** common methods *****/
+		
+		public function setColor(colorData:Object){
+			this.colorData = colorData;
+			trace(colorData.label);
+			labelColor.text = this.colorData.label;
+			labelColor.selectable = true;
+			
+			colorRect.graphics.clear();
+			colorRect.graphics.lineStyle(2, 0x777777, 1);
+			colorRect.graphics.beginFill(colorData.color, 1);
+			colorRect.graphics.drawRect(0, 0, 31, 31);
+			colorRect.graphics.endFill();
+		}
 		
 		public function setSelected(selected:Boolean){
-			if(selected){
-				bgd.alpha = 1;
-			}
-			else{
-				bgd.alpha = 0;
-			}
+			bgd.alpha = selected ? 1 : 0;
+		}
+		
+		public function sliderCallback(val:Number){
+			this.wallAlpha = val;
+			Studio.rootStg.artBoard.changeColor(this);
 		}
 		
 		private function addSlider(){
@@ -167,10 +186,6 @@
 			this.addChild(slider);
 			
 			slider.addCallback(this.sliderCallback);
-		}
-		
-		public function sliderCallback(val:Number){
-			
 		}
 		
 		private function addButtons(){
@@ -201,25 +216,15 @@
 			}
 		}
 		
-		public function setColor(colorData:Object){
-			this.colorData = colorData;
-			
-			labelColor.text = this.colorData.label;
-			
-			colorRect.graphics.clear();
-			colorRect.graphics.lineStyle(2, 0x777777, 1);
-			colorRect.graphics.beginFill(colorData.color, 1);
-			colorRect.graphics.drawRect(0, 0, 31, 31);
-			colorRect.graphics.endFill();
-		}
-		
 		private function addLabels(){
 			var format = Studio.rootStg.getTextFormatCond(12, "right", 0x8E8E8E);
 			labelColor = new TextField();
-			labelColor.autoSize = "center";
+			labelColor.autoSize = "right";
+			labelColor.defaultTextFormat = format;
 			labelColor.text = Studio.rootStg.xmlDictionary.getTranslate("colorLabel");
-			labelColor.setTextFormat(format);
+			//labelColor.setTextFormat(format);
 			labelColor.multiline = false;
+			labelColor.selectable = false;
 			labelColor.embedFonts = true;
 			labelColor.antiAliasType = "advanced";
 			labelColor.x = controlWidth - 40 - labelColor.width + 2;

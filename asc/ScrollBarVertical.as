@@ -14,6 +14,7 @@
 		public var butt:Sprite;
 		public var maskShape:Shape;
 		
+		private var targetX:int;
 		private var targetY:int;
 		private var paneHeight:int;
 		private var paneWidth:int;
@@ -28,6 +29,7 @@
 
 		public function ScrollBarVertical(target:DisplayObject, paneWidth:int, paneHeight:int, initRatio:Number = 0){
 			this.target = target;
+			this.targetX = target.x;
 			this.targetY = target.y;
 			this.paneHeight = paneHeight;
 			this.paneWidth = paneWidth;
@@ -59,7 +61,7 @@
 		
 		private function createMask(){
 			this.maskShape = new Shape();
-			maskShape.x = 0;
+			maskShape.x = target.x;
 			maskShape.y = targetY;
 			maskShape.graphics.lineStyle(1, 0x000000, 0);
 			maskShape.graphics.beginFill(0x000000, 1);
@@ -136,7 +138,8 @@
 			}
 		}
 		
-		public function resizeHandler(h:Number, ratio:Number = -1){
+		public function resizeHandler(w:Number, h:Number, ratio:Number = -1){
+			this.paneWidth = w;
 			this.paneHeight = h;
 			this.scrollRatio = ratio >= 0 ? ratio : scrollRatio;
 			
@@ -153,7 +156,8 @@
 			butt.graphics.beginFill(0x8E8E8E, 1);
 			butt.graphics.drawRoundRect(0, 0, 8, buttonnHeight, 8, 8);
 			butt.graphics.endFill();
-						
+			
+			maskShape.x = target.x;
 			maskShape.graphics.clear();
 			maskShape.graphics.lineStyle(1, 0x000000, 0);
 			maskShape.graphics.beginFill(0x000000, 1);

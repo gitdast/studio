@@ -23,8 +23,8 @@
 			}
 		}
 		
-		override public function removeAll(){
-			super.removeAll();
+		override public function remove(){
+			super.remove();
 			removeLoading();
 		}
 	}

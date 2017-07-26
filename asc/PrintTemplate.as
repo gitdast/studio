@@ -42,7 +42,7 @@
 				var subtitle = Studio.rootStg.xmlDictionary.getTranslate("printSubtitle");
 				dt_title.htmlText = title;
 				dt_subtitle.y = dt_title.y + dt_title.textHeight + 10;
-				dt_subtitle.htmlText = subtitle + (Studio.rootStg.sessionId != null ? Studio.rootStg.sessionId : "–");
+				dt_subtitle.htmlText = subtitle + (Studio.rootStg.project.sessionId != null ? Studio.rootStg.project.sessionId : "–");
 			
 				/* add project bitmap */
 				var artwork = Studio.rootStg.artBoard.projectMc;

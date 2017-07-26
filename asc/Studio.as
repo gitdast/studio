@@ -19,13 +19,13 @@
 		public var xmlConfig:XmlConfig;
 		public var xmlDictionary:XmlDictionary;
 		
-		public var projectP:Project;
-		public var sessionId:String;
-		public var sessionIdRequested:Boolean = false;
-		public var sessionIdSaved:Boolean = false;
+		public var project;
+		
+		public var sessionIdLabel:TextField;
+		public var sessionIdField:TextField;
 		public var sessionEmail:String;
 		public var temp:Array = new Array();
-		public var homepage:Homepage;
+		public var homepage;//:Homepage;
 		
 		public var panelLogo:Logo;
 		public var panelMain:PanelMain;
@@ -33,14 +33,12 @@
 		public var panelTools:PanelTools;
 		public var panelWalls:PanelWalls;
 		public var panelColors:PanelColors;
-		//public var panelBottom:PanelBottom;
 		public var panelInfo;
 		public var artBoard;
 		public var opener;//:ProjectOpener/ProjectPreparedOpener;
 		public var fileRef:FileReference;
 		public var preloader;
-		//public var saver:projectSaver;
-		//public var submenu:PrintSubmenu;
+		
 		
 		public var appResizable:Boolean = true;
 		public var appWidth:Number;
@@ -113,7 +111,7 @@
 			panelWalls.resizeHandler(appHeight);
 			if(panelColors) panelColors.resizeHandler(appWidth, appHeight);
 			if(artBoard) artBoard.resizeHandler(appWidth, appHeight);
-			if(panelInfo) panelInfo.resizeHandler(appWidth);
+			if(panelInfo) panelInfo.resizeHandler(appWidth, appHeight);
 			if(homepage) homepage.resizeHandler(appWidth, appHeight);
 		}
 		
@@ -143,39 +141,42 @@
 		}
 		
 		public function createPanelColors(wallNum:int){
-			if(panelColors)
-				return;
-			panelColors = new PanelColors(appWidth, appHeight, 500);
+			panelColors = new PanelColors(appWidth, appHeight, 500, 700);
 			this.addChildAt(panelColors, this.numChildren);
 		}
-		/*
-		private function createPanelBottom(){
-			panelBottom = new PanelBottom(appWidth, appHeight);
-			this.addChild(panelBottom);
-		}
-		*/
-		public function createPanelInfoSave(){
+		
+		public function createPanelNew(){
 			if(panelInfo) closePanelInfo();
 			
-			panelInfo = new PanelInfoSave(appWidth);
-			this.addChildAt(panelInfo, getChildIndex(panelMain));
+			panelInfo = new PanelNew(appWidth, appHeight, 450, 350);
+			this.addChild(panelInfo);
 			panelInfo.slideDown();
 		}
+		
+		public function createPanelInfoClose(callback:Function = null){
+			if(panelInfo) closePanelInfo();
+			
+			panelInfo = new PanelInfoClose(appWidth, appHeight, 400, 300, callback);
+			this.addChild(panelInfo);
+			panelInfo.slideDown();
+		}
+			
+		public function createPanelInfoSave(_name:String = null){
+			if(panelInfo) closePanelInfo();
+			
+			panelInfo = new PanelInfoSave(appWidth, appHeight, 500, 300, _name);
+			this.addChild(panelInfo);
+			panelInfo.slideDown();
+		}
+		
+		
 		
 		public function createPanelInfoLoad(){
 			if(panelInfo) closePanelInfo();
 			
-			panelInfo = new PanelInfoLoad(appWidth);
+			panelInfo = new PanelInfoLoad(appWidth, appHeight, 400, 200);
 			this.addChildAt(panelInfo, getChildIndex(panelMain));
 			panelInfo.slideDown();
-		}
-		
-		public function createPanelInfoClose(goHome:Boolean=false, goWhere:String=""){
-			if(panelInfo) closePanelInfo();
-			
-			panelInfo = new PanelInfoClose(appWidth, goHome, goWhere);
-			this.addChildAt(panelInfo, getChildIndex(panelMain));
-			panelInfo.slideDown();		
 		}
 		
 		private function closePanelInfo(){
@@ -187,10 +188,25 @@
 		}
 		
 		public function addHomepage(){
-			if(!homepage){
-				this.homepage = new Homepage(appWidth, appHeight);
-				this.addChildAt(homepage, 0);
+			this.closeProject();
+			
+			if(homepage){
+				this.removeHomepage();
 			}
+				
+			this.homepage = new Homepage(appWidth, appHeight);
+			this.addChildAt(homepage, 0);
+		}
+		
+		public function addHomepagePrepared(){
+			this.closeProject();
+			
+			if(homepage){
+				this.removeHomepage();
+			}
+			
+			this.homepage = new HomepagePrepared(appWidth, appHeight);
+			this.addChildAt(homepage, 0);
 		}
 		
 		private function removeHomepage(){
@@ -199,47 +215,6 @@
 				this.removeChild(homepage);
 				homepage = null;
 			}
-		}
-		
-		public function createProjectOpener(){
-			/* kvuli duplicite openeru docasne */
-			if(opener) closeProjectOpener();
-			
-			var w = appWidth - 450;
-			var h = 475;
-			opener = new ProjectOpener(w,h);
-			opener.x = 210;
-			opener.y = 58;
-			this.addChildAt(opener, this.numChildren);
-		}
-		
-		public function tryCloseProjectOpener(e:MouseEvent):Boolean{
-			if(opener.hitTestPoint(e.stageX, e.stageY, true)){
-				//trace("cs: opener - stay open");
-				return false;
-			}else{
-				this.closeProjectOpener();
-				return true;
-			}
-		}
-		
-		public function closeProjectOpener(){
-			opener.removeAll();
-			this.removeChild(opener);
-			opener = null;
-			//panelMain.butt_home.gotoAndStop(1);
-		}
-		
-		public function createProjectPreparedOpener(){
-			/* kvuli duplicite openeru docasne */
-			if(opener) closeProjectOpener();
-			
-			var w = appWidth - 450;
-			var h = 350;
-			opener = new ProjectPreparedOpener(w,h);
-			opener.x = 210;
-			opener.y = 58;
-			this.addChildAt(opener, this.numChildren);
 		}
 		
 		public function createArtBoard(type:String):ArtBoard{
@@ -265,10 +240,63 @@
 		
 		public function removeArtBoard(){
 			if(artBoard){
-				artBoard.removeAll();
+				artBoard.remove();
 				this.removeChild(artBoard);
 				this.artBoard = null;
 			}
+		}
+		
+		public function createPreparedProject(prObject){
+			if(project) this.closeProject();
+			if(homepage) this.removeHomepage();
+			if(panelInfo) this.closePanelInfo();
+			
+			this.project = new ProjectPrepared(prObject);
+			this.project.loadPreparedProject();
+		}
+		
+		public function createNewProject(byteData){
+			if(project) this.closeProject();
+			if(homepage) this.removeHomepage();
+			if(panelInfo) this.closePanelInfo();
+			
+			this.project = new ProjectNew();
+			this.project.loadImg(byteData);
+		}
+		
+		public function createLoadProject(prId){
+			if(project) this.closeProject();
+			if(homepage) this.removeHomepage();
+			
+			this.createPanelInfoLoad();
+			
+			this.project = new ProjectNew();
+			this.project.loadProject(prId);
+		}
+		
+		public function createRestoredProject(prObject){
+			if(project) this.closeProject();
+			if(homepage) this.removeHomepage();
+			if(panelInfo) this.closePanelInfo();
+			
+			if(prObject.type == "prepared")
+				this.project = new ProjectPrepared(prObject);
+			else
+				this.project = new ProjectNew(prObject);
+			
+			this.project.restoreProject();
+		}
+		
+		public function closeProject(){
+			//if(panelInfo) closePanelInfo();
+			if(project) this.project.closeProject();
+			this.project = null;
+			this.clearIdLabel();
+			this.removeArtBoard();
+			this.panelMain.disable();
+			this.panelSave.disable();
+			this.panelTools.disable();
+			this.panelWalls.removeWallsControl();
 		}
 		
 		public function openFileDialog(){
@@ -276,6 +304,7 @@
 			fileRef.browse([new FileFilter("Images", "*.jpg;*.gif;*.png")]);
 			fileRef.addEventListener(Event.SELECT, onFileSelected);
 		}
+		
 		private function onFileSelected(e:Event):void {
 			trace("cs, file-size:", fileRef.size);
 			//if(fileRef.size > ) ...bitmapdata limit okolo 4MB
@@ -283,81 +312,9 @@
 			fileRef.load();
 			
 		}
+		
 		private function onFileLoaded(e:Event):void {
 			this.createNewProject(e.target.data);
-		}
-		
-		public function createPreparedProject(prObject){
-			if(projectP) this.closeProject();
-			if(homepage) this.removeHomepage();
-			if(panelInfo) this.closePanelInfo();
-			
-			this.projectP = new Project(prObject);
-			this.projectP.loadPreparedProject();
-		}
-		
-		public function createNewProject(byteData){
-			if(projectP) this.closeProject();
-			if(homepage) this.removeHomepage();
-			if(panelInfo) this.closePanelInfo();
-			
-			this.projectP = new Project();
-			this.projectP.loadImg(byteData);
-		}
-		
-		public function createLoadProject(prId){
-			if(projectP) this.closeProject();
-			if(homepage) this.removeHomepage();
-			
-			this.createPanelInfoLoad();
-			
-			this.projectP = new Project();
-			this.projectP.loadProject(prId);
-		}
-		
-		public function createRestoredProject(prId){
-			if(projectP) this.closeProject();
-			if(homepage) this.removeHomepage();
-			if(panelInfo) this.closePanelInfo();
-			
-			this.projectP = new Project();
-			this.projectP.restoreProject(prId);
-		}
-		
-		public function closeProject(){
-			//if(panelInfo) closePanelInfo();
-			if(projectP) this.projectP.closeProject();
-			this.projectP = null;
-			this.sessionId = null;
-			this.sessionIdSaved = false;
-			this.removeArtBoard();
-			this.panelTools.disable();
-			this.panelWalls.removeWallsControl();
-			this.panelTools.clearIdLabel();
-			this.panelMain.disable();
-		}
-		
-		public function createSessionId(){
-			if(!sessionIdRequested){
-				this.sessionId = null;
-				this.sessionIdSaved = false;
-				this.sessionIdRequested = true;
-				trace("cs: createSessionId = ...request");
-			
-				var url:String = Studio.rootStg.xmlConfig.getGetIdUrl();
-				var req:URLRequest = new URLRequest(url);
-				var loader = new URLLoader(req);
-				loader.dataFormat = URLLoaderDataFormat.TEXT;
-				loader.addEventListener(Event.COMPLETE, setSessionIdLoaded);
-			}
-		}
-		
-		public function setSessionIdLoaded(e:Event){
-			trace(e.target.data);
-			this.sessionId = e.target.data;
-			this.sessionIdRequested = false;
-			trace("cs: setSessionIdLoaded = ", this.sessionId);
-			this.panelTools.setIdLabel();
 		}
 		
 		public function addLoading(){
@@ -370,6 +327,38 @@
 		public function removeLoading(){
 			if(preloader) this.removeChild(preloader);
 			preloader = null;
+		}
+		
+		public function setIdLabel(){
+			if(!sessionIdField){
+				sessionIdField = new TextField();
+				sessionIdField.autoSize = "right";
+				sessionIdField.multiline = false;
+				sessionIdField.embedFonts = true;
+				sessionIdField.antiAliasType = "advanced";
+				sessionIdField.defaultTextFormat = this.getTextFormatCond(12, "right", 0x333333);
+				sessionIdField.text = this.project.sessionId;
+				sessionIdField.x = appWidth - sessionIdField.width - 15;
+				sessionIdField.y = 10;
+				this.addChild(sessionIdField);
+			}else{
+				sessionIdField.text = this.project.sessionId;
+			}
+			
+			if(!sessionIdLabel){
+				sessionIdLabel = new TextField();
+				sessionIdLabel.autoSize = "left";
+				sessionIdLabel.selectable = false;
+				sessionIdLabel.text = Studio.rootStg.xmlDictionary.getTranslate("titleProjectID");
+				sessionIdLabel.setTextFormat(this.getTextFormatBold(14, "left", 0x999999));
+				sessionIdLabel.x = sessionIdField.x - sessionIdLabel.width - 10;
+				sessionIdLabel.y = 10;
+				this.addChild(sessionIdLabel);				
+			}			
+		}
+		
+		public function clearIdLabel(){
+			if(sessionIdField) sessionIdField.text = "";
 		}
 		
 		public function addTextFormat(tf:TextField, size:Number, color:uint){

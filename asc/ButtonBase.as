@@ -21,7 +21,8 @@
 		protected const COLOR_TRANS_WACTIVE = new ColorTransform(0,0,0,0,255,255,255,255);
 		protected const COLOR_TRANS_OVER = new ColorTransform(0,0,0,1,0,153,255,0);
 		
-		public function ButtonBase(displayHint:Boolean = true, displayLabel:Boolean = false){
+		public function ButtonBase(displayHint:Boolean = true, displayLabel:Boolean = false, _name:String = null){
+			this.name = _name ? _name : this.name;
 			this.y = PanelMain.PANEL_HEIGHT / 2;
 			this.mouseChildren = false;
 			this.labelText = Studio.rootStg.xmlDictionary.getTranslate(this.name.substr(0,8) == "instance" ? getQualifiedClassName(this) : this.name);

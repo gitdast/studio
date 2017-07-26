@@ -9,26 +9,23 @@
 		public var thumbCount:int = 0;
 		public var thumbLoaded:int = 0;
 		
-		public const imgW:Number = 158;
-		public const imgH:Number = 100;
+		public static const THUMB_WIDTH:int = 120;
+		public static const THUMB_HEIGHT:int = 120;
 
-		public function ProjectThumbnailCategoryPrepared(catNode:XML, w:Number){
-			super(w, imgH);
+		public function ProjectThumbnailCategoryPrepared(w:Number, num:int, catNode:XML){
+			super(w, num);
 			this.visible = false;
 			
-			var imW = this.addThumbnails(catNode);
-
-			if(imW > w){
-				this.addMask(w, imgH);
-				this.addButtons(w);
-			}
+			this.addThumbnails(catNode);
 		}
 		
-		private function addThumbnails(catNode:XML):Number{
-			var projectNum:int = 0;
-			var projThum:ProjectThumbnail;
+		private function addThumbnails(catNode:XML){
+			var projThum:ProjectThumbnailPrepared;
 			var o:Object;
 			var elems:Array;
+			var posX:int = - margin,
+				posY:int = 0;
+			
 			for each(var node:XML in catNode.project){
 				o = new Object();
 				elems = new Array();
@@ -41,34 +38,71 @@
 				}
 				o["elements"] = elems;
 				
-				projThum = new ProjectThumbnail(projectNum, o);
-				projThum.x = 0 + projectNum*10 + projectNum*imgW;
-				images.addChild(projThum);
+				projThum = new ProjectThumbnailPrepared(o, THUMB_WIDTH, THUMB_HEIGHT);
+				projThum.x = posX + margin;
+				projThum.y = posY;
+				this.addChild(projThum);
 				
-				projectNum++;
+				if(projThum.x + margin + 2 * THUMB_WIDTH <= controlWidth){
+					posX = posX + margin + THUMB_WIDTH;
+				}
+				else{
+					posX = - margin;
+					posY = posY + margin + THUMB_HEIGHT;
+				}
+			}
+		}
+		
+		public function getScrollbarPosition():int{
+			var child,
+				posX:int = 0;
+				
+			for(var i:int = 0; i < numChildren; i++){
+				child = this.getChildAt(i);
+				posX = Math.max(posX, child.x);
 			}
 			
-			this.thumbCount = projectNum;
-
-			return projThum.x + imgW;
+			return this.x + posX + THUMB_WIDTH + 15;
 		}
 		
 		public function signalImageLoaded(){
 			this.thumbLoaded++;
 			
-			// nahravaji se najednou a pridaly se jine rozmery - tak se preskadaji zde
-			var img;
-			var xpos = 0;
-			for(var i=0; i<images.numChildren; i++){
-				img = images.getChildAt(i);
-				img.x = xpos;
-				xpos += img.width + 10;
-			}
-			
-			if(thumbLoaded == thumbCount){
+			if(thumbLoaded == this.numChildren){
 				this.visible = true;
 				var opener = this.parent as Class(getDefinitionByName(getQualifiedClassName(this.parent)));
 				opener.thumbnailsReady();
+			}
+		}
+		
+		override public function resizeHandler(w:Number){
+			super.resizeHandler(w);
+			
+			var child,
+				posX:int = - margin,
+				posY:int = 0;
+				
+			for(var i:int = 0; i < numChildren; i++){
+				child = getChildAt(i);
+				child.x = posX + margin;
+				child.y = posY;
+				
+				if(child.x + margin + 2 * THUMB_WIDTH <= controlWidth){
+					posX = posX + margin + THUMB_WIDTH;
+				}
+				else{
+					posX = - margin;
+					posY = posY + margin + THUMB_HEIGHT;
+				}				
+			}
+		}
+		
+		override public function remove(){
+			var child;
+			for(var i:int = this.numChildren - 1; i > 0; i--){
+				child = this.getChildAt(i);
+				child.remove();
+				this.removeChild(child);
 			}
 		}
 		

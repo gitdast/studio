@@ -45,25 +45,11 @@
 		override public function setMode(pmode:String){
 			super.setMode(pmode);
 			
-			//* change from MODE_COLOR_ACTIVE >> *
-			if(actionMode == MODE_COLOR_ACTIVE){
-				wallsControl.reselectWall();
-			}
-
-			this.actionMode = pmode;
 			switch(pmode){
 				case MODE_MOVE:
 					this.changeCursor(new ico_move);
 					projectMc.addEventListener("mouseDown", moveMouseDownHandler);
 					projectMc.addEventListener("mouseUp", moveMouseUpHandler);
-					break;
-				case MODE_COLOR_ACTIVE:
-					this.changeCursor(new ico_bucket);
-					projectMc.mouseChildren = true;
-					projectMc.addEventListener("click", paintClickHandler);
-					projectMc.addEventListener("mouseMove", paintMoveHandler);
-					projectMc.addEventListener("rollOut", projectMc.setOutStateToAll);
-					wallsControl.deselectWall(); //* change from * >> MODE_COLOR_ACTIVE
 					break;
 				case MODE_DRAW_CURVE:
 					this.changeCursor(new ico_arrow);
@@ -106,19 +92,6 @@
 			}
 		}
 
-		private function paintClickHandler(e:MouseEvent){
-			trace("ArtBoard: paintClickHandler ", e.target.name);
-			wallsControl.selectedWall.setColor(Studio.rootStg.panelColors.colorHolder.colorData);
-			this.signalColorChanged(wallsControl.selectedWall);
-		}
-		
-		private function paintMoveHandler(e:MouseEvent){
-			var layerOver = projectMc.checkLayersUnderPoint(new Point(e.localX, e.localY));
-			if(layerOver >= 0){
-				wallsControl.selectedWall = wallsControl.getChildAt(layerOver) as WallsControlItem;
-			}
-		}
-		
 		private function curveClickHandler(e:MouseEvent){
 			trace("ArtBoard: curveClickHandler");
 			if(curve_coord){
@@ -249,17 +222,10 @@
 			projectMc.removeLayer(num);
 		}
 		
-		public function signalColorChanged(wall:WallsControlItem){
-			projectMc.setColor(wall);
-		}
-		
-		override public function removeAll(){
-			super.removeAll();
+		override public function remove(){
+			super.remove();
 			
 			if(projectMc){
-				projectMc.removeEventListener("click", paintClickHandler);
-				projectMc.removeEventListener("mouseMove", paintMoveHandler);
-				if(actionMode == MODE_COLOR_ACTIVE) projectMc.removeEventListener("rollOut", projectMc.setOutStateToAll);
 				this.removeEventListener("click", curveClickHandler);
 				this.removeEventListener("mouseMove", curveMouseMoveHandler);
 				this.removeEventListener("doubleClick", curveDoubleClickHandler);

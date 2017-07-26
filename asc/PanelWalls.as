@@ -7,7 +7,7 @@
 		public var wallsControl:WallsControl;
 		public var scrollBar:ScrollBarVertical;
 		
-		public var butt_newWall;
+		public var buttonNewWall;
 		public var butt_calculate;
 		public var mc_bgd:MovieClip;
 		
@@ -26,28 +26,21 @@
 			this.addLabel();
 		}
 		
-		// testing
-		public function testingStart(){
-			this.addWallsControl("active");
-			this.wallsControl.addFirstWall();
-		}
-		
 		public function addWallsControl(state:String = "active"):WallsControl{
 			this.state = state;
 			
-			var controlHeight = panelHeight - WALLSCONTROL_YPOS - Studio.PANEL_PADDING,
-				controlWidth = Studio.PANEL_WIDTH;
+			var controlHeight:int = panelHeight - WALLSCONTROL_YPOS - Studio.PANEL_PADDING,
+				controlWidth:int = Studio.PANEL_WIDTH,
+				childIndex:int;
 				
 			if(state == "active"){
-				butt_newWall = new ButtonNewWall(false, true);
-				butt_newWall.x = Studio.PANEL_PADDING;
-				butt_newWall.y = WALLSCONTROL_YPOS + butt_newWall.height / 2 + 10 + WallsControlItem.CONTROL_HEIGHT;
+				this.addButtonNewWall();
 				
-				this.addChild(butt_newWall);
-				
-				controlHeight -= butt_newWall.height - 10;
+				controlHeight -= buttonNewWall.height - 10;
+				childIndex = getChildIndex(buttonNewWall);
 			}
 			else if(state == "pasive"){
+				childIndex = numChildren;
 			}
 			
 			if(wallsControl){
@@ -57,7 +50,7 @@
 			wallsControl = new WallsControl(controlHeight);
 			wallsControl.x = 0;
 			wallsControl.y = WALLSCONTROL_YPOS;
-			this.addChildAt(wallsControl, getChildIndex(butt_newWall));
+			this.addChildAt(wallsControl, childIndex);
 			
 			scrollBar = new ScrollBarVertical(wallsControl, controlWidth, controlHeight);
 			scrollBar.x = controlWidth - Studio.PANEL_PADDING;
@@ -68,22 +61,30 @@
 		}
 		
 		public function removeWallsControl(){
-			if(wallsControl){
-				wallsControl.remove();
-				this.removeChild(wallsControl);
-				wallsControl = null;
-			}
-			
 			if(scrollBar){
 				scrollBar.remove();
 				this.removeChild(scrollBar);
 				scrollBar = null;
 			}
 			
-			if(butt_newWall){
-				butt_newWall.removeEventListeners();
-				this.removeChild(butt_newWall);
+			if(wallsControl){
+				wallsControl.remove();
+				this.removeChild(wallsControl);
+				wallsControl = null;
 			}
+			
+			if(buttonNewWall){
+				buttonNewWall.removeEventListeners();
+				this.removeChild(buttonNewWall);
+				buttonNewWall = null;
+			}
+		}
+		
+		private function addButtonNewWall(){
+			buttonNewWall = new ButtonNewWall(false, true);
+			buttonNewWall.x = Studio.PANEL_PADDING;
+			buttonNewWall.y = WALLSCONTROL_YPOS + buttonNewWall.height / 2 + 10 + WallsControlItem.CONTROL_HEIGHT;
+			this.addChild(buttonNewWall);
 		}
 		
 		private function addLabel(){
@@ -112,12 +113,12 @@
 			this.panelHeight = h - this.y;
 			mc_bgd.height = this.panelHeight;
 			
-			var controlHeight = panelHeight - WALLSCONTROL_YPOS - Studio.PANEL_PADDING - (this.butt_newWall ? butt_newWall.height + 10 : 0);
+			var controlHeight = panelHeight - WALLSCONTROL_YPOS - Studio.PANEL_PADDING - (this.buttonNewWall ? buttonNewWall.height + 10 : 0);
 			
 			if(this.wallsControl) this.wallsControl.resizeHandler(controlHeight);
-			if(this.scrollBar) this.scrollBar.resizeHandler(controlHeight, scrollRatio);
-			if(this.butt_newWall) {
-				butt_newWall.y = WALLSCONTROL_YPOS + Math.min(wallsControl.height, controlHeight) + 10 + butt_newWall.height / 2;
+			if(this.scrollBar) this.scrollBar.resizeHandler(Studio.PANEL_WIDTH, controlHeight, scrollRatio);
+			if(this.buttonNewWall) {
+				buttonNewWall.y = WALLSCONTROL_YPOS + Math.min(wallsControl.height, controlHeight) + 10 + buttonNewWall.height / 2;
 			}
 		}
 	}

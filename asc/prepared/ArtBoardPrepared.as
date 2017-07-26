@@ -29,40 +29,14 @@
 			
 			this.actionMode = pmode;
 			switch(pmode){
-				case MODE_COLOR: //only for prepared projects
-					this.changeCursor(new ico_bucket);
-					projectMc.mouseChildren = true;
-					projectMc.addEventListeners();
-					projectMc.addEventListener("click", clickHandlerColor);
-					break;
-				
 				default:
+					this.removeEventListener("rollOver", cursorRollOverHandler);
+					this.removeEventListener("rollOut", cursorRollOverHandler);
+					this.removeEventListener("mouseMove", cursorMouseMoveHandler);
 					cursor.visible = false;
 					Mouse.show();
 					break;
 			}
-		}
-
-		private function clickHandlerColor(e:MouseEvent){
-			if(Studio.rootStg.panelColors.colorHolder.isSet){
-				projectMc.clickHandlerColor(Studio.rootStg.panelColors.colorHolder.colorData.color);
-			}else{
-				Studio.rootStg.panelColors.colorHolder.showEmptyWarning();
-			}
-		}
-		
-		public function signalWallOver(wallNum:int){
-			trace("receivedWallOver "+wallNum);
-		}
-		
-		public function signalWallOut(wallNum:int){
-			trace("receivedWallOut "+wallNum);
-		}
-		
-		public function signalWallClick(wallNum:int){
-			trace("receivedWallClick "+wallNum);
-			var wall = wallsControl.getChildAt(wallNum);
-			wall.setColor(Studio.rootStg.panelColors.colorHolder.colorData);
 		}
 		
 		override public function reposProjectMc(){
@@ -95,12 +69,8 @@
 			projectMc.y = py > 0 ? py : 0;
 		}
 		
-		override public function removeAll(){
-			super.removeAll();
-			
-			if(projectMc){
-				projectMc.removeEventListener("click", clickHandlerColor);
-			}
+		override public function remove(){
+			super.remove();
 		}
 
 	}

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<projects>
+<category name="Interiér">
+	<project id="ni1">
+		<url_img>projects/prepared_new_i1.jpg</url_img>
+		<url_clip>projects/prepared_new_i1.swf</url_clip>
+		<name><![CDATA[Nový interiér 1]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="3">
+		<url_img>projects/prepared2.jpg</url_img>
+		<url_clip>projects/prepared2.swf</url_clip>
+		<name><![CDATA[Interiér 3]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Strop]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vlevo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vpravo]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="15">
+		<url_img>projects/prepared15.jpg</url_img>
+		<url_clip>projects/prepared15.swf</url_clip>
+		<name><![CDATA[Interiér 10]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Strop]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vlevo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vpravo]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="2">
+		<url_img>projects/prepared3.jpg</url_img>
+		<url_clip>projects/prepared3.swf</url_clip>
+		<name><![CDATA[Interiér 2]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Strop]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vlevo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vpravo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stropní pruh]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="ni2">
+		<url_img>projects/prepared_new_i2.jpg</url_img>
+		<url_clip>projects/prepared_new_i2.swf</url_clip>
+		<name><![CDATA[Nový interiér 2]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="ni4">
+		<url_img>projects/prepared_new_i4.jpg</url_img>
+		<url_clip>projects/prepared_new_i4.swf</url_clip>
+		<name><![CDATA[Nový interiér 4]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="ni5">
+		<url_img>projects/prepared_new_i5.jpg</url_img>
+		<url_clip>projects/prepared_new_i5.swf</url_clip>
+		<name><![CDATA[Nový interiér 5]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="13">
+		<url_img>projects/prepared13.jpg</url_img>
+		<url_clip>projects/prepared13.swf</url_clip>
+		<name><![CDATA[Interiér 8]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Strop]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vlevo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vpravo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stropní pruh]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="17">
+		<url_img>projects/prepared17.jpg</url_img>
+		<url_clip>projects/prepared17.swf</url_clip>
+		<name><![CDATA[Interiér 12]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Strop]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna čelní]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vlevo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stěna vpravo]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stropní pruh 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Stropní pruh 2]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="ni7">
+		<url_img>projects/prepared_new_i7.jpg</url_img>
+		<url_clip>projects/prepared_new_i7.swf</url_clip>
+		<name><![CDATA[Nový interiér 7]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+		</elements>
+	</project>
+</category>
+<category name="Fasáda">
+	<project id="n3">
+		<url_img>projects/prepared_new3.jpg</url_img>
+		<url_clip>projects/prepared_new3.swf</url_clip>
+		<name><![CDATA[Nová fasáda 3]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 7]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="n7">
+		<url_img>projects/prepared_new7.jpg</url_img>
+		<url_clip>projects/prepared_new7.swf</url_clip>
+		<name><![CDATA[Nová fasáda 7]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="n8">
+		<url_img>projects/prepared_new8.jpg</url_img>
+		<url_clip>projects/prepared_new8.swf</url_clip>
+		<name><![CDATA[Nová fasáda 8]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 7]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="6">
+		<url_img>projects/prepared6.jpg</url_img>
+		<url_clip>projects/prepared6.swf</url_clip>
+		<name><![CDATA[Exteriér 1]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Stěny]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Střecha]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="7">
+		<url_img>projects/prepared7.jpg</url_img>
+		<url_clip>projects/prepared7.swf</url_clip>
+		<name><![CDATA[Exteriér 2]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[Stěny]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[Střecha]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="n4">
+		<url_img>projects/prepared_new4.jpg</url_img>
+		<url_clip>projects/prepared_new4.swf</url_clip>
+		<name><![CDATA[Nová fasáda 4]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 7]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 8]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="n5">
+		<url_img>projects/prepared_new5.jpg</url_img>
+		<url_clip>projects/prepared_new5.swf</url_clip>
+		<name><![CDATA[Nová fasáda 5]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+		</elements>
+	</project>
+</category>
+</projects>

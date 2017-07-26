@@ -48,6 +48,23 @@
 			this.addChildAt(foto, 0);
 		}
 		
+		public function setColor(wall:WallsControlItem){
+			trace("Artwork: setColor");
+			var num = wall.wallNum;
+			var color = wall.colorData.color;
+			var wAlpha = wall.wallAlpha;
+			
+			var count = layers.numChildren;
+			if(count > num){ //* nelze barvit zatim neexistujici vrstvy
+				var layer = this.getLayer(num);
+				trace("Artwork: ...colorize layer "+num);
+				var r:Number = ( ( color >> 16 ) & 0xff );
+				var g:Number = ( ( color >> 8  ) & 0xff );
+				var b:Number = (   color         & 0xff );
+				layer.transform.colorTransform = new ColorTransform(0, 0, 0, 0, r, g, b, 255 * wAlpha);
+			}
+		}
+		
 		public function appendPolygon(pcommands:Vector.<int>, pcoords:Vector.<Number>, selWall:WallsControlItem){
 			var coords:Vector.<Number> = adaptCoordinates(pcoords);
 			var num = selWall.wallNum;
@@ -161,23 +178,6 @@
 			setColor(selWall);
 		}
 		
-		public function setColor(wall:WallsControlItem){
-			trace("Artwork: setColor");
-			var num = wall.wallNum;
-			var color = wall.colorData.color;
-			var wAlpha = wall.wallAlpha;
-			
-			var count = layers.numChildren;
-			if(count > num){ //* nelze barvit zatim neexistujici vrstvy
-				var layer = this.getLayer(num);
-				trace("Artwork: ...colorize layer "+num);
-				var r:Number = ( ( color >> 16 ) & 0xff );
-				var g:Number = ( ( color >> 8  ) & 0xff );
-				var b:Number = (   color         & 0xff );
-				layer.transform.colorTransform = new ColorTransform(0,0,0,0,r,g,b,255*wAlpha);
-			}
-		}
-		
 		public function removeLayer(num:int){
 			var count = layers.numChildren;
 			if(count > num){
@@ -216,28 +216,6 @@
 			}
 
 			return layers.getChildAt(num) as Sprite;
-		}
-		
-		public function checkLayersUnderPoint(pmouse:Point):int{
-			var selected:Boolean = false;
-			var layerNum:int = -1;
-			var layer:Sprite;
-			var maskB:Bitmap;
-			var corner:Point = new Point(0, 0);
-			
-			for(var i:int=layers.numChildren-1; i>=0; i--){
-				layer = layers.getChildAt(i) as Sprite;
-				maskB = layer.getChildAt(1) as Bitmap;
-				if(maskB.bitmapData.hitTest(corner, 0x05, pmouse) && !selected){
-					//trace(layer.name);
-					selected = true;
-					layerNum = i;
-					this.setOverState(layer);
-				}else{
-					this.setOutState(layer);
-				}
-			}
-			return layerNum;
 		}
 		
 		private function setOverState(layer:Sprite){
@@ -280,20 +258,16 @@
 			return pcoords;
 		}
 		
-		public function setOutStateToAll(e:MouseEvent){
-			var layer;
-			for(var i:int=0; i<layers.numChildren; i++){
-				layer = layers.getChildAt(i);
-				this.setOutState(layer);
-			}
-		}
-		
 		public function removeEventListeners(){
 			var layer;
 			for(var i:int=0; i<layers.numChildren; i++){
 				layer = layers.getChildAt(i);
 				layer.removeEventListener("enterFrame", alphaAnimate);
 			}
+		}
+		
+		public function remove(){
+			this.removeEventListeners();
 		}
 
 	}

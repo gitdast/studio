@@ -12,8 +12,8 @@
 		protected const COLOR_TRANS_DISABLED2 = new ColorTransform(1,1,1,1,40,40,40,1);
 		protected const COLOR_TRANS_BGD_DISABLED = new ColorTransform(0.8,0.8,0.8,0.5,-40,-40,-40,0.2);
 		
-		public function ButtonRect(displayHint:Boolean = true, displayLabel:Boolean = false){
-			super(displayHint, displayLabel);
+		public function ButtonRect(displayHint:Boolean = true, displayLabel:Boolean = false, _name:String = ""){
+			super(displayHint, displayLabel, _name);
 		}
 		
 		override public function enable(){
