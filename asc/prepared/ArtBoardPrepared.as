@@ -29,6 +29,10 @@
 			
 			this.actionMode = pmode;
 			switch(pmode){
+				case MODE_COLOR: //only for prepared projects
+					projectMc.mouseChildren = true;
+					projectMc.addEventListeners();
+					
 				default:
 					this.removeEventListener("rollOver", cursorRollOverHandler);
 					this.removeEventListener("rollOut", cursorRollOverHandler);

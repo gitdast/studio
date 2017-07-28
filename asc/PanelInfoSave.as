@@ -45,6 +45,10 @@
 			infoTextField.text = Studio.rootStg.xmlDictionary.getTranslate("infoSaveError-"+errId);
 		}
 		
+		public function signalProjectSaveErrorMessage(message:String){
+			infoTextField.text = message;
+		}
+		
 		private function displayRewrite(){
 			ico = new ico_warning();
 			ico.x = this.panelWidth / 2;

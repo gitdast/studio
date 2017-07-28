@@ -134,6 +134,7 @@
 		}
 		
 		private function pasiveOverHandler(e:MouseEvent){
+			trace("pasive ocer", wallNum+1);
 			Studio.rootStg.artBoard.projectMc.signalWallOver(wallNum+1);
 		}
 		

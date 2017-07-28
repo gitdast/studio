@@ -123,6 +123,10 @@
 			return xml.application.infoUrl;
 		}
 		
+		public function getLoadProjectBitmapsUrl():String{
+			return xml.application.loadProjectBitmapsUrl;
+		}
+		
 		public function getAutofillWidth():int{
 			return xml.application.autofillWidth;
 		}

@@ -328,18 +328,18 @@
 	<item key="printTitle">
 		<translate lang="en"><![CDATA[print of simulation from website HET.cz]]></translate>
 		<translate lang="cz"><![CDATA[tisk simulace z webu HET.cz]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[print of simulation from website ESMAL.sk]]></translate>
 	</item>
 	<item key="printSubtitle">
 		<translate lang="en"><![CDATA[project number:]]></translate>
 		<translate lang="cz"><![CDATA[číslo projektu:]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[project number:]]></translate>
 	</item>
 	<item key="printFooterText">
 		<!-- odradkovani v textu provedte vlozenim html znacky <br> ... -->
 		<translate lang="en"><![CDATA[A baryon is a composite subatomic particle made up of three quarks (as distinct from mesons, which comprise one quark and one antiquark). Baryons and mesons belong to the hadron family, which are the quark-based particles.]]></translate>
 		<translate lang="cz"><![CDATA[Upozorňujeme, že simulace barev je orientační, vzhledem k odchylkám daných zkreslením vašeho monitoru a tiskárny.<br>Přesné odstíny vždy vybírejte z reálných vzorkovníků na prodejních a tónovacích místech.]]></translate>
-		<translate lang="sk"><![CDATA[---]]></translate>
+		<translate lang="sk"><![CDATA[print footer text... A baryon is a composite subatomic particle made up of three quarks (as distinct from mesons, which comprise one quark and one antiquark). Baryons and mesons belong to the hadron family, which are the quark-based particles.]]></translate>
 	</item>
 
 	<!-- titles of buttons -->

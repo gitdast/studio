@@ -105,7 +105,7 @@
 			var maskB:Bitmap;
 			for each(var wall:XML in prData.xml.elements.el_wall){
 				wall_filename = wall.wall_mask.toString();
-				wall_filename = wall_filename.substr(0, wall_filename.length-4);
+				//wall_filename = wall_filename.substr(0, wall_filename.length-4);
 				wall_index = wall.childIndex();
 				if(artBoard.projectMc.layers.numChildren <= wall_index){
 					//* prazdne vrstvy na konci seznamu se neuploaduji, ale zaznamenaji jako prazdne *//
@@ -132,6 +132,8 @@
         	urlLoader = new URLLoader();			
 			urlLoader.dataFormat = "binary";
 			urlLoader.addEventListener(Event.COMPLETE, uploadBitmapComplete);
+			urlLoader.addEventListener(IOErrorEvent.IO_ERROR, uploadBitmapError);
+			urlLoader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, uploadBitmapError);
         	urlLoader.load(req);
     	}
 		
@@ -145,6 +147,12 @@
 				if(Studio.rootStg.panelInfo){
 					Studio.rootStg.panelInfo.signalProjectBitmapsSaved(sessionId);
 				}
+			}
+		}
+		
+		private function uploadBitmapError(e:Event){
+			if(Studio.rootStg.panelInfo){
+				Studio.rootStg.panelInfo.signalProjectSaveErrorMessage("Upload error");
 			}
 		}
 		
@@ -320,10 +328,12 @@
 		}
 		
 		private function loadFoto(){
+			var url:String = Studio.rootStg.xmlConfig.getLoadProjectBitmapsUrl();
+			
 			loader = new Loader;
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, fotoLoaded);
 			loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, ioErrorBitmapHandler);
-			loader.load(new URLRequest("bitmaps/" + prData.url_img));
+			loader.load(new URLRequest(url + prData.url_img));
 		}
 		
 		private function fotoLoaded(e:Event){
@@ -343,10 +353,12 @@
 		}
 		
 		private function loadBitmapMask(num:int){
+			var url:String = Studio.rootStg.xmlConfig.getLoadProjectBitmapsUrl();
+			
 			bmpLoader = new Loader;
 			bmpLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, maskLoaded);
 			bmpLoader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, ioErrorBitmapHandler);
-			bmpLoader.load(new URLRequest("bitmaps/"+prData.elements[num].wall_mask));
+			bmpLoader.load(new URLRequest(url + prData.elements[num].wall_mask));
 		}
 		
 		private function maskLoaded(e:Event){

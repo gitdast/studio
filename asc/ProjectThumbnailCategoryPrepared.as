@@ -71,7 +71,15 @@
 			if(thumbLoaded == this.numChildren){
 				this.visible = true;
 				var opener = this.parent as Class(getDefinitionByName(getQualifiedClassName(this.parent)));
-				opener.thumbnailsReady();
+				opener.thumbnailsReady(this.num);
+			}
+		}
+		
+		public function signalImageError(){
+			if(thumbLoaded == this.numChildren){
+				this.visible = true;
+				var opener = this.parent as Class(getDefinitionByName(getQualifiedClassName(this.parent)));
+				opener.thumbnailsReady(this.num);
 			}
 		}
 		

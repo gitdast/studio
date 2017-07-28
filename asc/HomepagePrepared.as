@@ -11,6 +11,7 @@
 		protected var preloader:MovieClip;
 		protected var xmlProjects:XmlProjects;
 		protected var scrollBars:Array = [];
+		protected var categories:Array = [];
 		protected var labels:Array = [];
 	
 		public var lock:Boolean = false;
@@ -67,20 +68,25 @@
 			category.x = catNum * (w + margin);
 			category.y = catLabel.y + 30;
 			this.addChild(category);
+			this.categories.push(category);
 			
 			return category;
 		}
 		
 		private function addScrollbar(num:int, category:ProjectThumbnailCategoryPrepared){
-			var scrollBar = new ScrollBarVertical(category, category.controlWidth, this.controlHeight - labelPosition);
+			var scrollBar = new ScrollBarVertical(category, category.controlWidth, this.controlHeight - this.labelPosition);
 			scrollBar.x = category.getScrollbarPosition();//category.x + category.controlWidth - Studio.PANEL_PADDING;
 			scrollBar.y = category.y;
 			this.addChild(scrollBar);
 			this.scrollBars.push(scrollBar);
 		}
 		
-		public function thumbnailsReady(){
-			this.removePreloader();
+		public function thumbnailsReady(num:int){
+			trace(num, categories.length);
+			if(num == categories.length - 1){
+				this.removePreloader();
+			}
+			this.scrollBars[num].resizeHandler(categories[num].controlWidth, this.controlHeight - this.labelPosition, 0);			
 		}
 		
 		private function addLabel(){

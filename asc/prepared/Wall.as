@@ -26,6 +26,7 @@
 		}
 	
 		public function setOverState(){
+			trace("Wall setOverState "+this.name);
 			var studio = MovieClip(stage.getChildAt(0));
 			if(!studio.panelWalls.wallsControl.selectedWall.colorData.hasOwnProperty("color")){
 				this.ink.transform.colorTransform = COLOR_TRANS_OVER;
