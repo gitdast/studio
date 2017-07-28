@@ -21,6 +21,7 @@
 		public function ExportTemplate(){
 			
 			this.createTemplate();
+			this.addBackground();
 		}
 		
 		public function createTemplate(){
@@ -90,6 +91,12 @@
 			infoLabel.y = this.finalColorY + 60;
 			this.addChild(infoLabel);
 			Studio.rootStg.addTextFormat(infoLabel, 14, 0x000000);
+		}
+		
+		private function addBackground(){
+			this.graphics.beginFill(0xffffff, 1);
+			this.graphics.drawRect(0, 0, this.width, this.height + 15);
+			this.graphics.endFill();
 		}
 		
 	}
