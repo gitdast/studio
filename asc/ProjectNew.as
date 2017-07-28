@@ -97,7 +97,7 @@
 			this.prData.xml = this.generateXml(this.sessionId);
 			this.prData.bmpToSend = 1;
 			
-			this.uploadBitmap(this.sessionId, artBoard.projectMc.foto.bitmapData);
+			this.uploadBitmap(this.sessionId + ".png", artBoard.projectMc.foto.bitmapData);
 			
 			var wall_filename:String;
 			var wall_index:int;
@@ -400,6 +400,7 @@
 				Studio.rootStg.panelInfo.signalProjectLoadError(sessionId);
 			}
 			Studio.rootStg.closeProject();
+			Studio.rootStg.addHomepage();
 		}
 		
 		private function getNotEmptyWallsCount():int{
