@@ -60,7 +60,7 @@
 			catLabel.y = labelPosition;
 			catLabel.autoSize = "left";
 			catLabel.text = catNode.@name;
-			catLabel.setTextFormat(Studio.rootStg.getTextFormat2(16, "left", 0x8e8e8e));
+			catLabel.setTextFormat(Studio.rootStg.getTextFormat2(16, "left", 0x7e7e7e));
 			this.addChild(catLabel);
 			this.labels.push(catLabel);
 			
@@ -90,7 +90,7 @@
 		}
 		
 		private function addLabel(){
-			var format = Studio.rootStg.getTextFormatBold(18, "left", 0x8e8e8e);
+			var format = Studio.rootStg.getTextFormatBold(18, "left", 0x7e7e7e);
 			
 			labelField = new TextField();
 			labelField.autoSize = "left";

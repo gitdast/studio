@@ -244,5 +244,42 @@
 			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
 		</elements>
 	</project>
+	<project id="e10">
+		<url_img>projects/exterier_10.jpg</url_img>
+		<url_clip>projects/exterier_10.swf</url_clip>
+		<name><![CDATA[Esmal Exteriér 10]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="e11">
+		<url_img>projects/exterier_11.jpg</url_img>
+		<url_clip>projects/exterier_11.swf</url_clip>
+		<name><![CDATA[Esmal Exteriér 11]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+		</elements>
+	</project>
+	<project id="e12">
+		<url_img>projects/exterier_12.jpg</url_img>
+		<url_clip>projects/exterier_12.swf</url_clip>
+		<name><![CDATA[Esmal Exteriér 12]]></name>
+		<elements>
+			<el_wall><wall_name><![CDATA[stěna 1]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 2]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 3]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 4]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 5]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 6]]></wall_name></el_wall>
+			<el_wall><wall_name><![CDATA[stěna 7]]></wall_name></el_wall>
+		</elements>
+	</project>
 </category>
 </projects>
